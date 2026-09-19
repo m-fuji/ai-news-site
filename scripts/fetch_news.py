@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-AIニュース自動収集・要約スクリプト
-RSSフィードから最新のAI関連ニュースを収集し、Gemini API（無料枠）で日本語3行要約・分類を行います。
-APIキーがない場合でも自動フォールバックで動作します。
+AIニュース自動収集・要約スクリプト (業務特化＆新カテゴリ版)
+・Google Cloud / Vertex AI および パートナー（Accenture, Deloitte, NRI等）動向を強化収集
+・Geminiと他社LLMを明確にカテゴリ分離
+・海外最新ニュースの収集＆日本語翻訳フラグ（🌐）対応
 """
 
 import os
@@ -27,67 +28,124 @@ JST = timezone(timedelta(hours=9))
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 OUTPUT_FILE = os.path.join(DATA_DIR, "news.json")
 
+# 新カテゴリ体系
+CATEGORIES = [
+    "✨ Gemini・Google AI",
+    "🤖 他社LLM・フロンティア",
+    "🏢 パートナー・クラウド動向",
+    "🎨 画像・動画・マルチモーダル",
+    "🛠️ 活用ツール・エージェント"
+]
+
+# パートナー・クラウド関連キーワード
+PARTNER_KEYWORDS = [
+    "accenture", "アクセンチュア",
+    "deloitte", "デロイト",
+    "nri", "野村総合研究所",
+    "google cloud", "グーグルクラウド", "vertex ai",
+    "パートナー", "アライアンス", "協業", "提携", "導入事例", "エンタープライズ"
+]
+
 # 巡回するRSSフィードの定義
 RSS_FEEDS = [
-    # 国内AIニュース
+    # --- Google Cloud & パートナー特化フィード ---
+    {
+        "name": "Google Cloud Blog (公式)",
+        "url": "https://cloudblog.withgoogle.com/rss/",
+        "lang": "en",
+        "is_foreign": True,
+        "default_category": "✨ Gemini・Google AI"
+    },
+    {
+        "name": "Google Cloud & Vertex AI ニュース",
+        "url": "https://news.google.com/rss/search?q=Google+Cloud+AI+OR+Vertex+AI&hl=ja&gl=JP&ceid=JP:ja",
+        "lang": "ja",
+        "is_foreign": False,
+        "default_category": "✨ Gemini・Google AI"
+    },
+    {
+        "name": "パートナー動向 (Accenture / Deloitte / NRI)",
+        "url": "https://news.google.com/rss/search?q=(アクセンチュア+OR+デロイト+OR+野村総合研究所+OR+NRI)+(AI+OR+クラウド)&hl=ja&gl=JP&ceid=JP:ja",
+        "lang": "ja",
+        "is_foreign": False,
+        "default_category": "🏢 パートナー・クラウド動向"
+    },
+    {
+        "name": "ITmedia エンタープライズ",
+        "url": "https://rss.itmedia.co.jp/rss/2.0/enterprise.xml",
+        "lang": "ja",
+        "is_foreign": False,
+        "filter_keywords": ["ai", "クラウド", "dx", "生成ai", "アクセンチュア", "デロイト", "nri", "google"],
+        "default_category": "🏢 パートナー・クラウド動向"
+    },
+
+    # --- 国内主要AIメディア ---
     {
         "name": "ITmedia AI+",
         "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
         "lang": "ja",
-        "default_category": "ビジネス・社会"
+        "is_foreign": False,
+        "default_category": "🤖 他社LLM・フロンティア"
     },
     {
         "name": "はてなブックマーク (AI人気)",
         "url": "https://b.hatena.ne.jp/q/AI?sort=hot&target=title&mode=rss",
         "lang": "ja",
-        "default_category": "ツール・活用"
+        "is_foreign": False,
+        "default_category": "🛠️ 活用ツール・エージェント"
     },
     {
-        "name": "GIGAZINE (AIタグ)",
+        "name": "GIGAZINE (AI)",
         "url": "https://gigazine.net/news/rss_2.0/",
         "lang": "ja",
-        "filter_ai": True,  # タイトルにAI関連語を含むものだけ抽出
-        "default_category": "研究・テクノロジー"
+        "is_foreign": False,
+        "filter_keywords": ["ai", "人工知能", "gemini", "gpt", "claude", "llm", "モデル"],
+        "default_category": "🤖 他社LLM・フロンティア"
     },
-    # 海外公式・先端AIメディア
+
+    # --- 海外最新・先端AIメディア (翻訳対象) ---
     {
         "name": "OpenAI Blog",
         "url": "https://openai.com/news/rss.xml",
         "lang": "en",
-        "default_category": "LLM・対話AI"
+        "is_foreign": True,
+        "default_category": "🤖 他社LLM・フロンティア"
     },
     {
         "name": "Google AI Blog",
         "url": "https://blog.google/technology/ai/rss/",
         "lang": "en",
-        "default_category": "研究・テクノロジー"
+        "is_foreign": True,
+        "default_category": "✨ Gemini・Google AI"
     },
     {
         "name": "TechCrunch AI",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "lang": "en",
-        "default_category": "ビジネス・社会"
+        "is_foreign": True,
+        "default_category": "🤖 他社LLM・フロンティア"
+    },
+    {
+        "name": "The Verge (AI)",
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+        "lang": "en",
+        "is_foreign": True,
+        "default_category": "🤖 他社LLM・フロンティア"
     },
     {
         "name": "MIT Technology Review (AI)",
         "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
         "lang": "en",
-        "default_category": "研究・テクノロジー"
+        "is_foreign": True,
+        "default_category": "🤖 他社LLM・フロンティア"
+    },
+    {
+        "name": "AWS Machine Learning Blog",
+        "url": "https://aws.amazon.com/jp/blogs/machine-learning/feed/",
+        "lang": "ja",
+        "is_foreign": False,
+        "default_category": "🏢 パートナー・クラウド動向"
     }
-]
-
-AI_KEYWORDS = [
-    "ai", "人工知能", "gpt", "llm", "claude", "gemini", "openai", "deepseek",
-    "機械学習", "ディープラーニング", "generative", "生成ai", "copilot", "agent",
-    "nvidia", "anthropic", "diffusion", "rag", "chatgpt"
-]
-
-CATEGORIES = [
-    "LLM・対話AI",
-    "画像・動画・音声",
-    "ツール・活用",
-    "ビジネス・社会",
-    "研究・テクノロジー"
 ]
 
 
@@ -101,14 +159,56 @@ def clean_html(raw_html: str) -> str:
     return text.strip()
 
 
-def is_ai_relevant(title: str, summary: str) -> bool:
-    """タイトルや概要にAI関連のキーワードが含まれているかチェック"""
-    text = (title + " " + summary).lower()
-    return any(keyword in text for keyword in AI_KEYWORDS)
+def matches_filter(title: str, text: str, keywords: List[str]) -> bool:
+    """指定キーワードのいずれかが含まれているか"""
+    combined = (title + " " + text).lower()
+    return any(k.lower() in combined for k in keywords)
+
+
+def detect_partner_tags(title: str, text: str) -> List[str]:
+    """記事内のパートナー・主要キーワードを抽出"""
+    combined = (title + " " + text).lower()
+    tags = []
+    if "google cloud" in combined or "vertex ai" in combined or "gcp" in combined:
+        tags.append("Google Cloud")
+    if "accenture" in combined or "アクセンチュア" in combined:
+        tags.append("Accenture")
+    if "deloitte" in combined or "デロイト" in combined:
+        tags.append("Deloitte")
+    if "nri" in combined or "野村総合研究所" in combined:
+        tags.append("NRI")
+    return tags
+
+
+def classify_category(title: str, text: str, default_cat: str) -> str:
+    """ルールベースで記事を新カテゴリに分類"""
+    combined = (title + " " + text).lower()
+
+    # 1. Gemini / Google AI
+    if any(k in combined for k in ["gemini", "vertex ai", "google ai", "deepmind", "gemma", "google workspace", "google cloud ai"]):
+        return "✨ Gemini・Google AI"
+
+    # 2. パートナー・クラウド動向 (Accenture, Deloitte, NRI, クラウド協業)
+    if any(k in combined for k in ["accenture", "アクセンチュア", "deloitte", "デロイト", "nri", "野村総合研究所", "google cloud", "パートナー", "アライアンス", "エンタープライズ", "協業", "sier", "コンサル"]):
+        return "🏢 パートナー・クラウド動向"
+
+    # 3. 画像・動画・マルチモーダル
+    if any(k in combined for k in ["image", "video", "画像生成", "動画生成", "音声合成", "midjourney", "sora", "runway", "dall-e", "diffusion"]):
+        return "🎨 画像・動画・マルチモーダル"
+
+    # 4. 他社LLM (OpenAI, Claude, DeepSeek, Llama等)
+    if any(k in combined for k in ["chatgpt", "openai", "gpt-4", "gpt-5", "claude", "anthropic", "deepseek", "llama", "meta ai", "copilot", "grok", "mistral", "qwen"]):
+        return "🤖 他社LLM・フロンティア"
+
+    # 5. 活用ツール・エージェント
+    if any(k in combined for k in ["agent", "エージェント", "tool", "ツール", "github", "cursor", "sdk", "api", "フレームワーク"]):
+        return "🛠️ 活用ツール・エージェント"
+
+    return default_cat
 
 
 def parse_published_date(entry: Any) -> datetime:
-    """RSSエントリから公開日時を抽出し、UTC日時に変換"""
+    """公開日時を抽出してUTC日時に変換"""
     for date_field in ["published", "updated", "created", "pubDate"]:
         if hasattr(entry, date_field):
             date_str = getattr(entry, date_field)
@@ -128,13 +228,11 @@ def parse_published_date(entry: Any) -> datetime:
 
 
 def generate_article_id(url: str, title: str) -> str:
-    """URLやタイトルから一意のハッシュIDを生成"""
     raw = f"{url}_{title}"
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:12]
 
 
 def load_existing_cache() -> Dict[str, Dict[str, Any]]:
-    """既存の news.json を読み込み、すでに要約済みの記事をキャッシュとして保持"""
     if not os.path.exists(OUTPUT_FILE):
         return {}
     try:
@@ -147,62 +245,64 @@ def load_existing_cache() -> Dict[str, Dict[str, Any]]:
         return {}
 
 
-def fallback_summary(title: str, text: str, default_cat: str) -> Dict[str, Any]:
+def fallback_summary(title: str, text: str, default_cat: str, is_foreign: bool) -> Dict[str, Any]:
     """Gemini APIキーがない場合、または失敗した場合の自動フォールバック"""
     cleaned = text if text else title
     sentences = re.split(r"[。！？.!?\n]", cleaned)
     bullets = [s.strip() for s in sentences if len(s.strip()) > 10][:3]
     if not bullets:
-        bullets = [cleaned[:100] + "..." if len(cleaned) > 100 else cleaned]
+        bullets = [cleaned[:120] + "..." if len(cleaned) > 120 else cleaned]
 
-    category = default_cat
-    t_lower = (title + " " + text).lower()
-    if any(k in t_lower for k in ["gpt", "claude", "gemini", "llm", "chatgpt", "deepseek"]):
-        category = "LLM・対話AI"
-    elif any(k in t_lower for k in ["image", "video", "画像", "動画", "音声", "midjourney", "sora"]):
-        category = "画像・動画・音声"
-    elif any(k in t_lower for k in ["tool", "app", "サービス", "アプリ", "拡張", "活用"]):
-        category = "ツール・活用"
-    elif any(k in t_lower for k in ["research", "paper", "論文", "モデル", "アルゴリズム"]):
-        category = "研究・テクノロジー"
+    category = classify_category(title, text, default_cat)
+
+    # 簡易タイトル日本語整形（海外記事の場合）
+    title_ja = title
+    if is_foreign:
+        # 代表的な英語タイトルの接頭辞などを整理
+        title_ja = f"【海外最新】{title}"
 
     return {
-        "title_ja": title,
+        "title_ja": title_ja,
         "summary_bullets": bullets,
         "category": category
     }
 
 
-def summarize_with_gemini(api_key: str, title: str, text: str, source_lang: str, default_cat: str) -> Dict[str, Any]:
-    """Gemini API (無料枠) を呼び出して日本語3行要約とカテゴリ分類を実施"""
+def summarize_with_gemini(api_key: str, title: str, text: str, is_foreign: bool, default_cat: str) -> Dict[str, Any]:
+    """Gemini API (無料枠) を使って自然な日本語タイトル、3行要約、新カテゴリ分類を生成"""
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
-    
-    prompt = f"""以下のAI関連記事を分析し、日本のビジネスパーソンや技術者がスマホで30秒で理解できるように要約してください。
 
-【タイトル】
-{title}
+    prompt = f"""あなたはGoogle Cloudのパートナー担当（Accenture, Deloitte, NRI等と協業するビジネスパーソン）を支援するプロのAIアナリストです。
+以下の記事を分析し、日本のビジネスパーソンがスマホで30秒で理解できるよう要約してください。
 
-【本文・概要】
-{text[:2500]}
+【元記事情報】
+海外記事フラグ: {"はい（必ず自然な魅力的な日本語タイトルに翻訳してください）" if is_foreign else "いいえ（国内記事）"}
+タイトル: {title}
+本文・概要: {text[:2500]}
+
+【カテゴリ選択肢（この中から1つだけ選ぶ）】
+- ✨ Gemini・Google AI (Gemini, Vertex AI, Google Workspace, DeepMind等)
+- 🤖 他社LLM・フロンティア (OpenAI, Claude, DeepSeek, Llama, Copilot等)
+- 🏢 パートナー・クラウド動向 (Accenture, Deloitte, NRI, クラウド協業, エンタープライズDX等)
+- 🎨 画像・動画・マルチモーダル (画像/動画生成, 音声AI等)
+- 🛠️ 活用ツール・エージェント (日常の業務ツール, 開発ツール等)
 
 【出力フォーマット】
-以下のJSONフォーマットのみを出力してください（Markdownコードブロック ```json ``` などの修飾は不要です）。
+以下のJSONフォーマットのみを出力してください（Markdownコードブロックは不要）。
 {{
-  "title_ja": "魅力的な日本語タイトル（元のタイトルが英語の場合は自然な日本語訳。元が日本語なら洗練したタイトル）",
-  "category": "{' / '.join(CATEGORIES)} のいずれか1つ",
+  "title_ja": "自然でわかりやすい日本語タイトル（海外記事は日本語翻訳。国内記事は洗練された見出し）",
+  "category": "上記5つのカテゴリから1つ",
   "summary_bullets": [
-    "要点1（簡潔に何が起きたか・発表されたか）",
-    "要点2（特徴や従来との違い・具体的な数値など）",
-    "要点3（どのような影響があるか・注目ポイント）"
+    "要点1（何が発表されたか・決定されたか）",
+    "要点2（特徴・従来との違い・パートナーやエンタープライズへの影響）",
+    "要点3（ビジネスや技術面での注目すべきインサイト）"
   ]
 }}
 """
 
     headers = {"Content-Type": "application/json"}
     payload = {
-        "contents": [{
-            "parts": [{"text": prompt}]
-        }],
+        "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "temperature": 0.2,
             "responseMimeType": "application/json"
@@ -212,31 +312,26 @@ def summarize_with_gemini(api_key: str, title: str, text: str, source_lang: str,
     try:
         resp = requests.post(url, headers=headers, json=payload, timeout=25)
         if resp.status_code != 200:
-            # もし2.0-flashがエラーの場合は1.5-flashを試す
-            url_fallback = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
-            resp = requests.post(url_fallback, headers=headers, json=payload, timeout=25)
+            url_fb = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+            resp = requests.post(url_fb, headers=headers, json=payload, timeout=25)
             if resp.status_code != 200:
-                print(f"Gemini API Error ({resp.status_code}): {resp.text[:120]}")
-                return fallback_summary(title, text, default_cat)
+                print(f"Gemini API Error ({resp.status_code})")
+                return fallback_summary(title, text, default_cat, is_foreign)
 
         res_json = resp.json()
-        raw_content = res_json["candidates"][0]["content"]["parts"][0]["text"]
-        # JSONパース
-        clean_json_str = raw_content.strip()
-        if clean_json_str.startswith("```json"):
-            clean_json_str = clean_json_str[7:]
-        if clean_json_str.startswith("```"):
-            clean_json_str = clean_json_str[3:]
-        if clean_json_str.endswith("```"):
-            clean_json_str = clean_json_str[:-3]
-        
-        parsed = json.loads(clean_json_str.strip())
-        
-        # 検証・補正
-        category = parsed.get("category", default_cat)
-        if category not in CATEGORIES:
-            category = default_cat
-        
+        raw_text = res_json["candidates"][0]["content"]["parts"][0]["text"].strip()
+        if raw_text.startswith("```json"):
+            raw_text = raw_text[7:]
+        if raw_text.startswith("```"):
+            raw_text = raw_text[3:]
+        if raw_text.endswith("```"):
+            raw_text = raw_text[:-3]
+
+        parsed = json.loads(raw_text.strip())
+        cat = parsed.get("category", default_cat)
+        if cat not in CATEGORIES:
+            cat = classify_category(title, text, default_cat)
+
         bullets = parsed.get("summary_bullets", [])
         if not isinstance(bullets, list) or len(bullets) == 0:
             bullets = [parsed.get("title_ja", title)]
@@ -244,23 +339,26 @@ def summarize_with_gemini(api_key: str, title: str, text: str, source_lang: str,
         return {
             "title_ja": parsed.get("title_ja", title),
             "summary_bullets": bullets[:3],
-            "category": category
+            "category": cat
         }
     except Exception as e:
         print(f"Failed to summarize with Gemini: {e}")
-        return fallback_summary(title, text, default_cat)
+        return fallback_summary(title, text, default_cat, is_foreign)
 
 
 def fetch_all_feeds() -> List[Dict[str, Any]]:
-    """全RSSフィードから記事を取得"""
+    """全フィードから記事を取得"""
     articles = []
     seen_urls = set()
 
     for feed_info in RSS_FEEDS:
-        print(f"Fetching: {feed_info['name']} ({feed_info['url']}) ...")
+        print(f"Fetching: {feed_info['name']} ...")
         try:
-            # タイムアウト付きでフィードを取得
-            resp = requests.get(feed_info["url"], timeout=15, headers={"User-Agent": "Mozilla/5.0 (compatible; AINewsBot/1.0)"})
+            resp = requests.get(
+                feed_info["url"],
+                timeout=15,
+                headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
+            )
             if resp.status_code != 200:
                 print(f"  HTTP Error {resp.status_code}")
                 continue
@@ -280,19 +378,22 @@ def fetch_all_feeds() -> List[Dict[str, Any]]:
                 raw_summary = getattr(entry, "summary", "") or getattr(entry, "description", "")
                 cleaned_text = clean_html(raw_summary)
 
-                # フィルターが必要なメディアの場合
-                if feed_info.get("filter_ai") and not is_ai_relevant(title, cleaned_text):
-                    continue
+                # キーワードフィルター
+                if "filter_keywords" in feed_info:
+                    if not matches_filter(title, cleaned_text, feed_info["filter_keywords"]):
+                        continue
 
                 pub_date = parse_published_date(entry)
-                
-                # 古すぎる記事（7日以上前）は除外
                 now_utc = datetime.now(timezone.utc)
+                # 過去7日以内
                 if (now_utc - pub_date).days > 7:
                     continue
 
                 article_id = generate_article_id(url, title)
                 seen_urls.add(url)
+
+                partner_tags = detect_partner_tags(title, cleaned_text)
+                is_partner = len(partner_tags) > 0
 
                 articles.append({
                     "id": article_id,
@@ -300,13 +401,16 @@ def fetch_all_feeds() -> List[Dict[str, Any]]:
                     "url": url,
                     "source": feed_info["name"],
                     "source_lang": feed_info["lang"],
+                    "is_foreign": feed_info.get("is_foreign", False),
                     "default_category": feed_info["default_category"],
+                    "partner_tags": partner_tags,
+                    "is_partner_related": is_partner,
                     "raw_text": cleaned_text,
                     "published_at": pub_date.isoformat(),
                     "published_display": pub_date.astimezone(JST).strftime("%Y/%m/%d %H:%M")
                 })
                 count += 1
-                if count >= 8:  # 各メディアから最大8件
+                if count >= 8:
                     break
 
             print(f"  -> {count} articles fetched.")
@@ -317,14 +421,14 @@ def fetch_all_feeds() -> List[Dict[str, Any]]:
 
 
 def main():
-    print("=== AI News Fetcher & Summarizer ===")
+    print("=== AI News Fetcher & Summarizer (Business Edition) ===")
     os.makedirs(DATA_DIR, exist_ok=True)
 
     gemini_api_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if gemini_api_key:
-        print("[Info] GEMINI_API_KEY detected. AI 3-line summaries will be generated.")
+        print("[Info] GEMINI_API_KEY detected. AI 3-line summaries & translations active.")
     else:
-        print("[Info] No GEMINI_API_KEY found. Running in fallback mode (extracting excerpts).")
+        print("[Info] No GEMINI_API_KEY found. Running in fallback mode.")
 
     cached_articles = load_existing_cache()
     print(f"[Info] {len(cached_articles)} cached articles loaded.")
@@ -333,39 +437,41 @@ def main():
     print(f"[Info] Total fetched articles: {len(raw_articles)}")
 
     processed_articles = []
-    summarized_count = 0
 
     for idx, item in enumerate(raw_articles):
         art_id = item["id"]
 
-        # キャッシュがあればそれを利用（API消費削減）
+        # カテゴリの自動決定
+        assigned_cat = classify_category(item["title"], item["raw_text"], item["default_category"])
+        item["category"] = assigned_cat
+
         if art_id in cached_articles:
             cached = cached_articles[art_id]
-            # 最新のURLやメタ情報は更新しつつ要約結果を再利用
             item["title_ja"] = cached.get("title_ja", item["title"])
             item["summary_bullets"] = cached.get("summary_bullets", [])
-            item["category"] = cached.get("category", item["default_category"])
+            # 新カテゴリ体系に合致していれば再利用、旧カテゴリなら新カテゴリを適用
+            if cached.get("category") in CATEGORIES:
+                item["category"] = cached["category"]
             processed_articles.append(item)
             continue
 
-        print(f"[{idx+1}/{len(raw_articles)}] Summarizing: {item['title'][:40]}...")
+        print(f"[{idx+1}/{len(raw_articles)}] Processing: {item['title'][:35]}...")
 
         if gemini_api_key:
             res = summarize_with_gemini(
                 api_key=gemini_api_key,
                 title=item["title"],
                 text=item["raw_text"],
-                source_lang=item["source_lang"],
-                default_cat=item["default_category"]
+                is_foreign=item["is_foreign"],
+                default_cat=assigned_cat
             )
-            summarized_count += 1
-            # 無料枠のレートリミット（15 RPM）を守るため間隔を空ける
             time.sleep(4.2)
         else:
             res = fallback_summary(
                 title=item["title"],
                 text=item["raw_text"],
-                default_cat=item["default_category"]
+                default_cat=assigned_cat,
+                is_foreign=item["is_foreign"]
             )
 
         item["title_ja"] = res["title_ja"]
@@ -373,12 +479,11 @@ def main():
         item["category"] = res["category"]
         processed_articles.append(item)
 
-    # 公開日時順（新しい順）にソート
+    # 公開日時順にソート
     processed_articles.sort(key=lambda x: x["published_at"], reverse=True)
 
-    # raw_text など巨大な生テキストは出力から省いて軽量化
     clean_output_articles = []
-    for a in processed_articles[:50]:  # 最新50件
+    for a in processed_articles[:65]:  # 最大65件
         clean_output_articles.append({
             "id": a["id"],
             "title": a["title"],
@@ -386,7 +491,10 @@ def main():
             "url": a["url"],
             "source": a["source"],
             "source_lang": a["source_lang"],
-            "category": a.get("category", "ツール・活用"),
+            "is_foreign": a.get("is_foreign", False),
+            "category": a.get("category", "✨ Gemini・Google AI"),
+            "partner_tags": a.get("partner_tags", []),
+            "is_partner_related": a.get("is_partner_related", False),
             "summary_bullets": a.get("summary_bullets", []),
             "published_at": a["published_at"],
             "published_display": a["published_display"]

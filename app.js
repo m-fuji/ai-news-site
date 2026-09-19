@@ -1,5 +1,6 @@
 /**
- * AI Daily Pulse - Client Application with PIN Lock
+ * AI Daily Pulse - Client Application (Business Edition)
+ * 未読・既読管理、海外記事の日本語翻訳・🌐アイコン、Google Cloud＆パートナー動向対応
  */
 
 // Target Hash for "0310" (SHA-256)
@@ -12,6 +13,8 @@ const STATE = {
   searchQuery: '',
   currentView: 'feed', // 'feed' or 'bookmarks'
   bookmarks: JSON.parse(localStorage.getItem('ai_news_bookmarks') || '[]'),
+  readArticles: JSON.parse(localStorage.getItem('ai_news_read_articles') || '[]'),
+  isFilterUnreadOnly: false,
   enteredPin: '',
   isUnlocked: false,
 };
@@ -45,6 +48,12 @@ const pwaBanner = document.getElementById('pwa-banner');
 const pwaDismiss = document.getElementById('pwa-dismiss');
 const bookmarkBadge = document.getElementById('bookmark-badge');
 
+// Unread Controls
+const toggleUnreadFilterBtn = document.getElementById('toggle-unread-filter');
+const unreadCountBadge = document.getElementById('unread-count-badge');
+const unreadFilterLabel = document.getElementById('unread-filter-label');
+const markAllReadBtn = document.getElementById('mark-all-read-btn');
+
 // Navigation
 const navFeed = document.getElementById('nav-feed');
 const navBookmarks = document.getElementById('nav-bookmarks');
@@ -77,7 +86,6 @@ function initAuth() {
     setupKeypad();
   }
 
-  // Lock button in header
   if (lockBtn) {
     lockBtn.addEventListener('click', () => {
       lockApp();
@@ -96,7 +104,6 @@ function setupKeypad() {
     handlePinDelete();
   });
 
-  // Hardware keyboard support
   window.addEventListener('keydown', (e) => {
     if (STATE.isUnlocked) return;
     if (/^[0-9]$/.test(e.key)) {
@@ -140,7 +147,6 @@ async function validatePin() {
     }
     unlockApp(true);
   } else {
-    // Show error & shake
     pinError.classList.remove('opacity-0');
     pinDotsContainer.classList.add('shake');
     setTimeout(() => {
@@ -159,7 +165,6 @@ function unlockApp(showToastNotice = true) {
   }, 300);
   appContent.classList.remove('hidden');
 
-  // Start app features
   initPwa();
   setupEventListeners();
   loadNewsData();
@@ -243,16 +248,55 @@ async function loadNewsData() {
     countAllEl.textContent = STATE.articles.length;
 
     updateBookmarkBadge();
+    updateUnreadBadge();
     applyFilterAndRender();
   } catch (err) {
     console.error('Failed to load news:', err);
     newsContainer.innerHTML = `
       <div class="bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/50 rounded-2xl p-4 text-center">
         <p class="text-sm font-semibold text-amber-800 dark:text-amber-200 mb-1">ニュースデータを読み込めませんでした</p>
-        <p class="text-xs text-amber-600 dark:text-amber-400 mb-3">スクリプトの実行前か、データがまだありません。</p>
+        <p class="text-xs text-amber-600 dark:text-amber-400 mb-3">再読み込みをお試しください。</p>
         <button onclick="loadNewsData()" class="px-3 py-1.5 bg-amber-600 text-white rounded-lg text-xs font-medium">再試行</button>
       </div>
     `;
+  }
+}
+
+// --- Read / Unread Management ---
+function isArticleRead(id) {
+  return STATE.readArticles.includes(id);
+}
+
+window.markAsRead = function(id, silent = false) {
+  if (!STATE.readArticles.includes(id)) {
+    STATE.readArticles.push(id);
+    localStorage.setItem('ai_news_read_articles', JSON.stringify(STATE.readArticles));
+    updateUnreadBadge();
+    if (!silent) {
+      applyFilterAndRender();
+    }
+  }
+};
+
+window.toggleReadStatus = function(id, event) {
+  if (event) event.stopPropagation();
+  const idx = STATE.readArticles.indexOf(id);
+  if (idx > -1) {
+    STATE.readArticles.splice(idx, 1);
+    showToast('未読に戻しました');
+  } else {
+    STATE.readArticles.push(id);
+    showToast('既読にしました');
+  }
+  localStorage.setItem('ai_news_read_articles', JSON.stringify(STATE.readArticles));
+  updateUnreadBadge();
+  applyFilterAndRender();
+};
+
+function updateUnreadBadge() {
+  const unreadCount = STATE.articles.filter(a => !isArticleRead(a.id)).length;
+  if (unreadCountBadge) {
+    unreadCountBadge.textContent = unreadCount;
   }
 }
 
@@ -261,6 +305,11 @@ function applyFilterAndRender() {
   let list = STATE.currentView === 'bookmarks'
     ? STATE.articles.filter(a => STATE.bookmarks.includes(a.id))
     : STATE.articles;
+
+  // Unread Only Filter
+  if (STATE.isFilterUnreadOnly) {
+    list = list.filter(a => !isArticleRead(a.id));
+  }
 
   // Category Filter
   if (STATE.currentCategory !== 'ALL') {
@@ -274,7 +323,8 @@ function applyFilterAndRender() {
       const matchTitle = (a.title_ja || a.title || '').toLowerCase().includes(query);
       const matchSource = (a.source || '').toLowerCase().includes(query);
       const matchBullets = (a.summary_bullets || []).some(b => b.toLowerCase().includes(query));
-      return matchTitle || matchSource || matchBullets;
+      const matchTags = (a.partner_tags || []).some(t => t.toLowerCase().includes(query));
+      return matchTitle || matchSource || matchBullets || matchTags;
     });
   }
 
@@ -292,16 +342,16 @@ function applyFilterAndRender() {
 
 function getCategoryColorClass(category) {
   switch (category) {
-    case 'LLM・対話AI':
-      return 'bg-purple-100 dark:bg-purple-950/60 text-purple-700 dark:text-purple-300 border-purple-200 dark:border-purple-800/40';
-    case '画像・動画・音声':
-      return 'bg-pink-100 dark:bg-pink-950/60 text-pink-700 dark:text-pink-300 border-pink-200 dark:border-pink-800/40';
-    case 'ツール・活用':
-      return 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800/40';
-    case 'ビジネス・社会':
-      return 'bg-blue-100 dark:bg-blue-950/60 text-blue-700 dark:text-blue-300 border-blue-200 dark:border-blue-800/40';
-    case '研究・テクノロジー':
-      return 'bg-amber-100 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300 border-amber-200 dark:border-amber-800/40';
+    case '✨ Gemini・Google AI':
+      return 'bg-indigo-100 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border-indigo-200 dark:border-indigo-800/50';
+    case '🤖 他社LLM・フロンティア':
+      return 'bg-purple-100 dark:bg-purple-950/70 text-purple-700 dark:text-purple-300 border-purple-200 dark:border-purple-800/50';
+    case '🏢 パートナー・クラウド動向':
+      return 'bg-teal-100 dark:bg-teal-950/70 text-teal-700 dark:text-teal-300 border-teal-200 dark:border-teal-800/50';
+    case '🎨 画像・動画・マルチモーダル':
+      return 'bg-pink-100 dark:bg-pink-950/70 text-pink-700 dark:text-pink-300 border-pink-200 dark:border-pink-800/50';
+    case '🛠️ 活用ツール・エージェント':
+      return 'bg-amber-100 dark:bg-amber-950/70 text-amber-700 dark:text-amber-300 border-amber-200 dark:border-amber-800/50';
     default:
       return 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700';
   }
@@ -326,13 +376,25 @@ function timeAgo(dateString) {
 function renderArticles(articles) {
   newsContainer.innerHTML = articles.map(art => {
     const isBookmarked = STATE.bookmarks.includes(art.id);
+    const isRead = isArticleRead(art.id);
     const displayTitle = art.title_ja || art.title;
     const catClass = getCategoryColorClass(art.category);
     const timeDisplay = timeAgo(art.published_at);
+    const isForeign = art.is_foreign || art.source_lang === 'en';
 
+    // Partner Tags (Accenture, Deloitte, NRI, Google Cloud)
+    const partnerTagsHtml = (art.partner_tags && art.partner_tags.length > 0)
+      ? art.partner_tags.map(tag => `
+          <span class="px-1.5 py-0.5 text-[10px] font-bold rounded partner-badge">
+            🏢 ${tag}
+          </span>
+        `).join('')
+      : '';
+
+    // 3-Bullet Summary
     const bulletsHtml = (art.summary_bullets && art.summary_bullets.length > 0)
       ? `
-        <div class="mt-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl p-3 border border-slate-100 dark:border-slate-800/80">
+        <div class="mt-3 bg-slate-50 dark:bg-slate-800/50 rounded-xl p-3 border border-slate-100 dark:border-slate-800/80">
           <p class="text-[10px] font-bold tracking-wider text-indigo-600 dark:text-indigo-400 uppercase mb-1.5 flex items-center">
             <span class="mr-1">🤖</span> 3行要点まとめ
           </p>
@@ -343,46 +405,86 @@ function renderArticles(articles) {
       ` : '';
 
     return `
-      <article class="article-card bg-white dark:bg-slate-900 rounded-2xl p-4 border border-slate-200/80 dark:border-slate-800/90 shadow-sm shadow-slate-200/50 dark:shadow-none relative">
-        <div class="flex items-center justify-between gap-2 mb-2">
-          <div class="flex items-center space-x-1.5 overflow-hidden">
+      <article class="article-card ${isRead ? 'is-read' : ''} bg-white dark:bg-slate-900 rounded-2xl p-4 border border-slate-200/80 dark:border-slate-800/90 shadow-sm shadow-slate-200/40 dark:shadow-none relative">
+        
+        <!-- Top Meta: Badges, Source, Time, Read Status -->
+        <div class="flex items-center justify-between gap-1.5 mb-2.5">
+          <div class="flex items-center space-x-1.5 flex-wrap gap-y-1">
+            <!-- Unread / Read Indicator -->
+            ${!isRead ? `
+              <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-blue-500 text-white animate-pulse">
+                ● 未読
+              </span>
+            ` : `
+              <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-semibold text-slate-400 dark:text-slate-500">
+                ✓ 既読
+              </span>
+            `}
+
+            <!-- Foreign Badge -->
+            ${isForeign ? `
+              <span class="px-1.5 py-0.5 text-[10px] font-bold rounded foreign-badge">
+                🌐 海外
+              </span>
+            ` : ''}
+
+            <!-- Category Badge -->
             <span class="px-2 py-0.5 text-[10px] font-semibold rounded-md border ${catClass}">
               ${art.category || 'AIニュース'}
             </span>
-            <span class="text-[11px] font-medium text-slate-500 dark:text-slate-400 truncate">
-              ${art.source}
-            </span>
+
+            <!-- Partner Tags -->
+            ${partnerTagsHtml}
           </div>
+
           <span class="text-[11px] text-slate-400 dark:text-slate-500 shrink-0">
             ${timeDisplay}
           </span>
         </div>
 
+        <!-- Title (Japanese Main) -->
         <h2 class="text-sm font-bold text-slate-900 dark:text-slate-100 leading-snug">
-          <a href="${art.url}" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+          <a href="${art.url}" target="_blank" rel="noopener noreferrer" onclick="markAsRead('${art.id}', true)" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
             ${displayTitle}
           </a>
         </h2>
 
-        ${art.source_lang === 'en' && art.title_ja && art.title !== art.title_ja ? `
+        <!-- Original English Title for Foreign News -->
+        ${isForeign && art.title && art.title !== displayTitle ? `
           <p class="text-[11px] text-slate-400 dark:text-slate-500 mt-1 line-clamp-1 italic">
-            原文: ${art.title}
+            🌐 原文: ${art.title}
           </p>
         ` : ''}
 
+        <!-- Media Source -->
+        <p class="text-[11px] font-medium text-slate-400 dark:text-slate-500 mt-1">
+          配信元: <span class="text-slate-600 dark:text-slate-300">${art.source}</span>
+        </p>
+
+        <!-- 3-Bullet Summary -->
         ${bulletsHtml}
 
+        <!-- Bottom Action Bar -->
         <div class="mt-3 pt-2.5 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs">
-          <a href="${art.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1 text-indigo-600 dark:text-indigo-400 font-semibold hover:underline">
+          <a href="${art.url}" target="_blank" rel="noopener noreferrer" onclick="markAsRead('${art.id}', true)" class="inline-flex items-center space-x-1 text-indigo-600 dark:text-indigo-400 font-semibold hover:underline">
             <span>記事を読む</span>
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
           </a>
 
-          <div class="flex items-center space-x-2">
+          <div class="flex items-center space-x-1">
+            <!-- Read / Unread Manual Toggle -->
+            <button onclick="toggleReadStatus('${art.id}', event)" class="p-1.5 rounded-lg text-slate-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors" title="${isRead ? '未読に戻す' : '既読にする'}">
+              <svg class="w-4 h-4 ${isRead ? 'text-blue-500 dark:text-blue-400' : ''}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </button>
+
+            <!-- Share Button -->
             <button onclick="shareArticle('${encodeURIComponent(displayTitle)}', '${encodeURIComponent(art.url)}')" class="p-1.5 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors" title="シェア">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg>
             </button>
 
+            <!-- Bookmark Button -->
             <button onclick="toggleBookmark('${art.id}')" class="p-1.5 rounded-lg transition-colors ${isBookmarked ? 'text-pink-500' : 'text-slate-400 hover:text-pink-500'}" title="${isBookmarked ? '保存解除' : 'ブックマーク'}">
               <svg class="w-4 h-4 ${isBookmarked ? 'fill-current' : 'fill-none'}" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
             </button>
@@ -436,6 +538,7 @@ window.shareArticle = function(title, url) {
 
 // --- Event Listeners Setup ---
 function setupEventListeners() {
+  // Category Buttons
   categoryBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       categoryBtns.forEach(b => b.classList.remove('active'));
@@ -445,6 +548,40 @@ function setupEventListeners() {
     });
   });
 
+  // Unread Toggle Button
+  if (toggleUnreadFilterBtn) {
+    toggleUnreadFilterBtn.addEventListener('click', () => {
+      STATE.isFilterUnreadOnly = !STATE.isFilterUnreadOnly;
+      if (STATE.isFilterUnreadOnly) {
+        toggleUnreadFilterBtn.classList.add('bg-blue-600', 'text-white');
+        toggleUnreadFilterBtn.classList.remove('bg-slate-200/70', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-200');
+        unreadFilterLabel.textContent = '未読中';
+        showToast('未読記事のみ表示しています');
+      } else {
+        toggleUnreadFilterBtn.classList.remove('bg-blue-600', 'text-white');
+        toggleUnreadFilterBtn.classList.add('bg-slate-200/70', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-200');
+        unreadFilterLabel.textContent = '未読のみ';
+      }
+      applyFilterAndRender();
+    });
+  }
+
+  // Mark All As Read
+  if (markAllReadBtn) {
+    markAllReadBtn.addEventListener('click', () => {
+      STATE.articles.forEach(a => {
+        if (!STATE.readArticles.includes(a.id)) {
+          STATE.readArticles.push(a.id);
+        }
+      });
+      localStorage.setItem('ai_news_read_articles', JSON.stringify(STATE.readArticles));
+      updateUnreadBadge();
+      applyFilterAndRender();
+      showToast('すべての記事を既読にしました');
+    });
+  }
+
+  // Search Input
   searchInput.addEventListener('input', (e) => {
     STATE.searchQuery = e.target.value;
     clearSearchBtn.classList.toggle('hidden', !STATE.searchQuery);
@@ -463,6 +600,12 @@ function setupEventListeners() {
     STATE.searchQuery = '';
     clearSearchBtn.classList.add('hidden');
     STATE.currentCategory = 'ALL';
+    STATE.isFilterUnreadOnly = false;
+    if (toggleUnreadFilterBtn) {
+      toggleUnreadFilterBtn.classList.remove('bg-blue-600', 'text-white');
+      toggleUnreadFilterBtn.classList.add('bg-slate-200/70', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-200');
+      unreadFilterLabel.textContent = '未読のみ';
+    }
     categoryBtns.forEach(b => b.classList.toggle('active', b.dataset.category === 'ALL'));
     applyFilterAndRender();
   });
