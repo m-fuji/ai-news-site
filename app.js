@@ -1,6 +1,9 @@
 /**
- * AI Daily Pulse - Client Application
+ * AI Daily Pulse - Client Application with PIN Lock
  */
+
+// Target Hash for "0310" (SHA-256)
+const CORRECT_PIN_HASH = '408a5ee676694af19215cb22b2cd871e39c693f907933583ece00eda8d73ee16';
 
 const STATE = {
   articles: [],
@@ -9,9 +12,22 @@ const STATE = {
   searchQuery: '',
   currentView: 'feed', // 'feed' or 'bookmarks'
   bookmarks: JSON.parse(localStorage.getItem('ai_news_bookmarks') || '[]'),
+  enteredPin: '',
+  isUnlocked: false,
 };
 
-// DOM Elements
+// DOM Elements - Auth
+const lockScreen = document.getElementById('lock-screen');
+const appContent = document.getElementById('app-content');
+const pinDots = document.querySelectorAll('.pin-dot');
+const pinDotsContainer = document.getElementById('pin-dots');
+const pinError = document.getElementById('pin-error');
+const rememberMeCheckbox = document.getElementById('remember-me');
+const keypadBtns = document.querySelectorAll('.keypad-btn');
+const keypadDelBtn = document.getElementById('keypad-del');
+const lockBtn = document.getElementById('lock-btn');
+
+// DOM Elements - Main App
 const newsContainer = document.getElementById('news-container');
 const emptyState = document.getElementById('empty-state');
 const currentCountEl = document.getElementById('current-count');
@@ -40,10 +56,135 @@ const closeAboutBtn = document.getElementById('close-about-btn');
 // --- Initialization ---
 document.addEventListener('DOMContentLoaded', () => {
   initTheme();
+  initAuth();
+});
+
+// --- Authentication / PIN Code Logic ---
+async function sha256(str) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(buf))
+    .map(b => b.toString(16).padStart(2, '0'))
+    .join('');
+}
+
+function initAuth() {
+  const isSavedLocal = localStorage.getItem('ai_pulse_unlocked') === CORRECT_PIN_HASH;
+  const isSavedSession = sessionStorage.getItem('ai_pulse_unlocked') === CORRECT_PIN_HASH;
+
+  if (isSavedLocal || isSavedSession) {
+    unlockApp(false);
+  } else {
+    setupKeypad();
+  }
+
+  // Lock button in header
+  if (lockBtn) {
+    lockBtn.addEventListener('click', () => {
+      lockApp();
+    });
+  }
+}
+
+function setupKeypad() {
+  keypadBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      handlePinInput(btn.dataset.val);
+    });
+  });
+
+  keypadDelBtn.addEventListener('click', () => {
+    handlePinDelete();
+  });
+
+  // Hardware keyboard support
+  window.addEventListener('keydown', (e) => {
+    if (STATE.isUnlocked) return;
+    if (/^[0-9]$/.test(e.key)) {
+      handlePinInput(e.key);
+    } else if (e.key === 'Backspace') {
+      handlePinDelete();
+    }
+  });
+}
+
+function handlePinInput(digit) {
+  if (STATE.enteredPin.length >= 4) return;
+  STATE.enteredPin += digit;
+  updatePinDots();
+
+  if (STATE.enteredPin.length === 4) {
+    validatePin();
+  }
+}
+
+function handlePinDelete() {
+  if (STATE.enteredPin.length === 0) return;
+  STATE.enteredPin = STATE.enteredPin.slice(0, -1);
+  pinError.classList.add('opacity-0');
+  updatePinDots();
+}
+
+function updatePinDots() {
+  pinDots.forEach((dot, idx) => {
+    dot.classList.toggle('filled', idx < STATE.enteredPin.length);
+  });
+}
+
+async function validatePin() {
+  const hash = await sha256(STATE.enteredPin);
+  if (hash === CORRECT_PIN_HASH) {
+    if (rememberMeCheckbox && rememberMeCheckbox.checked) {
+      localStorage.setItem('ai_pulse_unlocked', CORRECT_PIN_HASH);
+    } else {
+      sessionStorage.setItem('ai_pulse_unlocked', CORRECT_PIN_HASH);
+    }
+    unlockApp(true);
+  } else {
+    // Show error & shake
+    pinError.classList.remove('opacity-0');
+    pinDotsContainer.classList.add('shake');
+    setTimeout(() => {
+      pinDotsContainer.classList.remove('shake');
+      STATE.enteredPin = '';
+      updatePinDots();
+    }, 450);
+  }
+}
+
+function unlockApp(showToastNotice = true) {
+  STATE.isUnlocked = true;
+  lockScreen.classList.add('opacity-0', 'pointer-events-none');
+  setTimeout(() => {
+    lockScreen.classList.add('hidden');
+  }, 300);
+  appContent.classList.remove('hidden');
+
+  // Start app features
   initPwa();
   setupEventListeners();
   loadNewsData();
-});
+
+  if (showToastNotice) {
+    showToast('ロックを解除しました');
+  }
+}
+
+function lockApp() {
+  localStorage.removeItem('ai_pulse_unlocked');
+  sessionStorage.removeItem('ai_pulse_unlocked');
+  STATE.isUnlocked = false;
+  STATE.enteredPin = '';
+  updatePinDots();
+  pinError.classList.add('opacity-0');
+
+  appContent.classList.add('hidden');
+  lockScreen.classList.remove('hidden', 'pointer-events-none');
+  setTimeout(() => {
+    lockScreen.classList.remove('opacity-0');
+  }, 50);
+
+  showToast('ロックしました');
+}
 
 // --- Theme Management ---
 function initTheme() {
@@ -98,7 +239,7 @@ async function loadNewsData() {
     const data = await res.json();
 
     STATE.articles = data.articles || [];
-    updatedAtEl.textContent = `最終更新: ${data.updated_at || '今朝'}`;
+    updatedAtEl.textContent = `更新日時: ${data.updated_at || '本日'}`;
     countAllEl.textContent = STATE.articles.length;
 
     updateBookmarkBadge();
@@ -203,7 +344,6 @@ function renderArticles(articles) {
 
     return `
       <article class="article-card bg-white dark:bg-slate-900 rounded-2xl p-4 border border-slate-200/80 dark:border-slate-800/90 shadow-sm shadow-slate-200/50 dark:shadow-none relative">
-        <!-- Top Meta: Source, Date, Category -->
         <div class="flex items-center justify-between gap-2 mb-2">
           <div class="flex items-center space-x-1.5 overflow-hidden">
             <span class="px-2 py-0.5 text-[10px] font-semibold rounded-md border ${catClass}">
@@ -218,7 +358,6 @@ function renderArticles(articles) {
           </span>
         </div>
 
-        <!-- Title -->
         <h2 class="text-sm font-bold text-slate-900 dark:text-slate-100 leading-snug">
           <a href="${art.url}" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
             ${displayTitle}
@@ -231,10 +370,8 @@ function renderArticles(articles) {
           </p>
         ` : ''}
 
-        <!-- 3-Bullet Summary -->
         ${bulletsHtml}
 
-        <!-- Bottom Action Bar -->
         <div class="mt-3 pt-2.5 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs">
           <a href="${art.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-1 text-indigo-600 dark:text-indigo-400 font-semibold hover:underline">
             <span>記事を読む</span>
@@ -242,12 +379,10 @@ function renderArticles(articles) {
           </a>
 
           <div class="flex items-center space-x-2">
-            <!-- Share Button -->
             <button onclick="shareArticle('${encodeURIComponent(displayTitle)}', '${encodeURIComponent(art.url)}')" class="p-1.5 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors" title="シェア">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg>
             </button>
 
-            <!-- Bookmark Button -->
             <button onclick="toggleBookmark('${art.id}')" class="p-1.5 rounded-lg transition-colors ${isBookmarked ? 'text-pink-500' : 'text-slate-400 hover:text-pink-500'}" title="${isBookmarked ? '保存解除' : 'ブックマーク'}">
               <svg class="w-4 h-4 ${isBookmarked ? 'fill-current' : 'fill-none'}" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
             </button>
@@ -301,7 +436,6 @@ window.shareArticle = function(title, url) {
 
 // --- Event Listeners Setup ---
 function setupEventListeners() {
-  // Category Buttons
   categoryBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       categoryBtns.forEach(b => b.classList.remove('active'));
@@ -311,7 +445,6 @@ function setupEventListeners() {
     });
   });
 
-  // Search Input
   searchInput.addEventListener('input', (e) => {
     STATE.searchQuery = e.target.value;
     clearSearchBtn.classList.toggle('hidden', !STATE.searchQuery);
@@ -325,7 +458,6 @@ function setupEventListeners() {
     applyFilterAndRender();
   });
 
-  // Reset Filter Button
   document.getElementById('reset-filter-btn').addEventListener('click', () => {
     searchInput.value = '';
     STATE.searchQuery = '';
@@ -335,13 +467,11 @@ function setupEventListeners() {
     applyFilterAndRender();
   });
 
-  // Refresh Button
   refreshBtn.addEventListener('click', () => {
     showToast('最新データを取得中...');
     loadNewsData();
   });
 
-  // Navigation Switching
   navFeed.addEventListener('click', () => {
     switchView('feed');
   });
@@ -350,7 +480,6 @@ function setupEventListeners() {
     switchView('bookmarks');
   });
 
-  // About Modal
   navAbout.addEventListener('click', () => {
     aboutModal.classList.remove('hidden');
   });
@@ -382,7 +511,6 @@ function initPwa() {
     });
   }
 
-  // Show banner if on mobile iOS/Android and not standalone
   const isIos = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
   const isStandalone = window.navigator.standalone || window.matchMedia('(display-mode: standalone)').matches;
   

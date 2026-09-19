@@ -53,6 +53,28 @@ body {
   transform: scale(0.99);
 }
 
+/* PIN Lock Screen Styling */
+.pin-dot.filled {
+  background-color: rgb(79 70 229);
+  border-color: rgb(79 70 229);
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgba(79, 70, 229, 0.5);
+}
+.dark .pin-dot.filled {
+  background-color: rgb(99 102 241);
+  border-color: rgb(99 102 241);
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.6);
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-8px); }
+  40%, 80% { transform: translateX(8px); }
+}
+.shake {
+  animation: shake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
 /* Safe area insets for notched iPhones */
 nav {
   padding-bottom: env(safe-area-inset-bottom, 0.5rem);
