@@ -17,6 +17,7 @@ from datetime import datetime, timezone, timedelta
 from typing import List, Dict, Any, Optional
 
 import requests
+import urllib.parse
 import feedparser
 from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
@@ -245,8 +246,33 @@ def load_existing_cache() -> Dict[str, Dict[str, Any]]:
         return {}
 
 
+def is_mostly_ascii(text: str) -> bool:
+    if not text:
+        return False
+    ascii_count = sum(1 for c in text if ord(c) < 128)
+    return (ascii_count / len(text)) > 0.75
+
+
+def translate_en_to_ja(text: str) -> str:
+    """英語テキストを日本語に無料API（MyMemory）で翻訳"""
+    if not text or not is_mostly_ascii(text):
+        return text
+    try:
+        truncated = text[:450].strip()
+        url = f"https://api.mymemory.translated.net/get?q={urllib.parse.quote(truncated)}&langpair=en|ja"
+        r = requests.get(url, timeout=8, headers={"User-Agent": "Mozilla/5.0"})
+        if r.status_code == 200:
+            res = r.json()
+            t = res.get("responseData", {}).get("translatedText", "")
+            if t and not is_mostly_ascii(t):
+                return t
+    except Exception as e:
+        pass
+    return text
+
+
 def fallback_summary(title: str, text: str, default_cat: str, is_foreign: bool) -> Dict[str, Any]:
-    """Gemini APIキーがない場合、または失敗した場合の自動フォールバック"""
+    """Gemini APIキーがない場合、または失敗した場合の自動フォールバック翻訳"""
     cleaned = text if text else title
     sentences = re.split(r"[。！？.!?\n]", cleaned)
     bullets = [s.strip() for s in sentences if len(s.strip()) > 10][:3]
@@ -255,11 +281,17 @@ def fallback_summary(title: str, text: str, default_cat: str, is_foreign: bool) 
 
     category = classify_category(title, text, default_cat)
 
-    # 簡易タイトル日本語整形（海外記事の場合）
     title_ja = title
-    if is_foreign:
-        # 代表的な英語タイトルの接頭辞などを整理
-        title_ja = f"【海外最新】{title}"
+    if is_foreign or is_mostly_ascii(title):
+        print(f"  [Translate] Translating title: {title[:30]}...")
+        title_ja = translate_en_to_ja(title)
+        ja_bullets = []
+        for b in bullets:
+            print(f"  [Translate] Translating bullet: {b[:30]}...")
+            tr = translate_en_to_ja(b)
+            ja_bullets.append(tr)
+            time.sleep(0.4)
+        bullets = ja_bullets
 
     return {
         "title_ja": title_ja,
@@ -447,9 +479,21 @@ def main():
 
         if art_id in cached_articles:
             cached = cached_articles[art_id]
-            item["title_ja"] = cached.get("title_ja", item["title"])
-            item["summary_bullets"] = cached.get("summary_bullets", [])
-            # 新カテゴリ体系に合致していれば再利用、旧カテゴリなら新カテゴリを適用
+            cached_bullets = cached.get("summary_bullets", [])
+            # 海外記事で箇条書きが英語のままの場合は自動で日本語に再翻訳
+            is_bullets_english = any(is_mostly_ascii(b) for b in cached_bullets)
+            if item.get("is_foreign") and is_bullets_english:
+                print(f"  [Re-translating English article] {item['title'][:30]}...")
+                item["title_ja"] = translate_en_to_ja(cached.get("title_ja", item["title"]))
+                ja_bullets = []
+                for b in cached_bullets:
+                    ja_bullets.append(translate_en_to_ja(b))
+                    time.sleep(0.3)
+                item["summary_bullets"] = ja_bullets
+            else:
+                item["title_ja"] = cached.get("title_ja", item["title"])
+                item["summary_bullets"] = cached_bullets
+
             if cached.get("category") in CATEGORIES:
                 item["category"] = cached["category"]
             processed_articles.append(item)
