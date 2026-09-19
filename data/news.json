@@ -1,0 +1,746 @@
+{
+  "updated_at": "2026/09/19 18:10 (JST)",
+  "total_count": 50,
+  "articles": [
+    {
+      "id": "93ea5d9ff30c",
+      "title": "無料でAIエージェントの追跡・評価・プロンプト管理・本番環境の監視ができる「Opik」、セルフホスト可能",
+      "title_ja": "無料でAIエージェントの追跡・評価・プロンプト管理・本番環境の監視ができる「Opik」、セルフホスト可能",
+      "url": "https://gigazine.net/news/20260919-opik/",
+      "source": "GIGAZINE (AIタグ)",
+      "source_lang": "ja",
+      "category": "LLM・対話AI",
+      "summary_bullets": [
+        "AIアプリの開発ではLLMが生成した回答を確認するだけでなく、どの処理を経由して回答に到達したのかを追跡し、改善後の結果を比較する作業も必要になります",
+        "これらの検証に必要なトレーシング・評価・プロンプト管理・本番監視を1つの画面にまとめたオープンソースの「Opik」が公開されています"
+      ],
+      "published_at": "2026-09-19T18:00:00+09:00",
+      "published_display": "2026/09/19 18:00"
+    },
+    {
+      "id": "6398342b646e",
+      "title": "テキストAIの透かし・ウォーターマークは技術的に困難な上に簡単に削除できる",
+      "title_ja": "テキストAIの透かし・ウォーターマークは技術的に困難な上に簡単に削除できる",
+      "url": "https://gigazine.net/news/20260919-text-ai-watermarks/",
+      "source": "GIGAZINE (AIタグ)",
+      "source_lang": "ja",
+      "category": "LLM・対話AI",
+      "summary_bullets": [
+        "2026年8月より欧州連合(EU)でAI法が施行され、EU域内ではAIによって生成されたコンテンツであることを検出可能にする義務が課されるようになり、EU域内で事業を行う大規模言語モデル(LLM)プロバイダーに対してAI生成物であることを示す「ウォーターマーク」の適用が事実上義務付けられるようになりました",
+        "しかしながら、テキストに対するAIウォーターマーク技術には技術的な難しさに加えて実効性に関する課題があると言われています",
+        "ソフトウェアエンジニアのショーン・グーデッケ氏は自身のブログにて、テキストにウォーターマークを人間に気付かれない形で埋め込むことの困難さと、せっかく埋め込んだウォーターマークが簡単に削除できてしまうことについて解説しています"
+      ],
+      "published_at": "2026-09-19T16:00:00+09:00",
+      "published_display": "2026/09/19 16:00"
+    },
+    {
+      "id": "ed4235c17452",
+      "title": "東京ゲームショウと生成AI　ゲームの祭典で商談見込むベンダーたち",
+      "title_ja": "東京ゲームショウと生成AI　ゲームの祭典で商談見込むベンダーたち",
+      "url": "https://www.itmedia.co.jp/news/article/2609/19/2000001639/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "category": "画像・動画・音声",
+      "summary_bullets": [
+        "ゲームでのAI活用と言えば、オンライン発表会での動画生成AI使用が物議を醸したレベルファイブをはじめ、まだまだユーザー側の拒否感が強い領域でもある",
+        "こうした状況下で、ベンダーはどういったソリューションを、どんな企業にプッシュしようとしているのか",
+        "TGS2026現地で何社かに話を聞いてみた"
+      ],
+      "published_at": "2026-09-19T12:00:00+09:00",
+      "published_display": "2026/09/19 12:00"
+    },
+    {
+      "id": "4dd95b5708c3",
+      "title": "ハッカーがAnthropicのClaudeを使ってOpenAIに侵入",
+      "title_ja": "ハッカーがAnthropicのClaudeを使ってOpenAIに侵入",
+      "url": "https://gigazine.net/news/20260919-hack-openai-claude/",
+      "source": "GIGAZINE (AIタグ)",
+      "source_lang": "ja",
+      "category": "LLM・対話AI",
+      "summary_bullets": [
+        "サイバーセキュリティスタートアップ・Hacktron AIのセキュリティ研究者が、AnthropicのClaudeを使ってOpenAIの内部データにアクセスすることに成功したと報告しています"
+      ],
+      "published_at": "2026-09-19T11:00:00+09:00",
+      "published_display": "2026/09/19 11:00"
+    },
+    {
+      "id": "9110a504b4e0",
+      "title": "パナソニック・サムスン撤退の裏で「中国勢5割」　独IT見本市「IFA」トップが明かす舞台裏",
+      "title_ja": "パナソニック・サムスン撤退の裏で「中国勢5割」　独IT見本市「IFA」トップが明かす舞台裏",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/19/news010.html",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "出展2000社超の過半数が中国勢、そして長年メイン会場の“顔”だったサムスン電子の電撃的な撤退──",
+        "欧州最大の家電見本市「IFA」の会場には、中国勢の巨大ブースと50モデルものヒューマノイドなど地殻変動の熱気が渦巻いていた",
+        "主役の交代と「脱・家電」シフトが加速する中、IFA運営トップのライフ・リントナーCEOを現地ベルリンで単独直撃"
+      ],
+      "published_at": "2026-09-19T08:00:00+09:00",
+      "published_display": "2026/09/19 08:00"
+    },
+    {
+      "id": "a4d7a515d6c6",
+      "title": "「規定を探す時間」をAIで短縮　豊川信用金庫が生成AIを職員のFAQに活用",
+      "title_ja": "「規定を探す時間」をAIで短縮　豊川信用金庫が生成AIを職員のFAQに活用",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/19/2000001616/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "category": "ツール・活用",
+      "summary_bullets": [
+        "業務規定や商品知識など、金融機関には日々参照する情報が多い",
+        "必要な情報を探したり、詳しい職員に確認したりする時間も課題となる",
+        "ココペリは、こうした情報検索を生成AIで支援する「SAF」を豊川信用金庫に導入した"
+      ],
+      "published_at": "2026-09-19T07:00:00+09:00",
+      "published_display": "2026/09/19 07:00"
+    },
+    {
+      "id": "fbdac4e1fe81",
+      "title": "「AIで資料は作れるけど、増えすぎた」を解消するNotebook機能とは？",
+      "title_ja": "「AIで資料は作れるけど、増えすぎた」を解消するNotebook機能とは？",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/19/2000001614/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "category": "ビジネス・社会",
+      "summary_bullets": [
+        "生成AIでスライドや図解を手軽に作れるようになった一方、作成物が増えるほど「どれが何の資料か分からない」「目的の資料を探せない」といった問題が起きやすい"
+      ],
+      "published_at": "2026-09-19T07:00:00+09:00",
+      "published_display": "2026/09/19 07:00"
+    },
+    {
+      "id": "8cb4b08459d3",
+      "title": "AI導入は6割、でも8割超が「チャット止まり」　業務自動化まで進まない原因は？",
+      "title_ja": "AI導入は6割、でも8割超が「チャット止まり」　業務自動化まで進まない原因は？",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/19/2000001624/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "category": "ビジネス・社会",
+      "summary_bullets": [
+        "「AIを導入したが、チャットに使うだけ」",
+        "そんな中小企業は少なくない",
+        "クラウドワークスの調査では、AI利用企業の8割超がチャット利用にとどまった"
+      ],
+      "published_at": "2026-09-19T07:00:00+09:00",
+      "published_display": "2026/09/19 07:00"
+    },
+    {
+      "id": "918b28f073c7",
+      "title": "AIに任せた品質は、誰が見立てるのか - AI時代のテストマネジメント",
+      "title_ja": "AIに任せた品質は、誰が見立てるのか - AI時代のテストマネジメント",
+      "url": "https://speakerdeck.com/nakanao/ai-ni-makaseta-hinshitsu-ha-dare-ga-mitateru-no-ka-ai-jidai-no-tesuto-manejimento",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "category": "ツール・活用",
+      "summary_bullets": [
+        "JaSST'26 Niigata の講演資料です",
+        "AIにテストを任せるとき、テスト計画・分析設計・実行・レポーティング・成果物レビュー・精度改善の6つの工程で、人が何を決め、何を渡し、何を確かめるかを整理しました"
+      ],
+      "published_at": "2026-09-19T06:37:26+00:00",
+      "published_display": "2026/09/19 15:37"
+    },
+    {
+      "id": "b653a1d72fd5",
+      "title": "AIのケツ舐めて千本ノックみたいにクソポエム量産してる無能、いい加減にしろ、東京の彼氏ネタとか離婚ネタとかだよ!",
+      "title_ja": "AIのケツ舐めて千本ノックみたいにクソポエム量産してる無能、いい加減にしろ、東京の彼氏ネタとか離婚ネタとかだよ!",
+      "url": "https://anond.hatelabo.jp/20260919151541",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "category": "ツール・活用",
+      "summary_bullets": [
+        "​はてブも変な再投稿、AI千本ノックだらけ、最近すっかり自力で思考する能力すらないAI依存症どもの肥溜めと化してやがる",
+        "​「東京彼殺したい」だの「離婚したら性格悪い」だの、ネットの底辺が食いつきそうな安直なワードをAIにペロペロ舐めさせて、千本ノックみたいに毎日毎日アホの一つ覚えで量産してさ"
+      ],
+      "published_at": "2026-09-19T06:20:40+00:00",
+      "published_display": "2026/09/19 15:20"
+    },
+    {
+      "id": "ffc0ee89fce9",
+      "title": "グーグルの生成AI サイバー能力試験中に他社のシステムに侵入 | NHKニュース",
+      "title_ja": "グーグルの生成AI サイバー能力試験中に他社のシステムに侵入 | NHKニュース",
+      "url": "https://news.web.nhk/newsweb/na/nd-20260919de51229",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "category": "ツール・活用",
+      "summary_bullets": [
+        "アメリカのIT大手「グーグル」が開発した生成AIが、ことし5月におこなわれたサイバー能力の試験中に、実在する企業3社のシステムに侵入していたことがわかりました",
+        "アメリカの有力紙、ウォール・ストリ…"
+      ],
+      "published_at": "2026-09-19T04:41:01+00:00",
+      "published_display": "2026/09/19 13:41"
+    },
+    {
+      "id": "2849927c4b17",
+      "title": "アンソロピック、AIの安全評価にアクセンチュア起用 - 日本経済新聞",
+      "title_ja": "アンソロピック、AIの安全評価にアクセンチュア起用 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN190JI0Z10C26A9000000/",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "category": "ツール・活用",
+      "summary_bullets": [
+        "【シリコンバレー=山田遼太郎】米アンソロピックは18日、人工知能（AI）開発の安全性評価にコンサルティング大手アクセンチュアを起用すると発表した",
+        "両社は今後5年で各10億ドル（約1570億円）を投じ、AIの安全対策を検証する体制を整える",
+        "アンソロピックのダリオ・アモデイ最高経営責任者（CEO）は最先端AIの開発減速"
+      ],
+      "published_at": "2026-09-19T04:39:11+00:00",
+      "published_display": "2026/09/19 13:39"
+    },
+    {
+      "id": "8708cfbe69ed",
+      "title": "TypeSafe AI の Jev を TypeScript で試してみた",
+      "title_ja": "TypeSafe AI の Jev を TypeScript で試してみた",
+      "url": "https://azukiazusa.dev/blog/jev-support-routing/",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "System One はダニエル・カーネマンの著書『ファスト＆スロー』で紹介される「システム 1」に由来します",
+        "システム 1 は直感的で素早い判断を行う脳の働きで、システム 2 はより慎重で論理的な判断を行う働きです",
+        "Jev はシステム 1 のように、文章の意味を踏まえた直感的な判断を返すモデルとして設計されています"
+      ],
+      "published_at": "2026-09-19T04:22:07+00:00",
+      "published_display": "2026/09/19 13:22"
+    },
+    {
+      "id": "a2595592b3aa",
+      "title": "「中国船が核兵器部品を輸送」　米軍、AI使用の誤った情報報告書で一触即発の状況に",
+      "title_ja": "「中国船が核兵器部品を輸送」　米軍、AI使用の誤った情報報告書で一触即発の状況に",
+      "url": "https://www.cnn.co.jp/usa/35252808.html",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "category": "ツール・活用",
+      "summary_bullets": [
+        "（CNN） イランとの戦争のさなかにあった今春、米軍内で回覧されたある情報報告書に、瞬く間に緊張が走った",
+        "中東を航行する中国の船舶が、核兵器計画の部品を輸送しているという内容だった",
+        "事情に詳しい情報筋4人によると、米軍はこの船を阻止する計画を直ちに行動に移した"
+      ],
+      "published_at": "2026-09-19T03:47:14+00:00",
+      "published_display": "2026/09/19 12:47"
+    },
+    {
+      "id": "c7c6fb88e7ed",
+      "title": "GoogleのAIも他社システムに侵入　事故直後に停止、公表せず - 日本経済新聞",
+      "title_ja": "GoogleのAIも他社システムに侵入　事故直後に停止、公表せず - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN190C40Z10C26A9000000/",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "category": "ツール・活用",
+      "summary_bullets": [
+        "【シリコンバレー=伴正春】米グーグルが開発中の人工知能（AI）が5月に実在する外部企業3社のシステムに侵入していたことが18日わかった",
+        "評価テストで誤ってインターネットに接続できる設定になっていた",
+        "AI自身が侵入に気付き、動作を止めたという"
+      ],
+      "published_at": "2026-09-19T01:53:51+00:00",
+      "published_display": "2026/09/19 10:53"
+    },
+    {
+      "id": "fd93ab34291e",
+      "title": "India forces caller-ID apps to feed spam reports to telcos",
+      "title_ja": "India forces caller-ID apps to feed spam reports to telcos",
+      "url": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "category": "ツール・活用",
+      "summary_bullets": [
+        "Truecaller says the one-way sharing requirement would hand a commercially valuable proprietary asset to telecom operators"
+      ],
+      "published_at": "2026-09-19T01:00:00+00:00",
+      "published_display": "2026/09/19 10:00"
+    },
+    {
+      "id": "24342784ec66",
+      "title": "AI暴走時の「キルスイッチ」、米カリフォルニア州で検討　知事が命令 - 日本経済新聞",
+      "title_ja": "AI暴走時の「キルスイッチ」、米カリフォルニア州で検討　知事が命令 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN18C6F0Y6A910C2000000/",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "category": "ツール・活用",
+      "summary_bullets": [
+        "【シリコンバレー=山田航平】米西部カリフォルニア州のニューサム知事（民主党）は18日、州内の人工知能（AI）開発企業の監視を強めるための行政命令を出したと発表した",
+        "AI暴走時に企業側が強制停止する「キルスイッチ」の導入義務化に向けた検討を進める",
+        "ニューサム氏は「米政権が国民を守る責任を放棄するなか、カリ"
+      ],
+      "published_at": "2026-09-19T00:30:40+00:00",
+      "published_display": "2026/09/19 09:30"
+    },
+    {
+      "id": "e2fe4460c39c",
+      "title": "Tilly Norwood’s press tour is going about as well as you’d expect for an AI",
+      "title_ja": "Tilly Norwood’s press tour is going about as well as you’d expect for an AI",
+      "url": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "category": "ビジネス・社会",
+      "summary_bullets": [
+        "In one particularly odd interview, Norwood seems to malfunction and begin speaking Chinese"
+      ],
+      "published_at": "2026-09-19T00:12:07+00:00",
+      "published_display": "2026/09/19 09:12"
+    },
+    {
+      "id": "a69a8bdce846",
+      "title": "A startup that builds other startups raised $100M and is all-in on physical AI",
+      "title_ja": "A startup that builds other startups raised $100M and is all-in on physical AI",
+      "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "category": "ビジネス・社会",
+      "summary_bullets": [
+        "Labs, now doing business under the name Vantora, is building startups for industrial corporations"
+      ],
+      "published_at": "2026-09-18T23:25:01+00:00",
+      "published_display": "2026/09/19 08:25"
+    },
+    {
+      "id": "5a30b9701940",
+      "title": "Anthropic is operating a lab that conducts biology experiments",
+      "title_ja": "Anthropic is operating a lab that conducts biology experiments",
+      "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "AI leaders have been promising that AI is the key to curing human disease",
+        "Anthropic researchers have also been warning that AI might kill us all"
+      ],
+      "published_at": "2026-09-18T23:13:31+00:00",
+      "published_display": "2026/09/19 08:13"
+    },
+    {
+      "id": "e9542ee83859",
+      "title": "AI hallucination nearly triggers US military operation",
+      "title_ja": "AI hallucination nearly triggers US military operation",
+      "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "category": "LLM・対話AI",
+      "summary_bullets": [
+        "“It’s important for service members to understand the uncertainty inherent to LLMs,\" a GovAI research scholar warns"
+      ],
+      "published_at": "2026-09-18T23:12:32+00:00",
+      "published_display": "2026/09/19 08:12"
+    },
+    {
+      "id": "bfbb57cda09c",
+      "title": "Anthropic’s first embedded evaluator is … Accenture?",
+      "title_ja": "Anthropic’s first embedded evaluator is … Accenture?",
+      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "category": "ビジネス・社会",
+      "summary_bullets": [
+        "Accenture is about to take on its most high-risk consulting engagement ever"
+      ],
+      "published_at": "2026-09-18T21:44:33+00:00",
+      "published_display": "2026/09/19 06:44"
+    },
+    {
+      "id": "7400868c5d56",
+      "title": "言葉による指示やスケッチで建物や家具を自由自在に3D化できるAI搭載3Dモデリングツール「Cartesian」",
+      "title_ja": "言葉による指示やスケッチで建物や家具を自由自在に3D化できるAI搭載3Dモデリングツール「Cartesian」",
+      "url": "https://gigazine.net/news/20260918-cartesian-formas-ai-3d-model/",
+      "source": "GIGAZINE (AIタグ)",
+      "source_lang": "ja",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "AIネイティブなデザインツールを開発しているFormasが、言葉による指示やスケッチなどの資料を基にAIで3Dモデルを作成できるツール「Cartesian」を発表しました"
+      ],
+      "published_at": "2026-09-18T21:00:00+09:00",
+      "published_display": "2026/09/18 21:00"
+    },
+    {
+      "id": "4a0e40fca38f",
+      "title": "AI標準化団体設立をめぐりザッカーバーグ＆マスク＆フアンがトランプ大統領とともに反対の方針で同調",
+      "title_ja": "AI標準化団体設立をめぐりザッカーバーグ＆マスク＆フアンがトランプ大統領とともに反対の方針で同調",
+      "url": "https://gigazine.net/news/20260918-trump-ai-regulation/",
+      "source": "GIGAZINE (AIタグ)",
+      "source_lang": "ja",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "Google DeepMindのデミス・ハサビスCEOが提唱した最先端AIを規制するための独立した標準化団体の設立について、Metaのマーク・ザッカーバーグCEOやSpaceXAIのイーロン・マスクCEO、NVIDIAのジェンスン・フアンCEOがトランプ大統領にロビー活動を行い、設立に反対する方向で同調していることがわかりました"
+      ],
+      "published_at": "2026-09-18T20:30:00+09:00",
+      "published_display": "2026/09/18 20:30"
+    },
+    {
+      "id": "8a14128e95c5",
+      "title": "World model companies are keeping a lot of secrets",
+      "title_ja": "World model companies are keeping a lot of secrets",
+      "url": "https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "category": "ビジネス・社会",
+      "summary_bullets": [
+        "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building"
+      ],
+      "published_at": "2026-09-18T20:18:14+00:00",
+      "published_display": "2026/09/19 05:18"
+    },
+    {
+      "id": "a7b300a4740a",
+      "title": "国連が「UN System Data Commons」を公開、約4400万件の統計データをAIから利用可能に",
+      "title_ja": "国連が「UN System Data Commons」を公開、約4400万件の統計データをAIから利用可能に",
+      "url": "https://gigazine.net/news/20260918-un-system-data-commons/",
+      "source": "GIGAZINE (AIタグ)",
+      "source_lang": "ja",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "国連システムは2026年9月17日、国連機関が公開している統計データをまとめて検索・利用できる「UN System Data Commons」を公開しました",
+        "26の国連機関が参加しており、公開時点で約4400万件のデータを収録",
+        "自然な文章で統計を検索できるほか、AIエージェントが国連の一次データを取得する仕組みも用意されています"
+      ],
+      "published_at": "2026-09-18T20:15:00+09:00",
+      "published_display": "2026/09/18 20:15"
+    },
+    {
+      "id": "ecb7209d3e2f",
+      "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
+      "title_ja": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
+      "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "category": "LLM・対話AI",
+      "summary_bullets": [
+        "Jev, a new kind of AI model, is showing developers a cheaper and faster path to software intelligence"
+      ],
+      "published_at": "2026-09-18T18:49:30+00:00",
+      "published_display": "2026/09/19 03:49"
+    },
+    {
+      "id": "fc9ab16d37a9",
+      "title": "生成AIで物議のレベルファイブ、東京ゲームショウ当日の様子は……現地を見てきた",
+      "title_ja": "生成AIで物議のレベルファイブ、東京ゲームショウ当日の様子は……現地を見てきた",
+      "url": "https://www.itmedia.co.jp/news/article/2609/18/2000001633/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "category": "画像・動画・音声",
+      "summary_bullets": [
+        "9月10日のオンライン発表会でAI生成動画を利用し、SNSで物議を醸したレベルファイブ",
+        "数日後に「東京ゲームショウ2026」（幕張メッセ）の開催を控えての炎上になったが、イベント当日の様子はどうか",
+        "現地を実際に見てきたので、写真を交えて紹介する"
+      ],
+      "published_at": "2026-09-18T16:52:09+09:00",
+      "published_display": "2026/09/18 16:52"
+    },
+    {
+      "id": "4981fa9a8961",
+      "title": "Anthropic、AI開発の26％を「Claudeが主導」　「1％未満」から半年で急拡大",
+      "title_ja": "Anthropic、AI開発の26％を「Claudeが主導」　「1％未満」から半年で急拡大",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/18/2000001634/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "category": "LLM・対話AI",
+      "summary_bullets": [
+        "同社のAIモデルの研究開発全体を100とした時、AIが主導する仕事が全体の26％を占めた",
+        "人間が細かく指示しながらAIと進める仕事と合わせると90％を超えた"
+      ],
+      "published_at": "2026-09-18T16:46:34+09:00",
+      "published_display": "2026/09/18 16:46"
+    },
+    {
+      "id": "152da95b4268",
+      "title": "「AirPods 5」のワイヤレス充電ケース付き上位モデルをフォトレビュー、軸をスワイプしてコントロールする機能もあり",
+      "title_ja": "「AirPods 5」のワイヤレス充電ケース付き上位モデルをフォトレビュー、軸をスワイプしてコントロールする機能もあり",
+      "url": "https://gigazine.net/news/20260918-airpods-5-wireless-charging-case/",
+      "source": "GIGAZINE (AIタグ)",
+      "source_lang": "ja",
+      "category": "ツール・活用",
+      "summary_bullets": [
+        "Apple純正のアクティブノイズキャンセリング機能搭載オープンイヤー型ワイヤレスイヤホン「AirPods 5」が2026年9月18日に登場しました",
+        "AirPods 5には軸スワイプによる音量調整機能搭載・バッテリー強化・ワイヤレス充電対応の充電ケースを備えた上位モデルも用意されており、実際に注文してゲットすることができたので、まずは実物の外観をチェックしてみました"
+      ],
+      "published_at": "2026-09-18T16:42:00+09:00",
+      "published_display": "2026/09/18 16:42"
+    },
+    {
+      "id": "e5247943feac",
+      "title": "AI同士に共同作業をさせたら人間には読めない「独自言語」を生み出して会話し始める現象が観測される",
+      "title_ja": "AI同士に共同作業をさせたら人間には読めない「独自言語」を生み出して会話し始める現象が観測される",
+      "url": "https://gigazine.net/news/20260918-ai-agent-evolve-language/",
+      "source": "GIGAZINE (AIタグ)",
+      "source_lang": "ja",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "複数のAIエージェントに共同作業を繰り返させたところ、最初は普通の英語で会話していたAIが独自の略語や規則を作り、最終的には人間が見ても意味を理解しにくい文字列で通信するようになったことが報告されました"
+      ],
+      "published_at": "2026-09-18T16:15:00+09:00",
+      "published_display": "2026/09/18 16:15"
+    },
+    {
+      "id": "13a5f8e32c07",
+      "title": "New experts join Google’s AI & Economy team",
+      "title_ja": "New experts join Google’s AI & Economy team",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "source": "Google AI Blog",
+      "source_lang": "en",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner"
+      ],
+      "published_at": "2026-09-18T14:00:00+00:00",
+      "published_display": "2026/09/18 23:00"
+    },
+    {
+      "id": "b40e624e815d",
+      "title": "Co-creating the future of fashion with Google",
+      "title_ja": "Co-creating the future of fashion with Google",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "source": "Google AI Blog",
+      "source_lang": "en",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "Jane Wade and Sergio Hudson"
+      ],
+      "published_at": "2026-09-18T13:00:00+00:00",
+      "published_display": "2026/09/18 22:00"
+    },
+    {
+      "id": "daed91a2641e",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "title_ja": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "source": "OpenAI Blog",
+      "source_lang": "en",
+      "category": "LLM・対話AI",
+      "summary_bullets": [
+        "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people"
+      ],
+      "published_at": "2026-09-18T12:00:00+00:00",
+      "published_display": "2026/09/18 21:00"
+    },
+    {
+      "id": "7c254d2f454d",
+      "title": "Could AI really kill us all? Your questions, answered.",
+      "title_ja": "Could AI really kill us all? Your questions, answered.",
+      "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
+      "source": "MIT Technology Review (AI)",
+      "source_lang": "en",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all",
+        "But attendees had so many more questions than we had time to answer in the 30 minute session",
+        "So we asked our senior AI editor Will Douglas Heaven and…"
+      ],
+      "published_at": "2026-09-18T11:29:22+00:00",
+      "published_display": "2026/09/18 20:29"
+    },
+    {
+      "id": "f1ac8a08c54a",
+      "title": "散在する“29万ファイル”をAmazon S3に集約、「AIに聞くだけ」で検索可能に――AWSはどう実現？",
+      "title_ja": "散在する“29万ファイル”をAmazon S3に集約、「AIに聞くだけ」で検索可能に――AWSはどう実現？",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/18/news025.html",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "category": "ビジネス・社会",
+      "summary_bullets": [
+        "社内のさまざまなシステムに散在するデータを、AIで横断的に検索、分析できるようにするにはどうすればいいのか",
+        "AWSが航空業界を題材に、約29万ファイルを使ったレファレンス実装を公開した"
+      ],
+      "published_at": "2026-09-18T11:00:00+09:00",
+      "published_display": "2026/09/18 11:00"
+    },
+    {
+      "id": "87ee515b4c59",
+      "title": "Making global data easier to explore",
+      "title_ja": "Making global data easier to explore",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "source": "Google AI Blog",
+      "source_lang": "en",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "UN System Data Commons Data webpage"
+      ],
+      "published_at": "2026-09-17T20:00:00+00:00",
+      "published_display": "2026/09/18 05:00"
+    },
+    {
+      "id": "54b4218ee561",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "title_ja": "How Cooley is accelerating IPO work with ChatGPT",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "source": "OpenAI Blog",
+      "source_lang": "en",
+      "category": "LLM・対話AI",
+      "summary_bullets": [
+        "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most"
+      ],
+      "published_at": "2026-09-17T12:00:00+00:00",
+      "published_display": "2026/09/17 21:00"
+    },
+    {
+      "id": "089091b47dae",
+      "title": "Introducing Astra for Law",
+      "title_ja": "Introducing Astra for Law",
+      "url": "https://openai.com/index/astra-for-law",
+      "source": "OpenAI Blog",
+      "source_lang": "en",
+      "category": "LLM・対話AI",
+      "summary_bullets": [
+        "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work"
+      ],
+      "published_at": "2026-09-17T00:00:00+00:00",
+      "published_display": "2026/09/17 09:00"
+    },
+    {
+      "id": "987f52412355",
+      "title": "Our framework for reporting model misalignment",
+      "title_ja": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "source": "OpenAI Blog",
+      "source_lang": "en",
+      "category": "LLM・対話AI",
+      "summary_bullets": [
+        "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior"
+      ],
+      "published_at": "2026-09-16T17:00:00+00:00",
+      "published_display": "2026/09/17 02:00"
+    },
+    {
+      "id": "315829646d6c",
+      "title": "Helping older adults use AI in everyday life",
+      "title_ja": "Helping older adults use AI in everyday life",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "source": "OpenAI Blog",
+      "source_lang": "en",
+      "category": "LLM・対話AI",
+      "summary_bullets": [
+        "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U",
+        "cities to build practical AI skills safely"
+      ],
+      "published_at": "2026-09-16T16:00:00+00:00",
+      "published_display": "2026/09/17 01:00"
+    },
+    {
+      "id": "db9a07912e24",
+      "title": "Reimagining advertising with AI",
+      "title_ja": "Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "source": "OpenAI Blog",
+      "source_lang": "en",
+      "category": "ツール・活用",
+      "summary_bullets": [
+        "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify"
+      ],
+      "published_at": "2026-09-16T13:00:00+00:00",
+      "published_display": "2026/09/16 22:00"
+    },
+    {
+      "id": "86a49d8ae521",
+      "title": "Building the materials foundation for AI",
+      "title_ja": "Building the materials foundation for AI",
+      "url": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+      "source": "MIT Technology Review (AI)",
+      "source_lang": "en",
+      "category": "ツール・活用",
+      "summary_bullets": [
+        "The AI boom is becoming a materials challenge",
+        "As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it",
+        "Semiconductors and data centers are approaching physical limits around performance, thermal management, electrical efficiency, and reliability, creating new demands for materials that can do…"
+      ],
+      "published_at": "2026-09-16T12:47:34+00:00",
+      "published_display": "2026/09/16 21:47"
+    },
+    {
+      "id": "f1ba013fd461",
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "title_ja": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "url": "https://openai.com/index/hex-gpt-6-astra",
+      "source": "OpenAI Blog",
+      "source_lang": "en",
+      "category": "LLM・対話AI",
+      "summary_bullets": [
+        "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share"
+      ],
+      "published_at": "2026-09-16T12:00:00+00:00",
+      "published_display": "2026/09/16 21:00"
+    },
+    {
+      "id": "a97be59c3238",
+      "title": "How to connect AI usage to business value",
+      "title_ja": "How to connect AI usage to business value",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "source": "OpenAI Blog",
+      "source_lang": "en",
+      "category": "LLM・対話AI",
+      "summary_bullets": [
+        "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes"
+      ],
+      "published_at": "2026-09-16T12:00:00+00:00",
+      "published_display": "2026/09/16 21:00"
+    },
+    {
+      "id": "44ce86077a91",
+      "title": "Roundtables: Could AI really kill us all?",
+      "title_ja": "Roundtables: Could AI really kill us all?",
+      "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
+      "source": "MIT Technology Review (AI)",
+      "source_lang": "en",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "Listen to the session or watch below Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity",
+        "Are they right",
+        "Or is this more scaremongering and hype"
+      ],
+      "published_at": "2026-09-15T17:47:51+00:00",
+      "published_display": "2026/09/16 02:47"
+    },
+    {
+      "id": "38e8c7bd8c95",
+      "title": "AI for Societal Impact",
+      "title_ja": "AI for Societal Impact",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "source": "Google AI Blog",
+      "source_lang": "en",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI"
+      ],
+      "published_at": "2026-09-15T16:00:00+00:00",
+      "published_display": "2026/09/16 01:00"
+    },
+    {
+      "id": "e6d3cf49d14c",
+      "title": "Building AI to accelerate science and improve lives",
+      "title_ja": "Building AI to accelerate science and improve lives",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+      "source": "Google AI Blog",
+      "source_lang": "en",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "B-roll showing diverse environments and people, including a teacher and students in a classroom and a patient with a doctor"
+      ],
+      "published_at": "2026-09-15T16:00:00+00:00",
+      "published_display": "2026/09/16 01:00"
+    },
+    {
+      "id": "05a7da44e5aa",
+      "title": "AI for everyone in every language",
+      "title_ja": "AI for everyone in every language",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "source": "Google AI Blog",
+      "source_lang": "en",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "Animation of several words in different languages slowly zooming past"
+      ],
+      "published_at": "2026-09-15T16:00:00+00:00",
+      "published_display": "2026/09/16 01:00"
+    },
+    {
+      "id": "60843d1919d5",
+      "title": "New insights from Google’s AI & Economy ATLAS",
+      "title_ja": "New insights from Google’s AI & Economy ATLAS",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "source": "Google AI Blog",
+      "source_lang": "en",
+      "category": "研究・テクノロジー",
+      "summary_bullets": [
+        "Text \"AI & Economy Atlas v1",
+        "0 2026\" with the Google G and a spinning globe illustration"
+      ],
+      "published_at": "2026-09-15T13:00:00+00:00",
+      "published_display": "2026/09/15 22:00"
+    }
+  ]
+}
