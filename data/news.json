@@ -1,12 +1,82 @@
 {
-  "updated_at": "2026/10/17 09:14 (JST)",
+  "updated_at": "2026/10/18 08:53 (JST)",
   "total_count": 65,
   "articles": [
     {
-      "id": "e96090cdf9c5",
-      "title": "「AI以外ありえない」サイバー攻撃、無差別に会員情報サイト狙う - 日本経済新聞",
-      "title_ja": "「AI以外ありえない」サイバー攻撃、無差別に会員情報サイト狙う - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOCD158220V11C26A0000000/",
+      "id": "a3903a9b8bdd",
+      "title": "「11回止めたのに本番DBが消えた」　AIエージェント“6つの暴走”と、人間の承認を増やしても防げない理由",
+      "title_ja": "「11回止めたのに本番DBが消えた」　AIエージェント“6つの暴走”と、人間の承認を増やしても防げない理由",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/18/news004.html",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "AIコーディングエージェントの自律性が高まる一方、本番データベースの削除といった事故も起こっています",
+        "では、「人間の承認」を増やせば事故は防げるのでしょうか",
+        "事例と対策から、事故を起こさないAIエージェントの設計について考えます"
+      ],
+      "published_at": "2026-10-18T08:00:00+09:00",
+      "published_display": "2026/10/18 08:00"
+    },
+    {
+      "id": "25441f41a991",
+      "title": "無料オープンソースオフィススイート「ibisOffice」をibisPaint開発元がリリース、ブラウザまたはWindows・Mac版アプリでWord・Excel・PowerPointファイルの閲覧と編集が可能",
+      "title_ja": "無料オープンソースオフィススイート「ibisOffice」をibisPaint開発元がリリース、ブラウザまたはWindows・Mac版アプリでWord・Excel・PowerPointファイルの閲覧と編集が可能",
+      "url": "https://gigazine.net/news/20261017-ibisOffice/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "基本無料のイラスト制作アプリ「アイビスペイント(ibisPaint)」で知られるibisWorksが、Microsoft Officeファイル形式を編集できる無料オープンソースオフィススイート「ibisOffice」をリリースしました"
+      ],
+      "published_at": "2026-10-17T23:00:00+09:00",
+      "published_display": "2026/10/17 23:00"
+    },
+    {
+      "id": "def07ba8adef",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "title_ja": "Metaは、スクレイピングとAIトレーニングの懸念を引き起こす言語を削除します",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Metaの広報担当者は、更新された規約はMetaがウェブをクロールする方法の変更を反映していないと主張しました"
+      ],
+      "published_at": "2026-10-17T21:31:32+00:00",
+      "published_display": "2026/10/18 06:31"
+    },
+    {
+      "id": "62cb44fe164f",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "title_ja": "Anthropicによると、同社の従業員は年下ではなくなり、会議により多くの時間を費やしているという。",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Anthropicの従業員の構成と仕事の種類は、過去1年間で大幅に変化しました"
+      ],
+      "published_at": "2026-10-17T20:21:19+00:00",
+      "published_display": "2026/10/18 05:21"
+    },
+    {
+      "id": "52d05e3cc606",
+      "title": "「AIに頼らずいろんな絵柄やタッチを再現して描いた絵を見てくれ」『しかるねこ』作者が9年前に描いた16枚のそれぞれ違った作風のサーバルちゃんの模写アレンジ絵がスゴい",
+      "title_ja": "「AIに頼らずいろんな絵柄やタッチを再現して描いた絵を見てくれ」『しかるねこ』作者が9年前に描いた16枚のそれぞれ違った作風のサーバルちゃんの模写アレンジ絵がスゴい",
+      "url": "https://togetter.com/li/2759529",
       "source": "はてなブックマーク (AI人気)",
       "source_lang": "ja",
       "is_foreign": false,
@@ -14,18 +84,92 @@
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "サイバー攻撃による個人情報の流出が連日報じられ、異常とも言える状況に専門家は調査を続けている",
-        "見えてきたのが、これまで攻撃者が見向きもしなかった組織まで片っ端から狙われ、安全と思われたスマートフォンのアプリにまで被害が広がっている現実だ",
-        "人でも、ツールでもない何かに「気持ち悪さ」「人でもない、ツ"
+        "もじゃクッキー @mojacookie 【11/14(土)15(日)デザインフェスタVol",
+        "64/G-74】 イラストレーター/Web漫画家 「しかるねこ」(@shikaruneko)「ヒヨハリ",
+        "」(@hiyohari)「ちょっぴりおしゃべりで、ちょっぴり個性的などうぶつさんたち」 アニポケ公式Xでイラスト連載中 連絡先▷ctc@mojacookie"
       ],
-      "published_at": "2026-10-16T23:20:09+00:00",
-      "published_display": "2026/10/17 08:20"
+      "published_at": "2026-10-17T19:59:13+00:00",
+      "published_display": "2026/10/18 04:59"
     },
     {
-      "id": "b3034ff770f3",
-      "title": "画像生成AIの愉しみ。夕陽の窓辺で、マユミがボクに笑ってくれました - Quadro Diary 生成AI 過去日記",
-      "title_ja": "画像生成AIの愉しみ。夕陽の窓辺で、マユミがボクに笑ってくれました - Quadro Diary 生成AI 過去日記",
-      "url": "https://quadro.hateblo.jp/entry/2026/10/17/060000",
+      "id": "e41c9ef4d5ab",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "title_ja": "最高経営責任者（ CEO ）によると、ReplitはOpenAIをAnthropicよりもデフォルトにしている",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "週末にMasadは、OpenAIがAnthropicをデフォルトのモデルプロバイダに置き換えることを明らかにしました",
+        "Claudeは引き続きプラットフォーム上のお客様にご利用いただけます"
+      ],
+      "published_at": "2026-10-17T18:48:08+00:00",
+      "published_display": "2026/10/18 03:48"
+    },
+    {
+      "id": "902b57052f2c",
+      "title": "「そもそも親にAIなんて必要ない」　65歳以上の生成AI利用、子世代の7割が拒否する理由",
+      "title_ja": "「そもそも親にAIなんて必要ない」　65歳以上の生成AI利用、子世代の7割が拒否する理由",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/17/news007.html",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "SHIFT AIが65歳以上の親を持つ全国の30～50代男女723人を対象とした「シニア×AIの意識調査」の結果を発表",
+        "親に生成AIを使ってほしくない子世代が69",
+        "3％に達したという結果とともに、その理由や自身の利用頻度、親に教える際の障壁などを示した"
+      ],
+      "published_at": "2026-10-17T17:00:00+09:00",
+      "published_display": "2026/10/17 17:00"
+    },
+    {
+      "id": "0ffc26076ef7",
+      "title": "マユミ大喜び！ベイスターズ日本シリーズ決定。ホークスファンのボクとの夫婦対決が始まります！ - Quadro Diary 生成AI 過去日記",
+      "title_ja": "マユミ大喜び！ベイスターズ日本シリーズ決定。ホークスファンのボクとの夫婦対決が始まります！ - Quadro Diary 生成AI 過去日記",
+      "url": "https://quadro.hateblo.jp/entry/yakyuu03",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "ベイスターズ日本シリーズ決定",
+        "マユミ、大喜び ホークス対ベイスターズ、まさかの夫婦対決 2年前の悔しさを晴らすとき 今年こそ、ホークスに勝ってほしい 2026年、セ・リーグ下剋上、ベイスターズ日本シリーズ決定 ベイスターズ日本シリーズ決定",
+        "マユミ、大喜び テレビの前で、マユミが飛び跳ねていました"
+      ],
+      "published_at": "2026-10-17T16:49:46+00:00",
+      "published_display": "2026/10/18 01:49"
+    },
+    {
+      "id": "5a9e3a5220ed",
+      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "title_ja": "Metaは、ニュースサイトをスクレイピングすることを可能にした可能性のある言語を削除します",
+      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "source": "The Verge (AI)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "反発の後、MetaはAIを訓練するためにニュースサイトを含むサイトからコンテンツをスクレイピングする可能性があることを示唆する言語を削除するために、条件を再度更新しています",
+        "具体的には、商用利用規約ページに次の言語が表示されなくなりました。… Metaは、そのようなドメイン、Webページ、またはURLからのコンテンツを使用して、提供、開発、改善、[…]"
+      ],
+      "published_at": "2026-10-17T11:04:36-04:00",
+      "published_display": "2026/10/18 00:04"
+    },
+    {
+      "id": "cbc1140a1817",
+      "title": "すべてのAIコーディングエージェントのコストを閲覧・検索・追跡しローカルで動作する「AgentsView」、Claude Code・Codex・Cursor・Copilot・Geminiなど60種類以上のエージェントを自動検出し全文検索も可能",
+      "title_ja": "すべてのAIコーディングエージェントのコストを閲覧・検索・追跡しローカルで動作する「AgentsView」、Claude Code・Codex・Cursor・Copilot・Geminiなど60種類以上のエージェントを自動検出し全文検索も可能",
+      "url": "https://gigazine.net/news/20261017-agentsview/",
       "source": "はてなブックマーク (AI人気)",
       "source_lang": "ja",
       "is_foreign": false,
@@ -33,17 +177,36 @@
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "陽だまりの窓辺で、マユミがボクに微笑んでくれた",
-        "ImageFXで一から積み重ねたマユミ 好みの一枚に出会えた喜び 文字で読む物語から始まった ImageFXの終了と、Geminiでの試行錯誤 あの頃のマユミが出てこなくなって 本物のマユミを少しだけ取り入れて これからの画像生成AIの愉しみ 読者のみなさんと一緒に待ちたい笑"
+        "Claude CodeやCodexなどを並行して利用すると、どのAIコーディングエージェントやモデルへどれだけトークンを使ったのか全体像を把握しにくくなります",
+        "そこで使えるのが複数のエージェントのローカル履歴を自動収集し、モデル別・日別・セッション別の利用量やAPI料金換算のコストをまとめて確認できる「AgentsView」で"
       ],
-      "published_at": "2026-10-16T22:42:11+00:00",
-      "published_display": "2026/10/17 07:42"
+      "published_at": "2026-10-17T09:27:07+00:00",
+      "published_display": "2026/10/17 18:27"
     },
     {
-      "id": "736ec265de00",
-      "title": "3社に1社がトークン予算超過　コスト増を最大44％抑える方法とは【アクセンチュア調査】 - Infoseek",
-      "title_ja": "3社に1社がトークン予算超過　コスト増を最大44％抑える方法とは【アクセンチュア調査】 - Infoseek",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZTHhVODRSbTRVamMzelNpYVlhWmZSTUI4MW9jUTZKWU8xZHA4U01XeFphX3pyXzNmSU4tRW9XLUtGSDc0RkVkTm1lQ2U0Tm95SlBKRzN2N1JOM04tM2taSDZuUUR4cUlyakI2d243Zi0yZTZiRUHSAXtBVV95cUxPRU84UDdwZlF2d3g4M0ZpOFVONTRLc01wcldRaHl6REktUGU3azI0VUs0YjRvcHY3cVUwNTdXMFo5WlE3WDIzc1doeERKbHJsalVFMXRpX0NIeFFEMTRON012OXVpQU5zcFFpbmJDNUp3cXEtNkRxaGVjOVk?oc=5",
+      "id": "7887bcca79ac",
+      "title": "Websites are closing their doors to AI agents",
+      "title_ja": "ウェブサイトはAIエージェントに門戸を閉ざしています",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "source": "The Verge (AI)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "自律エージェントはAIで最もホットなものです",
+        "OpenAI、Meta、Google、Instinctなどは、ディナーの予約や受信トレイの清掃から新しい靴の購入まで、エージェントがあなたに代わってインターネットを検索できることを約束します",
+        "しかし、インターネットの残りの部分がうまくいかないとどうなりますか"
+      ],
+      "published_at": "2026-10-17T09:00:00-04:00",
+      "published_display": "2026/10/17 22:00"
+    },
+    {
+      "id": "fb9bf53c4ce5",
+      "title": "アクセンチュアがClaude予算を月29ドルに制限、Xでは「オヤツみたいな予算」の声 - shiritomo",
+      "title_ja": "アクセンチュアがClaude予算を月29ドルに制限、Xでは「オヤツみたいな予算」の声 - shiritomo",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE41S1BpYThOSm55LWEzVHdyRlhqY2pFNm80cHF4YWRsbGY0NUpweVIyOXpHUnl1WlZzLW9GZV9IVlZwQQ?oc=5",
       "source": "パートナー動向 (Accenture / Deloitte / NRI)",
       "source_lang": "ja",
       "is_foreign": false,
@@ -53,28 +216,142 @@
       ],
       "is_partner_related": true,
       "summary_bullets": [
-        "3社に1社がトークン予算超過 コスト増を最大44％抑える方法とは【アクセンチュア調査】 Infoseek"
+        "アクセンチュアがClaude予算を月29ドルに制限、Xでは「オヤツみたいな予算」の声 shiritomo"
       ],
-      "published_at": "2026-10-16T22:00:15+00:00",
-      "published_display": "2026/10/17 07:00"
+      "published_at": "2026-10-17T08:25:32+00:00",
+      "published_display": "2026/10/17 17:25"
     },
     {
-      "id": "7f219fce9e20",
-      "title": "Replit is no longer working with Anthropic, CEO says",
-      "title_ja": "最高経営責任者（ CEO ）によると、ReplitはもはやAnthropicと連携していない",
-      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
+      "id": "b141914c7e6c",
+      "title": "NRIセキュア、AI駆動開発向けセキュリティ支援を開始 AIエージェントの権限管理も（ビジネス＋IT） - Yahoo!ニュース",
+      "title_ja": "NRIセキュア、AI駆動開発向けセキュリティ支援を開始 AIエージェントの権限管理も（ビジネス＋IT） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqOTJKN2kzaEJlV1JXVnFRZE9qeGFVRG1DNEI0dHBoZ3N2MGR0Z0xsWHBUbmpqZVc2d04ySWY0ZnliM0JNNi1Kc0RBT2tVZWxaRlpRdXhJbUY5ck0tLWtJN19NU1FQMXQyVjJPUjN5V083R2dIbGd5RnMtcy16djA?oc=5",
+      "source": "パートナー動向 (Accenture / Deloitte / NRI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [
+        "NRI"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "NRIセキュア、AI駆動開発向けセキュリティ支援を開始 AIエージェントの権限管理も（ビジネス＋IT） Yahoo"
+      ],
+      "published_at": "2026-10-17T07:45:06+00:00",
+      "published_display": "2026/10/17 16:45"
+    },
+    {
+      "id": "7ae98f8c4098",
+      "title": "iPhone/iPad用ローカルAIクライアント「Locally AI」がTernary Bonsai 2モデルやM5 Neural Acceleratorsに対応。",
+      "title_ja": "iPhone/iPad用ローカルAIクライアント「Locally AI」がTernary Bonsai 2モデルやM5 Neural Acceleratorsに対応。",
+      "url": "https://applech2.com/archives/20261016-locally-ai-support-m5-neural-accelerators.html",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "iPhone/iPadに対応したローカルAIクライアント「Locally AI」がTernary Bonsai 2モデルやM5 Neural Acceleratorsに対応しています",
+        "元AppleエンジニアだったYagil Burowskiさん設立したElement Labs, Inc",
+        "は現地時間2026年10月15日、同社が開発するLM Studioのモバイルクライアント「Locally AI」の最"
+      ],
+      "published_at": "2026-10-17T06:50:18+00:00",
+      "published_display": "2026/10/17 15:50"
+    },
+    {
+      "id": "c9ec6a5fe631",
+      "title": "AI駆動PMの組織でのはじめかた｜すぅ | AI駆動PM",
+      "title_ja": "AI駆動PMの組織でのはじめかた｜すぅ | AI駆動PM",
+      "url": "https://note.com/suh_sunaneko/n/n23ed6981ff6a",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "「プロジェクトでAIを使っていきたい」という相談を、ここ1年で何度も受けてきました",
+        "自分が担当しているプロジェクトでもやってきました",
+        "分かったのは、だいたい同じ場所で止まるということです"
+      ],
+      "published_at": "2026-10-17T04:12:34+00:00",
+      "published_display": "2026/10/17 13:12"
+    },
+    {
+      "id": "1f59a5e2a685",
+      "title": "OpenAIの暴走AI、政府サイトの病床データ24年分を無断取得　他人の仮想通貨で支払い、新たに4件（平和博） - エキスパート - Yahoo!ニュース",
+      "title_ja": "OpenAIの暴走AI、政府サイトの病床データ24年分を無断取得　他人の仮想通貨で支払い、新たに4件（平和博） - エキスパート - Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/expert/articles/5e8495cadb5412ac2ca85a7253509eadf5360471",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
       "category": "🤖 他社LLM・フロンティア",
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "マサド氏は、この決定はコストを含むさまざまな理由で行われたと述べた",
-        "Replitは8月にOpenAIとの提携を発表しましたが、Anthropicとの提携が終了した兆候はありませんでした"
+        "暴走AIエージェントが、政府サイトのアクセス制限を回避して24年分の病床データを無断で取得し、別の事例では他人の仮想通貨ウォレットから勝手に手数料を支払っていた――",
+        "オープンAIは10月15日、新たに4件のAI暴走事例を公表した",
+        "いずれも6月に発生し、うち2件は「重大」とされた"
       ],
-      "published_at": "2026-10-16T21:22:28+00:00",
-      "published_display": "2026/10/17 06:22"
+      "published_at": "2026-10-17T04:03:08+00:00",
+      "published_display": "2026/10/17 13:03"
+    },
+    {
+      "id": "c52090211d40",
+      "title": "AnthropicのAI時代のコードレビュー術 - Claude Codeによる自動レビューと人間の役割｜npaka",
+      "title_ja": "AnthropicのAI時代のコードレビュー術 - Claude Codeによる自動レビューと人間の役割｜npaka",
+      "url": "https://note.com/npaka/n/ndb4b0f424ced",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "はじめに2026年10月、Anthropicは「How the Claude Code team does code review」という技術記事を公開しました",
+        "この記事では、AIによるコード生成が急増する中、Anthropicがどのようにコードレビューを自動化し、品質と開発速度を両立しているのかを紹介しています",
+        "Anthropicでは、Claude Code自身のコードの約9"
+      ],
+      "published_at": "2026-10-17T02:09:01+00:00",
+      "published_display": "2026/10/17 11:09"
+    },
+    {
+      "id": "8b182431c9f7",
+      "title": "600年間、誰も読めない奇書「ヴォイニッチ手稿」最新AIで判明した驚きの真実（ビジネス＋IT） - Yahoo!ニュース",
+      "title_ja": "600年間、誰も読めない奇書「ヴォイニッチ手稿」最新AIで判明した驚きの真実（ビジネス＋IT） - Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/articles/841a5ef31c84104ce9dcc6f39e6bf62c898077ae",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "（写真：ビジネス+IT）（ビジネス+IT） 約600年前に作られた、世界で最も謎めいた本「ヴォイニッチ手稿」",
+        "そこには地球上に存在するのかさえ分からない植物、奇妙な天体図、緑色の液体に浸かる裸の女性たちが描かれ、本文は誰も読めない未知の文字で埋め尽くされている",
+        "世界最高峰の暗号解読者たちが挑んでも解けなか"
+      ],
+      "published_at": "2026-10-17T01:47:29+00:00",
+      "published_display": "2026/10/17 10:47"
+    },
+    {
+      "id": "5ada7eae4dd6",
+      "title": "Perplexityが安全な自律型AIエージェント構築支援のためサンドボックスプラットフォーム「SPACE」をオープンソース化",
+      "title_ja": "Perplexityが安全な自律型AIエージェント構築支援のためサンドボックスプラットフォーム「SPACE」をオープンソース化",
+      "url": "https://gigazine.net/news/20261016-perplexity-space/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "パーソナルエージェント分野の先駆者を標榜するPerplexityが、開発者がより安全なエージェントシステムを構築するための基盤を提供し、業界全体で保護体制を強化していくため、サンドボックスプラットフォーム「SPACE」をオープンソース化すると発表しました",
+        "Open-sourcing SPACE, the sandbox platform behind Comput"
+      ],
+      "published_at": "2026-10-16T21:30:00+09:00",
+      "published_display": "2026/10/16 21:30"
     },
     {
       "id": "26aa48e30255",
@@ -128,6 +405,25 @@
       ],
       "published_at": "2026-10-16T19:00:00+00:00",
       "published_display": "2026/10/17 04:00"
+    },
+    {
+      "id": "c6c5c4613b82",
+      "title": "AIエージェントの危険な操作を別のAIが検出してブロックする「Armor」をOpenRouterがリリース",
+      "title_ja": "AIエージェントの危険な操作を別のAIが検出してブロックする「Armor」をOpenRouterがリリース",
+      "url": "https://gigazine.net/news/20261016-openrouter-armor/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "複数のAIモデルを利用できるサービス「OpenRouter」が、AIエージェントによる危険なツールの実行を防ぐ新機能「Armor」をリリースしました",
+        "ArmorはAIエージェントが実行しようとする操作を別のAIモデルで事前にチェックし、設定されたルールに違反する操作を自動的にブロックする機能です",
+        "記事作成時点ではベータ版と"
+      ],
+      "published_at": "2026-10-16T18:51:00+09:00",
+      "published_display": "2026/10/16 18:51"
     },
     {
       "id": "a482e3940d72",
@@ -206,6 +502,25 @@
       "published_display": "2026/10/17 02:00"
     },
     {
+      "id": "25a6cdcb072d",
+      "title": "亡くなった母親が残した古い写真を読み取るためAIでフィルムスキャナー用のドライバーを自作",
+      "title_ja": "亡くなった母親が残した古い写真を読み取るためAIでフィルムスキャナー用のドライバーを自作",
+      "url": "https://gigazine.net/news/20261016-using-ai-reverse-engineer-hardware/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Red Hatのエンジニアリング・ディレクターを務めるクリスチャン・F・K・シャラー氏が、古い写真のネガフィルムをスキャンするために「AIでドライバーを自作した」と報告しています",
+        "Using Artificial Intelligence to reverse engineer hardware | Christian F",
+        "Schaller https://blogs"
+      ],
+      "published_at": "2026-10-16T16:36:00+09:00",
+      "published_display": "2026/10/16 16:36"
+    },
+    {
       "id": "8b0b9dcdb168",
       "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
       "title_ja": "NVIDIAのインサイダーが、なぜロボット工学がChatGPTの瞬間をまだ打っていないのかについてのVCに変わった",
@@ -257,6 +572,27 @@
       ],
       "published_at": "2026-10-16T16:01:37+00:00",
       "published_display": "2026/10/17 01:01"
+    },
+    {
+      "id": "96bfbf3d64b0",
+      "title": "What’s new with Google Cloud",
+      "title_ja": "Google Cloudの新機能",
+      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+      "source": "Google Cloud Blog (公式)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "✨ Gemini・Google AI",
+      "partner_tags": [
+        "Google Cloud"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "Google Cloudの最新情報を知りたい",
+        "1つの便利な場所でここにあります",
+        "最新のアップデート、お知らせ、リソース、イベント、学習機会などを定期的に確認してください"
+      ],
+      "published_at": "2026-10-16T16:00:00+00:00",
+      "published_display": "2026/10/17 01:00"
     },
     {
       "id": "33e3680b6cb9",
@@ -343,27 +679,6 @@
       "published_display": "2026/10/17 01:00"
     },
     {
-      "id": "96bfbf3d64b0",
-      "title": "What’s new with Google Cloud",
-      "title_ja": "Google Cloudの新機能",
-      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "source": "Google Cloud Blog (公式)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "✨ Gemini・Google AI",
-      "partner_tags": [
-        "Google Cloud"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "Google Cloudの最新情報を知りたい",
-        "1つの便利な場所でここにあります",
-        "最新のアップデート、お知らせ、リソース、イベント、学習機会などを定期的に確認してください"
-      ],
-      "published_at": "2026-10-16T16:00:00+00:00",
-      "published_display": "2026/10/17 01:00"
-    },
-    {
       "id": "b905ada07bcd",
       "title": "Jev is Vercel’s fastest-adopted AI model ever",
       "title_ja": "Jevは、Vercelがこれまでに採用した最速のAIモデルです",
@@ -418,42 +733,6 @@
       "published_display": "2026/10/16 15:00"
     },
     {
-      "id": "8bcdebce7a65",
-      "title": "NVIDIAがAIエージェントによるタスクをローカルで実行するための「Nemotron 3.5 Bolt 74B-A9B 24GB」を発表",
-      "title_ja": "NVIDIAがAIエージェントによるタスクをローカルで実行するための「Nemotron 3.5 Bolt 74B-A9B 24GB」を発表",
-      "url": "https://gigazine.net/news/20261016-nvidia-nemotron-3-5-bolt-74b-a9b-24gb/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "現地時間の2026年10月15日、NVIDIAが日常的なAIエージェントのタスクをローカルで実行するために設計された「Nemotron 3",
-        "5 Bolt 74B-A9B 24GB」を公開しました",
-        "MoEを採用し、MambaとTransformerという2つのモデル構造を組み合わせたAIモデルとなっており、ローカルで実行しながら他のアプリケーションを同時に動作させることができるほど軽量です"
-      ],
-      "published_at": "2026-10-16T14:40:00+09:00",
-      "published_display": "2026/10/16 14:40"
-    },
-    {
-      "id": "c1f17da6006d",
-      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
-      "title_ja": "マーク・ウォールバーグは、映画でAIを「正しい方法」で使用し、彼の遺産を引き継ぐAIクローンに開かれている",
-      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "俳優でエンジェル投資家のマーク・ウォールバーグは、「あなたがしていることを強化するために」使用されていれば、映画制作でAIを使用しても構わないと言います"
-      ],
-      "published_at": "2026-10-16T14:26:51+00:00",
-      "published_display": "2026/10/16 23:26"
-    },
-    {
       "id": "d0337a8d56e9",
       "title": "不正アクセス多発、Gartnerが日本企業に「7つのアクション」を緊急提言",
       "title_ja": "不正アクセス多発、Gartnerが日本企業に「7つのアクション」を緊急提言",
@@ -489,168 +768,6 @@
       ],
       "published_at": "2026-10-16T14:14:11+09:00",
       "published_display": "2026/10/16 14:14"
-    },
-    {
-      "id": "8e05d4a72f0c",
-      "title": "Qwen3.8-27Bを約7分の1に圧縮しノートPCで動くLLM「Saluki 27B」、画像と音声にも対応した判断特化型AIファミリー「Open d1」など生成AI技術5つを解説（生成AIウィークリー） | テクノエッジ TechnoEdge",
-      "title_ja": "Qwen3.8-27Bを約7分の1に圧縮しノートPCで動くLLM「Saluki 27B」、画像と音声にも対応した判断特化型AIファミリー「Open d1」など生成AI技術5つを解説（生成AIウィークリー） | テクノエッジ TechnoEdge",
-      "url": "https://www.techno-edge.net/article/2026/10/16/5596.html",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "✨ Gemini・Google AI",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "この1週間の気になる生成AI技術・研究をいくつかピックアップして解説する今回の「生成AIウィークリー」（第163回）は、Google開発のマルチモーダル埋め込みAIモデル「EmbeddingGemma 2」や、Qwen3",
-        "8-27Bを約8GBに圧縮した軽量モデル「Saluki 27B」を取り上げます",
-        "画像と音声にも対応した判断特化型AIファミリー「Open"
-      ],
-      "published_at": "2026-10-16T14:01:13+00:00",
-      "published_display": "2026/10/16 23:01"
-    },
-    {
-      "id": "f753c079a6b6",
-      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
-      "title_ja": "ベリタス、偽造防止チップをジュエリー、トロフィー、フレグランスボトルに拡大",
-      "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "偽造者は、ブランドの商標を複製し、「スーパーフェイク」として知られる偽物を本物の商品として偽装することがますますうまくなっています",
-        "Veritasと呼ばれるスタートアップは、商品を検証する独自のチップで問題に取り組みたいと考えています"
-      ],
-      "published_at": "2026-10-16T14:00:00+00:00",
-      "published_display": "2026/10/16 23:00"
-    },
-    {
-      "id": "daeffc22cd44",
-      "title": "Microsoftが2.8兆パラメータの基盤モデル「MAI-Base-2」の事前学習完了を発表",
-      "title_ja": "Microsoftが2.8兆パラメータの基盤モデル「MAI-Base-2」の事前学習完了を発表",
-      "url": "https://gigazine.net/news/20261016-microsoft-mai-base-2/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "8兆になるAIモデル「MAI-Base-2」の事前学習が完了したと、Microsoftが発表しました"
-      ],
-      "published_at": "2026-10-16T13:59:00+09:00",
-      "published_display": "2026/10/16 13:59"
-    },
-    {
-      "id": "a18b20658225",
-      "title": "【AI×数学】フィールズ賞数学者ヴィラニさんが語る、OpenAIの衝撃発表と数学者たちの批判声明 / AIで数学はどう変わる？【フランス潜入】",
-      "title_ja": "【AI×数学】フィールズ賞数学者ヴィラニさんが語る、OpenAIの衝撃発表と数学者たちの批判声明 / AIで数学はどう変わる？【フランス潜入】",
-      "url": "https://www.youtube.com/watch?v=Pw6T73an83g",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "🕐チャプターリスト（目次） 0:00 オープニング 0:50 対談VTRの前に抑えておくこと「OpenAIの発表と数学者たちの反発」 9:19 安野貴博×セドリック・ヴィラニ対談開始 10:28 科学とAI、数学への影響 20:13 9月8日の経緯と先取権 31:40 学生・PhD・教育への影響 39:05 大学と数学の未来 46:01 現地・振り返りトーク（安野"
-      ],
-      "published_at": "2026-10-16T13:32:34+00:00",
-      "published_display": "2026/10/16 22:32"
-    },
-    {
-      "id": "f8ab3d44316f",
-      "title": "ソニーが金メッキ無酸素銅シャーシ採用の高音質プレミアムウォークマン発売、想定価格は65万円前後で国外では100万円弱に",
-      "title_ja": "ソニーが金メッキ無酸素銅シャーシ採用の高音質プレミアムウォークマン発売、想定価格は65万円前後で国外では100万円弱に",
-      "url": "https://gigazine.net/news/20261016-sony-premium-walkman-nw-wm1zm3/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "ソニーが、長年培ってきたアナログとデジタルの高音質技術を結集したSignature Seriesを含むウォークマン3機種を発売しました",
-        "Signature SeriesのNW-WM1ZM3とNW-WM1AM3はリアシャーシに金メッキ無酸素銅(OFC)を採用し、ポータブルオーディオでの高音質をさらに追求したモデルとなっています"
-      ],
-      "published_at": "2026-10-16T13:26:00+09:00",
-      "published_display": "2026/10/16 13:26"
-    },
-    {
-      "id": "658a69ffbf9f",
-      "title": "NVIDIAが画像・動画・文章をまとめて理解するオープンウェイトAI「Nemotron 3.5 Super VL」を公開、処理コストを40分の1に削減する事例も",
-      "title_ja": "NVIDIAが画像・動画・文章をまとめて理解するオープンウェイトAI「Nemotron 3.5 Super VL」を公開、処理コストを40分の1に削減する事例も",
-      "url": "https://gigazine.net/news/20261016-nemotron-3-5-super-vl/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "NVIDIAが2026年10月15日に文章や画像、動画をまとめて理解できるオープンウェイトAIモデル「NVIDIA Nemotron 3",
-        "5 Super VL」を公開しました",
-        "複数の情報を組み合わせて作業を進めるAIエージェント向けのモデルで、同規模のオープンモデルと比較して最大5倍の処理能力を発揮するとのこと"
-      ],
-      "published_at": "2026-10-16T13:10:00+09:00",
-      "published_display": "2026/10/16 13:10"
-    },
-    {
-      "id": "a366c9ecd11d",
-      "title": "Windows 11に「ゲーム起動高速化」「検索機能の刷新」「スマホと接続してアプリ実行」「フォトアプリの刷新」などの機能が追加される予定",
-      "title_ja": "Windows 11に「ゲーム起動高速化」「検索機能の刷新」「スマホと接続してアプリ実行」「フォトアプリの刷新」などの機能が追加される予定",
-      "url": "https://gigazine.net/news/20261016-windows-fast-experience/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "MicrosoftはWindows 11の処理効率化に取り組んでおり、これまでのアップデートで「メモリ容量8GB以下のPCを対象にしたメモリ効率化」「Bluetooth接続の安定性向上」「AirPodsのペアリングを最大15秒短縮」といった機能改善に成功したとのこと",
-        "新たに、今後のユーザーエクスペリエンス向上のために開発されている機能の詳細が公開されました"
-      ],
-      "published_at": "2026-10-16T13:02:00+09:00",
-      "published_display": "2026/10/16 13:02"
-    },
-    {
-      "id": "5ada7eae4dd6",
-      "title": "Perplexityが安全な自律型AIエージェント構築支援のためサンドボックスプラットフォーム「SPACE」をオープンソース化",
-      "title_ja": "Perplexityが安全な自律型AIエージェント構築支援のためサンドボックスプラットフォーム「SPACE」をオープンソース化",
-      "url": "https://gigazine.net/news/20261016-perplexity-space/",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "パーソナルエージェント分野の先駆者を標榜するPerplexityが、開発者がより安全なエージェントシステムを構築するための基盤を提供し、業界全体で保護体制を強化していくため、サンドボックスプラットフォーム「SPACE」をオープンソース化すると発表しました",
-        "Open-sourcing SPACE, the sandbox platform behind Comput"
-      ],
-      "published_at": "2026-10-16T12:44:58+00:00",
-      "published_display": "2026/10/16 21:44"
-    },
-    {
-      "id": "ec5f0f691cd9",
-      "title": "【笠原一輝のユビキタス情報局】 フロンティアモデルAIを出先でも！NVIDIA RTX Spark搭載Surface実機レビュー",
-      "title_ja": "【笠原一輝のユビキタス情報局】 フロンティアモデルAIを出先でも！NVIDIA RTX Spark搭載Surface実機レビュー",
-      "url": "https://pc.watch.impress.co.jp/docs/column/ubiq/2148969.html",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "【笠原一輝のユビキタス情報局】 フロンティアモデルAIを出先でも",
-        "NVIDIA RTX Spark搭載Surface実機レビュー"
-      ],
-      "published_at": "2026-10-16T12:07:02+00:00",
-      "published_display": "2026/10/16 21:07"
     },
     {
       "id": "2d3548b479c1",
@@ -762,44 +879,6 @@
       "published_display": "2026/10/16 10:27"
     },
     {
-      "id": "c6c5c4613b82",
-      "title": "AIエージェントの危険な操作を別のAIが検出してブロックする「Armor」をOpenRouterがリリース",
-      "title_ja": "AIエージェントの危険な操作を別のAIが検出してブロックする「Armor」をOpenRouterがリリース",
-      "url": "https://gigazine.net/news/20261016-openrouter-armor/",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "複数のAIモデルを利用できるサービス「OpenRouter」が、AIエージェントによる危険なツールの実行を防ぐ新機能「Armor」をリリースしました",
-        "ArmorはAIエージェントが実行しようとする操作を別のAIモデルで事前にチェックし、設定されたルールに違反する操作を自動的にブロックする機能です",
-        "記事作成時点ではベータ版と"
-      ],
-      "published_at": "2026-10-16T10:25:01+00:00",
-      "published_display": "2026/10/16 19:25"
-    },
-    {
-      "id": "c0bf3f03d0e9",
-      "title": "「Claude Haiku 5.5」は本当にコスパがいいのか？　3つの日本語タスクで検証してみた",
-      "title_ja": "「Claude Haiku 5.5」は本当にコスパがいいのか？　3つの日本語タスクで検証してみた",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/16/2000002313/",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Anthropicの最軽量モデル「Claude Haiku 5",
-        "5」を、3つの日本語タスクで「Sonnet 5",
-        "5」「GPT-6 Luna」と比較検証"
-      ],
-      "published_at": "2026-10-16T10:14:18+09:00",
-      "published_display": "2026/10/16 10:14"
-    },
-    {
       "id": "24645dafd893",
       "title": "Meta’s new terms may allow it to train AI on news sites for free",
       "title_ja": "Metaの新しい用語により、ニュースサイトでAIを無料でトレーニングできる可能性があります",
@@ -816,44 +895,6 @@
       ],
       "published_at": "2026-10-16T10:02:40-04:00",
       "published_display": "2026/10/16 23:02"
-    },
-    {
-      "id": "9129dea34142",
-      "title": "Anthropic、METRの評価チームを社内に常駐させ“従業員並み”のアクセス付与　公表に拒否権なし",
-      "title_ja": "Anthropic、METRの評価チームを社内に常駐させ“従業員並み”のアクセス付与　公表に拒否権なし",
-      "url": "https://www.itmedia.co.jp/news/article/2610/16/2000002315/",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Anthropicは、AI評価団体METRに従業員並みのアクセス権を与える常駐評価を開始した",
-        "端末やオフィスを提供して社内システムへのアクセスを認め、リスクや障害の独自公表を許可する",
-        "公表拒否はできず、伏せ字要請のみ可能"
-      ],
-      "published_at": "2026-10-16T09:49:28+09:00",
-      "published_display": "2026/10/16 09:49"
-    },
-    {
-      "id": "25a6cdcb072d",
-      "title": "亡くなった母親が残した古い写真を読み取るためAIでフィルムスキャナー用のドライバーを自作",
-      "title_ja": "亡くなった母親が残した古い写真を読み取るためAIでフィルムスキャナー用のドライバーを自作",
-      "url": "https://gigazine.net/news/20261016-using-ai-reverse-engineer-hardware/",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Red Hatのエンジニアリング・ディレクターを務めるクリスチャン・F・K・シャラー氏が、古い写真のネガフィルムをスキャンするために「AIでドライバーを自作した」と報告しています",
-        "Using Artificial Intelligence to reverse engineer hardware | Christian F",
-        "Schaller https://blogs"
-      ],
-      "published_at": "2026-10-16T07:54:51+00:00",
-      "published_display": "2026/10/16 16:54"
     },
     {
       "id": "0db87a965487",
@@ -951,25 +992,6 @@
       "published_display": "2026/10/16 15:10"
     },
     {
-      "id": "a18da799bd3e",
-      "title": "アクセンチュアに吹く「追い風」の正体（尾藤克之） - エキスパート - Yahoo!ニュース",
-      "title_ja": "アクセンチュアに吹く「追い風」の正体（尾藤克之） - エキスパート - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdEpTSEF3YUlSc1ZvRHJHM3Fpc3hySEVJYi1UQmtBTkRiX3FNbWdEVW96aW5DUGU0eXRQclAzR2lHUklmbkFxU1A0bm5md29KWGdEdG1Xa1VsVzBodlE4d29VRkhYZ3QzekRhaTFvdld0WlJ3ZUJjamYxZlozdWpSNjZQcElqSnJ5?oc=5",
-      "source": "パートナー動向 (Accenture / Deloitte / NRI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [
-        "Accenture"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "アクセンチュアに吹く「追い風」の正体（尾藤克之） - エキスパート Yahoo"
-      ],
-      "published_at": "2026-10-16T02:45:28+00:00",
-      "published_display": "2026/10/16 11:45"
-    },
-    {
       "id": "3c54e2a81020",
       "title": "アクセンチュアが従業員に「Claudeは毎月29ドル(約4600円)までしか使えない」と伝える - GIGAZINE",
       "title_ja": "アクセンチュアが従業員に「Claudeは毎月29ドル(約4600円)までしか使えない」と伝える - GIGAZINE",
@@ -987,6 +1009,23 @@
       ],
       "published_at": "2026-10-16T02:31:00+00:00",
       "published_display": "2026/10/16 11:31"
+    },
+    {
+      "id": "5a4dc96ec786",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "title_ja": "コーデックスでより迅速に質問に答えるBenefit Street Partners",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "source": "OpenAI Blog",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Anant Kumarは、コードレビューと迅速なフォローアップのためにCodexを使用して、ローン評価を比較し、信用契約を分析するためのツールを構築します"
+      ],
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "published_display": "2026/10/16 09:00"
     },
     {
       "id": "cc2b4dd7178f",
@@ -1154,24 +1193,6 @@
       "published_display": "2026/10/16 01:00"
     },
     {
-      "id": "39760b26c7d6",
-      "title": "Bluesky&#8217;s AI tool now lets you make games and apps to share on social",
-      "title_ja": "BlueskyのAIツールを使用すると、ソーシャルメディアで共有するゲームやアプリを作成できるようになりました",
-      "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
-      "source": "The Verge (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "BlueskyのAttie AIツールは、AIを使用して独自のフィードを構築する方法として今年初めに発売されましたが、ゲーム、アンケート、ダッシュボードなどの「小さな」ソーシャルアプリを作成し、独自のウェブサイトとして他の人と共有できるようになりました",
-        "TechCrunch Disruptのインタビューで、BlueskyのCEOであるToni Schneider氏は、[…]"
-      ],
-      "published_at": "2026-10-15T15:57:16-04:00",
-      "published_display": "2026/10/16 04:57"
-    },
-    {
       "id": "5de7fad08d92",
       "title": "Trust in Depth: Giving agents more autonomy without losing control",
       "title_ja": "信頼の深さ：コントロールを失うことなく、エージェントにより多くの自律性を与える",
@@ -1188,25 +1209,6 @@
       ],
       "published_at": "2026-10-15T15:05:35+00:00",
       "published_display": "2026/10/16 00:05"
-    },
-    {
-      "id": "0e9000fa8820",
-      "title": "Meta and Apple team up to make Muse AI models run better on Macs",
-      "title_ja": "MetaとAppleが協力して、Muse AIモデルをMacでより良く動作させる",
-      "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-      "source": "The Verge (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Metaは本日、Muse Spark Open AIモデルを発表し、「これまでで最も能力のある米国のオープンウェイトモデル」であると主張しました",
-        "「しかし、同社はまた、最新のMLXフレームワークを備えた2つのApple M 5 Ultra Mac Studiosを使用してデスクトップ上で実行できる「クラス初のモデル」であると述べています",
-        "「メタとリンゴ、[…]"
-      ],
-      "published_at": "2026-10-15T14:15:36-04:00",
-      "published_display": "2026/10/16 03:15"
     }
   ]
 }
