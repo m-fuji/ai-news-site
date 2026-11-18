@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026/11/17 13:26 (JST)",
+  "updated_at": "2026/11/18 12:29 (JST)",
   "total_count": 65,
   "articles": [
     {
-      "id": "83cdf96f09ad",
-      "title": "Hugging Faceのモデル公開ページでOpenRouterのルーティングサービスを用いたチャットが可能に",
-      "title_ja": "Hugging Faceのモデル公開ページでOpenRouterのルーティングサービスを用いたチャットが可能に",
-      "url": "https://gigazine.net/news/20261117-hugging-face-openrouter/",
+      "id": "b4afb142ae8c",
+      "title": "NVIDIAのコレット・クレス暫定CEOが中国向けのH200販売終了を発表",
+      "title_ja": "NVIDIAのコレット・クレス暫定CEOが中国向けのH200販売終了を発表",
+      "url": "https://gigazine.net/news/20261118-nvidia-ends-to-sell-chip-to-china/",
       "source": "GIGAZINE (AI)",
       "source_lang": "ja",
       "is_foreign": false,
@@ -14,17 +14,217 @@
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "Hugging FaceとOpenRouterが提携し、Hugging Faceのサービス内でOpenRouterのルーティングサービスを利用できるようになりました",
-        "これにより、Hugging Faceのユーザーはコスト効率やレイテンシなどを加味しつつプロバイダーを選択できるようになります"
+        "ジェンスン・フアン氏のCEO辞任後、初となる決算説明会で、コレット・クレス暫定CEOがAI用途やHPC用途向けのGPU・H200の中国向け販売を終了することを明らかにしました"
       ],
-      "published_at": "2026-11-17T12:20:00+09:00",
-      "published_display": "2026/11/17 12:20"
+      "published_at": "2026-11-18T12:14:00+09:00",
+      "published_display": "2026/11/18 12:14"
     },
     {
-      "id": "49ded624ebf8",
-      "title": "AIに打ち明けた相談は“広告トラッカー”に筒抜け？　ChatGPT、Claude、Gemini含む42サービスを米大が調査",
-      "title_ja": "AIに打ち明けた相談は“広告トラッカー”に筒抜け？　ChatGPT、Claude、Gemini含む42サービスを米大が調査",
-      "url": "https://www.itmedia.co.jp/news/article/2611/17/2000003241/",
+      "id": "c88f5413038d",
+      "title": "イーロン・マスクの母親がゲーム「インフィニティニキ」のアップデート予告に登場してプレイヤーは困惑",
+      "title_ja": "イーロン・マスクの母親がゲーム「インフィニティニキ」のアップデート予告に登場してプレイヤーは困惑",
+      "url": "https://gigazine.net/news/20261118-infinity-nikki-elon-musk-mom-appears-trailers/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "電気自動車メーカー・テスラや宇宙開発企業・SpaceXのCEOとして知られる実業家のイーロン・マスク氏の母親で、モデルとして活躍するメイ・マスク氏が、オープンワールド着せ替えアドベンチャーゲーム「インフィニティニキ」のアップデート予告に登場し、ゲーマーを困惑させています"
+      ],
+      "published_at": "2026-11-18T11:53:00+09:00",
+      "published_display": "2026/11/18 11:53"
+    },
+    {
+      "id": "17aa3dcb455a",
+      "title": "メモリ不足でAppleがSamsungと異例の4年間にわたるDRAM長期供給契約を締結へ、メモリメーカー優位の市場に",
+      "title_ja": "メモリ不足でAppleがSamsungと異例の4年間にわたるDRAM長期供給契約を締結へ、メモリメーカー優位の市場に",
+      "url": "https://gigazine.net/news/20261118-apple-samsung-dram/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "AIデータセンターの建設ラッシュに伴って世界的なメモリ不足が深刻化する中、AppleがSamsungと4年間にわたるDRAMの長期供給契約を締結する見通しだと、韓国の経済紙・毎日経済が報じました",
+        "部品メーカーに対して強い価格交渉力を持つことで知られるAppleにとって、異例の契約となります"
+      ],
+      "published_at": "2026-11-18T11:49:00+09:00",
+      "published_display": "2026/11/18 11:49"
+    },
+    {
+      "id": "5fd047157d7a",
+      "title": "韓国が大学入試のAIカンニング対策を大幅強化、メガネの全数検査や衣服のボタンの封印を実施し受験資格停止期間を10年に延長へ",
+      "title_ja": "韓国が大学入試のAIカンニング対策を大幅強化、メガネの全数検査や衣服のボタンの封印を実施し受験資格停止期間を10年に延長へ",
+      "url": "https://gigazine.net/news/20261118-korean-anti-ai-cheating/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "韓国政府が2026年11月17日、大学入試におけるAIや小型電子機器を悪用したカンニングへの対策を発表しました",
+        "受験生が着用するメガネの全数検査や衣服のボタンをシールで覆うといった対策を実施するほか、不正行為をした受験生の受験資格停止期間を1年から10年に延長する方針を示しています"
+      ],
+      "published_at": "2026-11-18T10:48:00+09:00",
+      "published_display": "2026/11/18 10:48"
+    },
+    {
+      "id": "a141b528d3b0",
+      "title": "わが社はChatGPTでどう紹介されている？　OpenAIが企業向けの確認機能を提供開始",
+      "title_ja": "わが社はChatGPTでどう紹介されている？　OpenAIが企業向けの確認機能を提供開始",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/18/news022.html",
+      "source": "ITmedia エンタープライズ",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "ChatGPTがユーザーに向けて、自社をどのように紹介しているのかを把握したいと考える企業は多いだろう",
+        "OpenAIは、その把握に役立つ機能を企業向けにβ版で公開した",
+        "米国の対象企業であれば、自社のAIエージェントをChatGPT広告のリンク先に設定することもできる"
+      ],
+      "published_at": "2026-11-18T10:40:00+09:00",
+      "published_display": "2026/11/18 10:40"
+    },
+    {
+      "id": "2aa496bc79cf",
+      "title": "「GPT-6.2 Astra／Sol」登場　前世代超える性能を「コスト1/3で実現」　Ultrafast提供も拡大",
+      "title_ja": "「GPT-6.2 Astra／Sol」登場　前世代超える性能を「コスト1/3で実現」　Ultrafast提供も拡大",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/18/2000003282/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "OpenAIが「GPT-6",
+        "2 Astra」「GPT-6",
+        "Astraは一部の性能評価で、前世代を上回るスコアを3分の1以下のコストで実現したとうたう"
+      ],
+      "published_at": "2026-11-18T10:32:09+09:00",
+      "published_display": "2026/11/18 10:32"
+    },
+    {
+      "id": "578141bec319",
+      "title": "データセンター利用料が5年で17％上昇　契約更新前に確認すべき「9項目」",
+      "title_ja": "データセンター利用料が5年で17％上昇　契約更新前に確認すべき「9項目」",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/17/news020.html",
+      "source": "ITmedia エンタープライズ",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "約15年続いた値下がりから一転、5年で17％上昇――",
+        "AI需要と、それを支える電力の獲得競争を背景に、データセンターのコロケーション料金が上がっている",
+        "では、契約更新を控えた利用企業は事業者に何を確認すべきか"
+      ],
+      "published_at": "2026-11-18T10:20:00+09:00",
+      "published_display": "2026/11/18 10:20"
+    },
+    {
+      "id": "940799c5a551",
+      "title": "禁止するだけでは防げない　パナソニックの無断アップロード事案で浮かんだ、シャドーAI対応の分かれ道",
+      "title_ja": "禁止するだけでは防げない　パナソニックの無断アップロード事案で浮かんだ、シャドーAI対応の分かれ道",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/17/news069.html",
+      "source": "ITmedia エンタープライズ",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "パナソニックグループで従業員や元従業員、その家族約33万人分の個人情報が、社内で利用を禁じていた外部の生成AIサービスにアップロードされた",
+        "ルールで禁じても従業員のAI利用は止められない今、企業が取り得る現実的な対応策とは"
+      ],
+      "published_at": "2026-11-18T10:20:00+09:00",
+      "published_display": "2026/11/18 10:20"
+    },
+    {
+      "id": "c545b1ff3cd3",
+      "title": "「AIによる鍵の不正利用」を生体認証で防ぐ日立の新技術、サイバー攻撃対策にも",
+      "title_ja": "「AIによる鍵の不正利用」を生体認証で防ぐ日立の新技術、サイバー攻撃対策にも",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/18/news040.html",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "日立製作所は、AIによる業務が人間の承認に基づくことを証明する技術「PoHD」を開発",
+        "生体認証を応用し、署名用の秘密鍵を保存せず生体情報から都度復元する",
+        "先進技術紹介のイベント「Hitachi R&D Innovation Day 2026」でデモンストレーションも披露した"
+      ],
+      "published_at": "2026-11-18T08:30:00+09:00",
+      "published_display": "2026/11/18 08:30"
+    },
+    {
+      "id": "5b12e926c1d5",
+      "title": "AI時代に必要なエンジニアのスキルとは？　開発現場の“品質問題”から読み解く",
+      "title_ja": "AI時代に必要なエンジニアのスキルとは？　開発現場の“品質問題”から読み解く",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/18/2000003236/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "ソフトウェア品質に関する調査から見えてきた、AI時代に必要なエンジニアのスキルを解説する"
+      ],
+      "published_at": "2026-11-18T08:00:00+09:00",
+      "published_display": "2026/11/18 08:00"
+    },
+    {
+      "id": "4f1a31228417",
+      "title": "社長のAI活用で現場が疲弊　「コンサル頼み経営」の二の舞いからどう抜け出す",
+      "title_ja": "社長のAI活用で現場が疲弊　「コンサル頼み経営」の二の舞いからどう抜け出す",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/18/news017.html",
+      "source": "ITmedia エンタープライズ",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "社長がAIと対話して作った数千行の指示書に、現場が振り回されています",
+        "この構図は、かつての「コンサル直結型経営」の再来です",
+        "社長主導のAI活用が空回りする構造を整理し、AXを前に進めるために経営と現場の間に何を置くべきかを考えましょう"
+      ],
+      "published_at": "2026-11-18T07:00:00+09:00",
+      "published_display": "2026/11/18 07:00"
+    },
+    {
+      "id": "639c0a2fc8a2",
+      "title": "AIにクレカを渡せるか　OpenAI「ChatGPT Wallet」米国で提供開始",
+      "title_ja": "AIにクレカを渡せるか　OpenAI「ChatGPT Wallet」米国で提供開始",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/18/news028.html",
+      "source": "ITmedia エンタープライズ",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "OpenAIはAIエージェントが利用者に代わって決済する「ChatGPT Wallet」を米国で提供し始めた",
+        "カード情報をAIに渡す不安に、同社はどう応えるのか"
+      ],
+      "published_at": "2026-11-18T07:00:00+09:00",
+      "published_display": "2026/11/18 07:00"
+    },
+    {
+      "id": "3369fb800b8c",
+      "title": "GAS×Geminiが一般提供開始　IT管理者が確認すべき権限設定は？",
+      "title_ja": "GAS×Geminiが一般提供開始　IT管理者が確認すべき権限設定は？",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/18/2000003256/",
       "source": "ITmedia AI+",
       "source_lang": "ja",
       "is_foreign": false,
@@ -32,10 +232,931 @@
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "米ニューヨーク州立大学ストーニーブルック校に所属する研究者らが発表した論文「Penny for Your Prompts: A Measurement Study of Contextual Leakage in AI Chat Platforms」（IEEE S&P 2027採択）は、AIチャットbotに入力した会話内容や個人情報が、サイト内の追跡プログラム（トラッカー）を通じて外部企業へ漏えいする実態を調査した研究報告だ"
+        "GASとGeminiの連携によってコーディング不要でスクリプト作成やデバッグが可能になった",
+        "コーディング知識がないユーザーでも自然言語の指示でスクリプトの作成や編集、エラー修正ができるようになる"
       ],
-      "published_at": "2026-11-17T12:00:00+09:00",
-      "published_display": "2026/11/17 12:00"
+      "published_at": "2026-11-18T07:00:00+09:00",
+      "published_display": "2026/11/18 07:00"
+    },
+    {
+      "id": "f2c35120be80",
+      "title": "Googleドライブの最新ファイルをGeminiが常時参照　「スキル」に新機能追加",
+      "title_ja": "Googleドライブの最新ファイルをGeminiが常時参照　「スキル」に新機能追加",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/18/2000003259/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "✨ Gemini・Google AI",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Geminiでカスタム指示を保存する「スキル」機能が拡張された",
+        "作成したスキルの他ユーザーへの共有や、Googleドライブなどのファイル追加が可能になり、常に最新データを参照してAIを動かせるようになる"
+      ],
+      "published_at": "2026-11-18T07:00:00+09:00",
+      "published_display": "2026/11/18 07:00"
+    },
+    {
+      "id": "093c3d82f214",
+      "title": "【Pythonで学ぶデータ分析】重回帰分析のモデル比較をベイズ統計で行う ～ 株価の予測にはどの指標が効くのか？",
+      "title_ja": "【Pythonで学ぶデータ分析】重回帰分析のモデル比較をベイズ統計で行う ～ 株価の予測にはどの指標が効くのか？",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/18/news010.html",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "株価のファンダメンタルズ分析を行う手法の一つとして、重回帰分析が使われることがあります",
+        "例えば、収益力や成長性、割安性などの指標を説明変数として、リターン（利益）を目的変数とするわけです",
+        "その際、どの説明変数を重回帰式に含めるとより良い予測ができるかを検討する必要があります"
+      ],
+      "published_at": "2026-11-18T05:00:00+09:00",
+      "published_display": "2026/11/18 05:00"
+    },
+    {
+      "id": "c1cc04464996",
+      "title": "標的選定からわずか3時間で侵入、AIを悪用したサイバー攻撃にFBIが警告",
+      "title_ja": "標的選定からわずか3時間で侵入、AIを悪用したサイバー攻撃にFBIが警告",
+      "url": "https://japan.cnet.com/article/35255059/",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "セキュリティ上の欠陥を見つけるために開発されたオープンソースの人工知能（AI）ツールが、サイバー攻撃に悪用されている",
+        "米連邦捜査局（FBI）によると、ハッカーはAIを活用したセキュリティテストツール「ARTEX」を使い、世界各地の組織のシステムに侵入している",
+        "同局は米国時間11月13日に公表した警告で、攻撃対象"
+      ],
+      "published_at": "2026-11-18T03:13:00+00:00",
+      "published_display": "2026/11/18 12:13"
+    },
+    {
+      "id": "a908e426e51b",
+      "title": "グーグルが最新サイバー防御AIを日本政府に早期提供 無償の脆弱性診断も - ビジネス+IT",
+      "title_ja": "グーグルが最新サイバー防御AIを日本政府に早期提供 無償の脆弱性診断も - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yeTNxMDJQQms0czBoLVFCUVZjd2lrMElQcHlkYS1TY0VQM3VmZ191bUp6eGtNU2RJM0dpcnRQTjlSOGQtZm85Mm43c3RyeEU?oc=5",
+      "source": "Google Cloud & Vertex AI ニュース",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "✨ Gemini・Google AI",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "グーグルが最新サイバー防御AIを日本政府に早期提供 無償の脆弱性診断も ビジネス+IT"
+      ],
+      "published_at": "2026-11-18T03:00:00+00:00",
+      "published_display": "2026/11/18 12:00"
+    },
+    {
+      "id": "a87eebdab2b5",
+      "title": "Google Cloud、日本のサイバーセキュリティ強化とAIの導入などを加速 - 株式会社インプレス",
+      "title_ja": "Google Cloud、日本のサイバーセキュリティ強化とAIの導入などを加速 - 株式会社インプレス",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05UXB4SlZlSmpPZS1KaU8wc2tfT19vbngzb3hRaXlqME41ZndwbmFVa2hiNG1MOGhFMklxRUFObDFhZ3lWVFNCWGI4aV80UVBNQWdBOXZJWkhSTENha2QwVWt1MA?oc=5",
+      "source": "Google Cloud & Vertex AI ニュース",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [
+        "Google Cloud"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "Google Cloud、日本のサイバーセキュリティ強化とAIの導入などを加速 株式会社インプレス"
+      ],
+      "published_at": "2026-11-18T02:50:57+00:00",
+      "published_display": "2026/11/18 11:50"
+    },
+    {
+      "id": "7f9a26472133",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt",
+      "title_ja": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies"
+      ],
+      "published_at": "2026-11-18T01:44:21+00:00",
+      "published_display": "2026/11/18 10:44"
+    },
+    {
+      "id": "5e8488d2145b",
+      "title": "Delivery: SOAP を用いて LLM が導いた発見を、ガバナンスの下で「届ける」 - Google Cloud",
+      "title_ja": "Delivery: SOAP を用いて LLM が導いた発見を、ガバナンスの下で「届ける」 - Google Cloud",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOV2pKRTZBQThTR2l1SzI1VVk0VmVGVUV5Z0drNF9OLUhwejY5WGoxNHFBMHdycHkzUEo0R3hJeFBHQkV1X3I0czhlUWpZUGRCVC1wZ0dPWWdyM2lBUnYyZzVacC01WndTbGRueW5QS0ZteXFUVjBBTTNpSjJmQlVGYUY3ZFRvMnpfOExvdkZsdWRUc2EyLS02enBTMWZ1YmNqV1FlaDBPU2JxRk9iREk3Rjg4OEg2VXV5Q1VfSTV6ejFudk93US1VRDdVb0VkMUtQZy1TQTBtUXM?oc=5",
+      "source": "Google Cloud & Vertex AI ニュース",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [
+        "Google Cloud"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "Delivery: SOAP を用いて LLM が導いた発見を、ガバナンスの下で「届ける」 Google Cloud"
+      ],
+      "published_at": "2026-11-18T01:13:09+00:00",
+      "published_display": "2026/11/18 10:13"
+    },
+    {
+      "id": "66261632bad1",
+      "title": "Google、AIが人の手を借りずにサイバー攻撃を実行する事例を初確認 - マイナビニュース",
+      "title_ja": "Google、AIが人の手を借りずにサイバー攻撃を実行する事例を初確認 - マイナビニュース",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05SVNIU1p3bnlVYk1kSE9ncXdoVmVfLXdBYndoVjExNFdqcm1OTzlsUG1oS2NGd1VVdXE2YjRvUG0zcTlGY0JRUk00ZUR4X2c5QUs5UnBBSDEzSmhsaFRONk5DOVNodFZf?oc=5",
+      "source": "Google Cloud & Vertex AI ニュース",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "✨ Gemini・Google AI",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Google、AIが人の手を借りずにサイバー攻撃を実行する事例を初確認 マイナビニュース"
+      ],
+      "published_at": "2026-11-18T00:26:46+00:00",
+      "published_display": "2026/11/18 09:26"
+    },
+    {
+      "id": "def6b1099b2b",
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "title_ja": "Nvidia promises that revenue will keep soaring — for now",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop"
+      ],
+      "published_at": "2026-11-18T00:16:50+00:00",
+      "published_display": "2026/11/18 09:16"
+    },
+    {
+      "id": "38d64775fb5e",
+      "title": "How to Build Durable Agentic Systems with Google Antigravity: From Instructions to Loops",
+      "title_ja": "Google Antigravityで耐久性のあるエージェントシステムを構築する方法：指示からループへ",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-durable-agentic-systems-with-google-antigravity-from-instructions-to-loops/",
+      "source": "Google Cloud Blog (公式)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "✨ Gemini・Google AI",
+      "partner_tags": [
+        "Google Cloud"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "ここ数か月、エージェントループに関する議論がますます活発になっているのを見てきました。",
+        "しかし、私にとっての現実はもっと単純です。プロンプトエンジニアリングは個々のタスクからシステム設計へと移行し、モデル自体ではなく、モデルを囲むハーネスが、今やソフトウェアエンジニアリングにおける私の主な制約となっているのです。",
+        "この記事では、これらのハーネスを構築して検証する方法を説明します。これにより、Google Antigravityでシングルターン命令から耐久性のあるエージェントループに移行できます。"
+      ],
+      "published_at": "2026-11-18T00:11:00+00:00",
+      "published_display": "2026/11/18 09:11"
+    },
+    {
+      "id": "3e7f2e2a3ccb",
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "title_ja": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Nvidia's interim CEO says the company is done selling chips to China",
+        "How much will that cost"
+      ],
+      "published_at": "2026-11-17T23:37:48+00:00",
+      "published_display": "2026/11/18 08:37"
+    },
+    {
+      "id": "a52e4083086c",
+      "title": "「非公開APIだから安全」はもう通用しない　AIが変える脆弱性発見の常識",
+      "title_ja": "「非公開APIだから安全」はもう通用しない　AIが変える脆弱性発見の常識",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/18/news009.html",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "「公開していないAPIだから、攻撃者には見つからない」",
+        "そんな前提で設計されたシステムは、AIによって危うくなるかもしれません",
+        "直近、複数の事業者で個人情報の漏えいが発生し、公的機関が相次いで注意を喚起しています"
+      ],
+      "published_at": "2026-11-17T23:33:26+00:00",
+      "published_display": "2026/11/18 08:33"
+    },
+    {
+      "id": "fb4997733475",
+      "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+      "title_ja": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+      "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/",
+      "source": "AWS Machine Learning Blog",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery",
+        "Serve large models across many nodes without building the orchestration layer yourself"
+      ],
+      "published_at": "2026-11-17T23:33:26+00:00",
+      "published_display": "2026/11/18 08:33"
+    },
+    {
+      "id": "86c2ea133a28",
+      "title": "若者はもう検索しない?　SNSとAIで変わる買い物のカタチ",
+      "title_ja": "若者はもう検索しない?　SNSとAIで変わる買い物のカタチ",
+      "url": "https://www.watch.impress.co.jp/docs/topic/2155933.html",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "SNSとAIで変わる買い物のカタチ"
+      ],
+      "published_at": "2026-11-17T23:22:47+00:00",
+      "published_display": "2026/11/18 08:22"
+    },
+    {
+      "id": "95c790b7724e",
+      "title": "［速報］マイクロソフト、コーディング用AIモデルとして高性能かつ低価格「MAI Code 2」「MAI Code 2 Flash」発表",
+      "title_ja": "［速報］マイクロソフト、コーディング用AIモデルとして高性能かつ低価格「MAI Code 2」「MAI Code 2 Flash」発表",
+      "url": "https://www.publickey1.jp/blog/26/aimai_code_2mai_code_2_flash.html",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、同社が開発したコーディング用AIモデルのフラグシップで高性能かつ低価格を売り文句とする「MAI Code 2」と、さらに安価な「MAI Code 2 Flash」を発表しました",
+        "競合と同等性能を低価格で提供 MAI Code 2とMAI Code 2 Flashは"
+      ],
+      "published_at": "2026-11-17T23:16:58+00:00",
+      "published_display": "2026/11/18 08:16"
+    },
+    {
+      "id": "4808dbc0df9e",
+      "title": "【QuadroDiary】初期キャラ設定を発掘！片思いとヤキモチの時代のヒロ・マユミたち - Quadro Diary 生成AI 過去日記",
+      "title_ja": "【QuadroDiary】初期キャラ設定を発掘！片思いとヤキモチの時代のヒロ・マユミたち - Quadro Diary 生成AI 過去日記",
+      "url": "https://quadro.hateblo.jp/entry/kakonikki_settei",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "人物紹介 物語前半のキャラクー設定リスト完全版 ヒロ マユミ 若いツバメ Nさん Hさん 人物紹介 スマホのデータ整理をしていたら、QuadroDiaryを書き始めた頃の初期キャラ設定が入ったエクセルファイルが出てきました",
+        "まだボクとマユミは、ボクの片思い真っ最中",
+        "周りの人がマユミと話しているのを見るたびに、勝手に"
+      ],
+      "published_at": "2026-11-17T23:10:51+00:00",
+      "published_display": "2026/11/18 08:10"
+    },
+    {
+      "id": "fed35bd0b0cc",
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "title_ja": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure"
+      ],
+      "published_at": "2026-11-17T23:04:35+00:00",
+      "published_display": "2026/11/18 08:04"
+    },
+    {
+      "id": "d40bffebd8fe",
+      "title": "OpenAI、「GPT-6.2」の「Astra」と「Sol」を公開　AI自己改善能力は初の「High」に",
+      "title_ja": "OpenAI、「GPT-6.2」の「Astra」と「Sol」を公開　AI自己改善能力は初の「High」に",
+      "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003279/",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "米OpenAIは11月17日（現地時間）、新たなAIモデル「GPT-6",
+        "2 Astra」と「GPT-6",
+        "2 Sol」を発表した"
+      ],
+      "published_at": "2026-11-17T23:01:14+00:00",
+      "published_display": "2026/11/18 08:01"
+    },
+    {
+      "id": "875428339bbc",
+      "title": "VRAMが数百GBなくてもGPU1基でGLM-5.3-Flashを動かすことができる「Project Maya」",
+      "title_ja": "VRAMが数百GBなくてもGPU1基でGLM-5.3-Flashを動かすことができる「Project Maya」",
+      "url": "https://gigazine.net/news/20261117-project-maya/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "AIモデルを自分のPCで動かす場合はモデルのデータをVRAMに読み込みますが、数千億パラメーター級の巨大なモデルを動かすのに必要なメモリは数百GB単位になるため自前環境で動かすことはほぼ不可能です",
+        "そこでVRAM・メインメモリ・SSDを組み合わせて条件をクリアすれば、GPU1基の環境でも巨大モデルを実行できるようにするための無料のオープンソースツールが「Project Maya」です"
+      ],
+      "published_at": "2026-11-17T23:00:00+09:00",
+      "published_display": "2026/11/17 23:00"
+    },
+    {
+      "id": "a78a0a7db198",
+      "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
+      "title_ja": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/",
+      "source": "AWS Machine Learning Blog",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "As production agents on Amazon Bedrock AgentCore process multi-megabyte JSON payloads, token costs and latency climb",
+        "This post shares three composable strategies: offloading heavy artifacts to Amazon S3, on-demand result paging, and dictionary compaction",
+        "Together they cut per-turn token use by up to 71% and latency by up to 80%"
+      ],
+      "published_at": "2026-11-17T22:44:51+00:00",
+      "published_display": "2026/11/18 07:44"
+    },
+    {
+      "id": "3893105a1b36",
+      "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+      "title_ja": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "The former CEO offered to return to his top role at the company after his resignation last week"
+      ],
+      "published_at": "2026-11-17T22:42:27+00:00",
+      "published_display": "2026/11/18 07:42"
+    },
+    {
+      "id": "07b382c56a8f",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "title_ja": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher",
+        "Google is a close second with holdings of nearly 14%"
+      ],
+      "published_at": "2026-11-17T22:29:05+00:00",
+      "published_display": "2026/11/18 07:29"
+    },
+    {
+      "id": "c2251263b04d",
+      "title": "Claude Fable 5.2を使って一発で指示通りのゲームを作成できた話",
+      "title_ja": "Claude Fable 5.2を使って一発で指示通りのゲームを作成できた話",
+      "url": "https://gigazine.net/news/20261117-claude-made-dream-game/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "甥っ子から「ゲームを作って」と頼まれた機械学習エンジニアが、AIの「Claude Fable 5",
+        "2」に1回指示を出すだけでゲームを完成させたとする体験談を共有しました"
+      ],
+      "published_at": "2026-11-17T22:00:00+09:00",
+      "published_display": "2026/11/17 22:00"
+    },
+    {
+      "id": "6006413386cf",
+      "title": "ホワイトハッカー報奨制度の中止相次ぐ　AIがバグ発見、変わる役割 - 日本経済新聞",
+      "title_ja": "ホワイトハッカー報奨制度の中止相次ぐ　AIがバグ発見、変わる役割 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC097UG0Z01C26A1000000/",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "サイバー攻撃につながるソフトウエアの弱点を見つけ、企業に報告するホワイトハッカー（善意のハッカー）の活用が岐路に立っている",
+        "人工知能（AI）の活用で報告が急増し、大会や報奨金制度を見直す企業が相次ぐ",
+        "トレンドマイクロ子会社のヴィックワン（東京・渋谷）は自動車関連ソフトウエアの脆弱性につながるバグの"
+      ],
+      "published_at": "2026-11-17T21:50:19+00:00",
+      "published_display": "2026/11/18 06:50"
+    },
+    {
+      "id": "3f6225bc9b61",
+      "title": "SEC reportedly investigating Nvidia amid Huang exit",
+      "title_ja": "SEC reportedly investigating Nvidia amid Huang exit",
+      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal"
+      ],
+      "published_at": "2026-11-17T21:48:07+00:00",
+      "published_display": "2026/11/18 06:48"
+    },
+    {
+      "id": "e296d36e2dc4",
+      "title": "Google joins the tech outage trend by announcing it’s not having one",
+      "title_ja": "Google joins the tech outage trend by announcing it’s not having one",
+      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually"
+      ],
+      "published_at": "2026-11-17T21:34:50+00:00",
+      "published_display": "2026/11/18 06:34"
+    },
+    {
+      "id": "293e70dd0f94",
+      "title": "Cut generative AI costs: Code for rules, models for judgment",
+      "title_ja": "Cut generative AI costs: Code for rules, models for judgment",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/",
+      "source": "AWS Machine Learning Blog",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "The biggest cost lever in a generative AI system is whether you call a model at all",
+        "Learn how to decide whether each workflow step needs a model, and map each option to AWS: deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock"
+      ],
+      "published_at": "2026-11-17T21:14:55+00:00",
+      "published_display": "2026/11/18 06:14"
+    },
+    {
+      "id": "82e4360f00f0",
+      "title": "Amazon SageMaker AI real-time endpoints now support KV cache aware routing",
+      "title_ja": "Amazon SageMaker AI real-time endpoints now support KV cache aware routing",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/",
+      "source": "AWS Machine Learning Blog",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Amazon SageMaker AI real-time endpoints now support KV cache-aware routing, a new strategy that routes each request to the instance holding the longest cached match for its prompt",
+        "Learn how it works, when to use it compared with prefix-aware routing, and how to enable, invoke, and verify it on single model and inference component endpoints"
+      ],
+      "published_at": "2026-11-17T21:11:51+00:00",
+      "published_display": "2026/11/18 06:11"
+    },
+    {
+      "id": "ea1c1e9f1c7b",
+      "title": "Govern and discover records with common metadata in AWS Agent Registry",
+      "title_ja": "Govern and discover records with common metadata in AWS Agent Registry",
+      "url": "https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry/",
+      "source": "AWS Machine Learning Blog",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [
+        "NRI"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "Custom metadata schemas in AWS Agent Registry let an administrator define typed, validated fields that every agent, MCP server, and skill must carry",
+        "This post follows an MCP record from schema definition through registration, enrichment, approval, and discovery, so teams govern and find resources with one shared set of facts"
+      ],
+      "published_at": "2026-11-17T20:31:04+00:00",
+      "published_display": "2026/11/18 05:31"
+    },
+    {
+      "id": "b263b99e3da5",
+      "title": "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore",
+      "title_ja": "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning Blog",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "When an AI agent on Amazon Bedrock AgentCore calls Snowflake Cortex AI over MCP, how does it authenticate",
+        "This post walks through three OAuth patterns we tested on AgentCore Identity: Snowflake OAuth, three-legged OAuth with a corporate IdP, and two-legged OAuth, so you can match your organization's identity, audit, and compliance needs"
+      ],
+      "published_at": "2026-11-17T20:25:23+00:00",
+      "published_display": "2026/11/18 05:25"
+    },
+    {
+      "id": "4a0ac55a05b9",
+      "title": "AIの答えが正しくても人間が圧力をかけるとAIは簡単に意見を変えてしまう",
+      "title_ja": "AIの答えが正しくても人間が圧力をかけるとAIは簡単に意見を変えてしまう",
+      "url": "https://gigazine.net/news/20261117-ai-easy-pressure-false-information/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "AIが正確な気候変動に関する情報を提供しても、人間から圧力をかけられると容易に間違った情報を発信してしまうことが、国際連合教育科学文化機関(ユネスコ)とユニヴァーシティ・カレッジ・ロンドン(UCL)の共同調査により明らかになりました"
+      ],
+      "published_at": "2026-11-17T20:00:00+09:00",
+      "published_display": "2026/11/17 20:00"
+    },
+    {
+      "id": "0300076a7115",
+      "title": "SwitchBot、10周年で新製品を一斉発表　AIペットから睡眠家電まで",
+      "title_ja": "SwitchBot、10周年で新製品を一斉発表　AIペットから睡眠家電まで",
+      "url": "https://www.watch.impress.co.jp/docs/news/2157178.html",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "SwitchBot、10周年で新製品を一斉発表　AIペットから睡眠家電まで"
+      ],
+      "published_at": "2026-11-17T19:41:50+00:00",
+      "published_display": "2026/11/18 04:41"
+    },
+    {
+      "id": "727d4611151f",
+      "title": "Announcing AI data preparation capabilities in Amazon SageMaker: Build high-quality datasets for model development workflows",
+      "title_ja": "Announcing AI data preparation capabilities in Amazon SageMaker: Build high-quality datasets for model development workflows",
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
+      "source": "AWS Machine Learning Blog",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Amazon SageMaker AI now offers AI data preparation capabilities for building high-quality training and evaluation data",
+        "Generate synthetic examples, assess and improve datasets, auto-label at scale, and bring in expert review through Python SDK APIs and an agent skill, all from your own notebook or IDE"
+      ],
+      "published_at": "2026-11-17T19:40:01+00:00",
+      "published_display": "2026/11/18 04:40"
+    },
+    {
+      "id": "d924ae5adfd7",
+      "title": "Getting AI out of the demo and into businesses globally",
+      "title_ja": "Getting AI out of the demo and into businesses globally",
+      "url": "https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/",
+      "source": "AWS Machine Learning Blog",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Most enterprises have AI that works in a demo but stalls before production",
+        "AWS Forward Deployed Engineering closes that gap",
+        "AWS engineers embed with customer teams to take high-value workflows to production in 45-day sprints, leaving a foundation, workflows, and governance the customer owns"
+      ],
+      "published_at": "2026-11-17T19:05:22+00:00",
+      "published_display": "2026/11/18 04:05"
+    },
+    {
+      "id": "82023c70958d",
+      "title": "Satya Nadella says he’s AGI-pilled now",
+      "title_ja": "Satya Nadella says he’s AGI-pilled now",
+      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "source": "The Verge (AI)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it",
+        "\"I am AGI-pilled in the sense that at an economy level, what is the political economy's organization around AGI",
+        "\" he asked at […]"
+      ],
+      "published_at": "2026-11-17T18:41:18-05:00",
+      "published_display": "2026/11/18 08:41"
+    },
+    {
+      "id": "8ad9332d58d3",
+      "title": "Simplifying multicloud networking to Azure with partner Cross-Cloud Interconnect",
+      "title_ja": "パートナーのクロスクラウドインターコネクトによるAzureへのマルチクラウドネットワーキングの簡素化",
+      "url": "https://cloud.google.com/blog/products/networking/cross-cloud-interconnect-for-microsoft-azure/",
+      "source": "Google Cloud Blog (公式)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [
+        "Google Cloud"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "AIが企業のアプリケーションの構築と運用方法を変えるにつれて、より多くの企業がモデル、データ、アプリケーションを複数のクラウドに展開しています。",
+        "これを実現するには、これらの環境間の高速でプライベートな接続が必要です。",
+        "これまで、複数のクラウドを接続するには、各プロバイダーから物理的な接続を注文し、両側でネットワークを構築し、複数のチーム間で調整を行う必要がありました。"
+      ],
+      "published_at": "2026-11-17T18:35:00+00:00",
+      "published_display": "2026/11/18 03:35"
+    },
+    {
+      "id": "b81e0dffd2fa",
+      "title": "5年前に自分で歌った曲がAI音楽企業の著作権侵害申し立てで削除される、異議申し立ても2回却下",
+      "title_ja": "5年前に自分で歌った曲がAI音楽企業の著作権侵害申し立てで削除される、異議申し立ても2回却下",
+      "url": "https://gigazine.net/news/20261117-musician-copyright-hell/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "約5年前に自分で録音した歌声をYouTubeに投稿していたミュージシャンが、AIを活用する音楽配信企業から著作権侵害を申し立てられて動画を削除される事態が発生しました",
+        "ミュージシャンは2回にわたって異議を申し立てたものの認められませんでした",
+        "問題を解決するまでの経緯をテクノロジーメディアの404 Mediaが報じています"
+      ],
+      "published_at": "2026-11-17T18:10:00+09:00",
+      "published_display": "2026/11/17 18:10"
+    },
+    {
+      "id": "00107633fd26",
+      "title": "MUFG、松尾豊教授ら設立のAIスタートアップと提携　「遍在型AGI」活用へ",
+      "title_ja": "MUFG、松尾豊教授ら設立のAIスタートアップと提携　「遍在型AGI」活用へ",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/17/2000003260/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "三菱UFJフィナンシャル・グループ（以下、MUFG）と傘下の三菱UFJ銀行は、AI研究で知られる東京大学の松尾豊教授らが設立したAIスタートアップThird Intelligence（東京都千代田区）と、AIの社会実装を手掛ける松尾研究所（東京都文京区）とのパートナーシップ契約を締結したと発表した"
+      ],
+      "published_at": "2026-11-17T18:00:00+09:00",
+      "published_display": "2026/11/17 18:00"
+    },
+    {
+      "id": "3c30ebecabae",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "title_ja": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "source": "OpenAI Blog",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "GPT‑6のご紹介",
+        "2 AstraとSolは、ChatGPT Work、Codex、API全体で、より優れた業務成果、コーディング、コンピュータ使用、およびより低コストでの効率性を実現します。"
+      ],
+      "published_at": "2026-11-17T17:45:00+00:00",
+      "published_display": "2026/11/18 02:45"
+    },
+    {
+      "id": "e91e27c1fee3",
+      "title": "Google Cloud is a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms",
+      "title_ja": "Google Cloudは、2026年Gartner Magic QuadrantのAIアプリケーション開発プラットフォーム部門でリーダーに選出されました",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-is-a-leader-in-the-2026-gartner-magic-quadrant/",
+      "source": "Google Cloud Blog (公式)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "✨ Gemini・Google AI",
+      "partner_tags": [
+        "Google Cloud"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "Google Cloudは、AIアプリケーション開発プラットフォーム部門の2026年Gartner Magic Quadrantにおいて、実行能力の軸で総合的に最も高い位置にランクされ、3年連続でリーダーに選出されました。",
+        "1 現在、組織がAIに求めるのは、実際の日常業務を処理し、コンプライアンスのガードレールを厳格に守りながら、測定可能なROIをもたらすことであることが明らかになっています。",
+        "昨年、約500社のGoogle Cloudのお客様がそれぞれ1兆個以上のトークンを処理しました。"
+      ],
+      "published_at": "2026-11-17T17:00:00+00:00",
+      "published_display": "2026/11/18 02:00"
+    },
+    {
+      "id": "6c6182abe8ca",
+      "title": "The visual evolution of Looker: Modern design for enterprise data storytelling",
+      "title_ja": "Lookerのビジュアル面における進化：エンタープライズデータストーリーテリングのためのモダンなデザイン",
+      "url": "https://cloud.google.com/blog/products/business-intelligence/modern-data-visualizations-and-custom-charts-in-looker/",
+      "source": "Google Cloud Blog (公式)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "過去1年間、当社はすべてのビジネスユーザーにとってLookerを使いやすくすることに注力してきました。",
+        "まず、ドラッグアンドドロップのワークスペース、合理化されたフィールドピッカー、会話型分析により、まっさらな状態から簡単に始められるように、探索エクスペリエンスを再設計しました。",
+        "次のステップは、データの見え方と解釈の仕方を向上させることです。"
+      ],
+      "published_at": "2026-11-17T17:00:00+00:00",
+      "published_display": "2026/11/18 02:00"
+    },
+    {
+      "id": "c88e274d864e",
+      "title": "Congratulations to our 2026 Google Cloud Partner All-stars",
+      "title_ja": "2026年Google Cloudパートナーオールスターの皆様、おめでとうございます",
+      "url": "https://cloud.google.com/blog/topics/partners/2026-google-cloud-partner-all-stars-winners/",
+      "source": "Google Cloud Blog (公式)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [
+        "Google Cloud"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "Google Cloudパートナーエコシステムは、顧客の成功を推進する上で重要な役割を果たしています。",
+        "変革の新たな時代を迎えるにあたり、AIを初期のパイロット段階から真のプロダクションレベルの展開へと移行させる上で、パートナーの皆様は重要な役割を果たしています。",
+        "そのギャップを埋めるには、テクノロジーだけでははるかに不十分です。"
+      ],
+      "published_at": "2026-11-17T17:00:00+00:00",
+      "published_display": "2026/11/18 02:00"
+    },
+    {
+      "id": "658416fd52b7",
+      "title": "Put Gemini to work for you",
+      "title_ja": "Geminiを業務に活用しましょう",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "source": "Google AI Blog",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "✨ Gemini・Google AI",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "「何をお手伝いしましょうか？」というプロンプトが表示されたユーザーインターフェイス",
+        "「タスクの説明を入力してください」というプレースホルダーテキストを含む入力ボックスの上"
+      ],
+      "published_at": "2026-11-17T17:00:00+00:00",
+      "published_display": "2026/11/18 02:00"
+    },
+    {
+      "id": "b43e186833d0",
+      "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+      "title_ja": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+      "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+      "source": "The Verge (AI)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return",
+        "On the earnings call accompanying the release, board chair Harvey Jones kicked things off by saying the board \"does not intend to reinstate Huang […]"
+      ],
+      "published_at": "2026-11-17T16:40:59-05:00",
+      "published_display": "2026/11/18 06:40"
+    },
+    {
+      "id": "bf11290052c0",
+      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "title_ja": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "source": "The Verge (AI)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives",
+        "Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent",
+        "In the AI-generated clip, Wang, Meta CEO Mark Zuckerberg, OpenAI CEO Sam Altman, and […]"
+      ],
+      "published_at": "2026-11-17T16:00:55-05:00",
+      "published_display": "2026/11/18 06:00"
+    },
+    {
+      "id": "1c667d4a8904",
+      "title": "Research Reports",
+      "title_ja": "Research Reports",
+      "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+      "source": "MIT Technology Review (AI)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🎨 画像・動画・マルチモーダル",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "To access a report, click on the corresponding image below"
+      ],
+      "published_at": "2026-11-17T14:39:46+00:00",
+      "published_display": "2026/11/17 23:39"
+    },
+    {
+      "id": "3a7399ab9101",
+      "title": "筑波大発のCloserが柏市に新拠点を開設、食品／医薬向けロボットの開発を加速",
+      "title_ja": "筑波大発のCloserが柏市に新拠点を開設、食品／医薬向けロボットの開発を加速",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/17/news056.html",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Closerは、ロボット製品の研究開発および販売や導入体制のさらなる強化を目的として、千葉県柏市に新拠点「柏の葉ロボティクスセンター」を開設した",
+        "研究開発や実機検証環境を拡充し、事業成長を目指す"
+      ],
+      "published_at": "2026-11-17T14:30:00+09:00",
+      "published_display": "2026/11/17 14:30"
+    },
+    {
+      "id": "0288453c9a07",
+      "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
+      "title_ja": "COLD RELIC：なりすましと侵害のケーススタディ",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/",
+      "source": "Google Cloud Blog (公式)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "✨ Gemini・Google AI",
+      "partner_tags": [
+        "NRI"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "執筆：ジョシュ・マーチー、ジョン・ウルフラム、ジョセフ・スペロ、ピーター・ウハノフ、フェルナンド・トムリンソン・ジュニア",
+        "、Wesley Shields氏によるイントロダクション過去1年間、Mandiantは一連の関連する侵入に स्ट्रांग应对し、ロシアのサイバースパイ集団COLD RELIC（以前はCOLDRIVERおよびUNC4057として追跡され、Star Blizzard、Callisto、Gossamer Bearとしても知られる）が、単一のクラウドの侵害を、継続的なサードパーティの侵害とスパイ活動の足がかりにしている様子を示してきました。",
+        "最近、Mandiantは2026年に発生したある米国拠点の組織における侵害を調査しました。この侵害では、COLD RELICがデータを直接悪用し、企業スタッフのディレクトリ、および2025年後半に発生した別の米国拠点の組織における侵害（こちらもMandiantが調査）で盗まれたIDが悪用されました。"
+      ],
+      "published_at": "2026-11-17T14:00:00+00:00",
+      "published_display": "2026/11/17 23:00"
+    },
+    {
+      "id": "8ca9362f941e",
+      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "title_ja": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "source": "The Verge (AI)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "✨ Gemini・Google AI",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use",
+        "The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need",
+        "Users in the US […]"
+      ],
+      "published_at": "2026-11-17T13:58:01-05:00",
+      "published_display": "2026/11/18 03:58"
+    },
+    {
+      "id": "a65ce3b341a9",
+      "title": "NRIセキュア、フロンティアAIによる攻撃の巧妙化に備え、工場・プラントの制御システムの攻撃耐性を評価するサービスを提 - ニコニコニュース",
+      "title_ja": "NRIセキュア、フロンティアAIによる攻撃の巧妙化に備え、工場・プラントの制御システムの攻撃耐性を評価するサービスを提 - ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJZDRYOHYtSnhKclFDcDNkU1Z6UUpQZUxzcE4xNEhIZ2EwUDJPRzVlOFN1cWkyOHpzemx1VmlBZnJBekJscFNYMlkxaFZUZ2NtSTNYM0dBUm9WcjJGZC1OdzVmUkVJSC1JSldYcmo4dFVSbU56VERWR3VHVQ?oc=5",
+      "source": "パートナー動向 (Accenture / Deloitte / NRI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [
+        "NRI"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "NRIセキュア、フロンティアAIによる攻撃の巧妙化に備え、工場・プラントの制御システムの攻撃耐性を評価するサービスを提 ニコニコニュース"
+      ],
+      "published_at": "2026-11-17T12:21:33+00:00",
+      "published_display": "2026/11/17 21:21"
     },
     {
       "id": "a8ab962a62a3",
@@ -57,666 +1178,10 @@
       "published_display": "2026/11/17 11:30"
     },
     {
-      "id": "e9e3b57a147a",
-      "title": "中国からアメリカ製AIサーバーへのリモートアクセスを制限する新規則をアメリカが策定、輸出規制を回避するクラウドレンタルの抜け穴に対抗",
-      "title_ja": "中国からアメリカ製AIサーバーへのリモートアクセスを制限する新規則をアメリカが策定、輸出規制を回避するクラウドレンタルの抜け穴に対抗",
-      "url": "https://gigazine.net/news/20261117-bis-issued-rule-cloud-access-from-china/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "アメリカ商務省の産業安全保障局(BIS)は2026年11月16日、中国などの企業が第三国のデータセンターを経由して高性能なAIチップを遠隔利用することを制限する新たな規則を発表しました",
-        "従来の半導体輸出規制ではカバーできなかったクラウド経由での計算資源の利用を規制することで、先端AI技術の流出を防ぐ狙いがあります"
-      ],
-      "published_at": "2026-11-17T11:30:00+09:00",
-      "published_display": "2026/11/17 11:30"
-    },
-    {
-      "id": "4ebe53457e52",
-      "title": "脱獄したPlayStation 4で90億パラメーターのAIモデルを毎秒最大43トークンで動作させる「Garlic LLM」が登場",
-      "title_ja": "脱獄したPlayStation 4で90億パラメーターのAIモデルを毎秒最大43トークンで動作させる「Garlic LLM」が登場",
-      "url": "https://gigazine.net/news/20261117-playstation-4-garlic-llm/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "2013年に発売されたソニーの家庭用ゲーム機「PlayStation 4(PS4)」で90億パラメーターの大規模言語モデルをローカル実行できるオープンソースのアプリ「Garlic LLM」が登場しました",
-        "PS4に搭載されたGPUを直接操作することで毎秒最大43トークンの生成速度を実現しており、インターネット接続なしでAIとのチャットや音声会話が可能です"
-      ],
-      "published_at": "2026-11-17T10:49:00+09:00",
-      "published_display": "2026/11/17 10:49"
-    },
-    {
-      "id": "d820ea2512ab",
-      "title": "画像や音声も処理できる意思決定モデル「d1.2」「d1.2-ultra」が登場",
-      "title_ja": "画像や音声も処理できる意思決定モデル「d1.2」「d1.2-ultra」が登場",
-      "url": "https://gigazine.net/news/20261117-liquid-ai-decision-model-omnimodal/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "AI企業のLiquid AIがマルチモーダル意思決定モデル「d1",
-        "2-ultra」を現地時間の2026年11月16日にリリースしました"
-      ],
-      "published_at": "2026-11-17T10:47:00+09:00",
-      "published_display": "2026/11/17 10:47"
-    },
-    {
-      "id": "39b849b11cd8",
-      "title": "OpenAI、児童性的虐待コンテンツ（CSAM）検出ツールを公開　ChatGPTで探すと24時間アカウント停止の警告も",
-      "title_ja": "OpenAI、児童性的虐待コンテンツ（CSAM）検出ツールを公開　ChatGPTで探すと24時間アカウント停止の警告も",
-      "url": "https://www.itmedia.co.jp/news/article/2611/17/2000003254/",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "OpenAIは、児童性的虐待コンテンツ（CSAM）を検出するための新たな画像分類ツールを発表した",
-        "従来は検出が困難だった新規画像やAI生成画像も対象とし、審査を通過した組織へAPI経由で無償提供する",
-        "同時にChatGPT上でのCSAM検索行為に対し、アカウントを24時間停止する警告機能も導入した"
-      ],
-      "published_at": "2026-11-17T10:45:02+09:00",
-      "published_display": "2026/11/17 10:45"
-    },
-    {
-      "id": "77ba64fd40f1",
-      "title": "ジェンスン・フアン氏復帰を求める公開書簡に18万人以上が署名　現役従業員9000人に加えてイーロン・マスク氏らも賛同",
-      "title_ja": "ジェンスン・フアン氏復帰を求める公開書簡に18万人以上が署名　現役従業員9000人に加えてイーロン・マスク氏らも賛同",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/17/2000003249/",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "NVIDIAの創業者、ジェンスン・フアン氏のCEOへの復帰を求める公開書簡に、18万人を超える署名が集まっている"
-      ],
-      "published_at": "2026-11-17T09:52:22+09:00",
-      "published_display": "2026/11/17 09:52"
-    },
-    {
-      "id": "00e61fd0c00c",
-      "title": "大手自動車メーカーの検図工数を90％削減　AIが図面の重要な変更点を判別",
-      "title_ja": "大手自動車メーカーの検図工数を90％削減　AIが図面の重要な変更点を判別",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/17/news014.html",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Liberty Dataは、生成AIを活用した図面関連業務の自動化サービス「Liberty図面AI」における新旧図面の差分抽出機能の導入事例を公開した",
-        "図面の内容や設計指示の意図を理解し、検図者が優先して確認すべき変更点を判別する機能で、大手自動車メーカーでは検図工数を90％削減したという"
-      ],
-      "published_at": "2026-11-17T09:00:00+09:00",
-      "published_display": "2026/11/17 09:00"
-    },
-    {
-      "id": "18eca0564438",
-      "title": "サイバー攻撃対策が「万全」の企業、26％に減少　AI投資の不都合な真実",
-      "title_ja": "サイバー攻撃対策が「万全」の企業、26％に減少　AI投資の不都合な真実",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/17/news016.html",
-      "source": "ITmedia エンタープライズ",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Kyndrylの年次調査によると、AI投資でプラスの効果を報告したビジネスリーダーが10ポイント上昇した",
-        "一方で、外部リスクに対して万全な準備ができていると答えた割合は7ポイント低下した",
-        "この背景に何があるのか"
-      ],
-      "published_at": "2026-11-17T08:00:00+09:00",
-      "published_display": "2026/11/17 08:00"
-    },
-    {
-      "id": "af7afb6acdce",
-      "title": "Metaの「Muse」を入れた人はClaudeをむしろ長く使う　それでもAnthropicが警戒すべき理由",
-      "title_ja": "Metaの「Muse」を入れた人はClaudeをむしろ長く使う　それでもAnthropicが警戒すべき理由",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/17/news021.html",
-      "source": "ITmedia エンタープライズ",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Metaの「Muse」が、米国で公開直後から「ChatGPT」を上回る勢いでダウンロード数を伸ばしている",
-        "利用者を取られるのはAnthropicかOpenAIか",
-        "両社のアプリとの併用データが示す構図とは"
-      ],
-      "published_at": "2026-11-17T07:00:00+09:00",
-      "published_display": "2026/11/17 07:00"
-    },
-    {
-      "id": "9351ef156d46",
-      "title": "クレディセゾンはなぜChatGPTでROI954％・年169時間削減を達成できたのか",
-      "title_ja": "クレディセゾンはなぜChatGPTでROI954％・年169時間削減を達成できたのか",
-      "url": "https://kn.itmedia.co.jp/kn/article/2611/17/2000003219/",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "クレディセゾンは、わずか1カ月の検証を経てChatGPT Enterpriseの全社一斉導入に踏み切った",
-        "経営層の巻き込みと現場の工夫を両立させた、同社の実践的な推進アプローチとは"
-      ],
-      "published_at": "2026-11-17T07:00:00+09:00",
-      "published_display": "2026/11/17 07:00"
-    },
-    {
-      "id": "3da12e3ea732",
-      "title": "AIの本格運用に潜むトークン消費増とガバナンス負担　企業の約9割が再設計を迫られる実態",
-      "title_ja": "AIの本格運用に潜むトークン消費増とガバナンス負担　企業の約9割が再設計を迫られる実態",
-      "url": "https://kn.itmedia.co.jp/kn/article/2611/17/2000003223/",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "AIの業務導入が進む一方、本格展開のフェーズで運用体制の抜本的な見直しを迫られる企業が相次いでいる",
-        "トークン消費による想定外のコスト膨張や、各国・地域の法規制、データ主権への対応など、ITリーダーが直面する新たな制約とは何か"
-      ],
-      "published_at": "2026-11-17T07:00:00+09:00",
-      "published_display": "2026/11/17 07:00"
-    },
-    {
-      "id": "cdd7016435b2",
-      "title": "「回答するAI」から「現実の課題を解決するAI」へ、ダッソーが掲げる産業AI戦略",
-      "title_ja": "「回答するAI」から「現実の課題を解決するAI」へ、ダッソーが掲げる産業AI戦略",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/17/news025.html",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "ダッソー・システムズは、年次カンファレンス「3DEXPERIENCE CONFERENCE JAPAN 2026」の開催に併せてプレスブリーフィングを実施した",
-        "同社 CEOのパスカル・ダロズ氏が、AIと科学、人間の専門性を融合させた産業AI戦略について説明",
-        "バーチャルツインを中核に、物理世界の仕組みを理解し、現実世界の課題解決を支援するAIの実現を目指す"
-      ],
-      "published_at": "2026-11-17T06:30:00+09:00",
-      "published_display": "2026/11/17 06:30"
-    },
-    {
-      "id": "8c0b3fb8513a",
-      "title": "NTTが宇宙光通信網の構築へ　「IOWN搭載」衛星と宇宙データセンターで米中に挑む",
-      "title_ja": "NTTが宇宙光通信網の構築へ　「IOWN搭載」衛星と宇宙データセンターで米中に挑む",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/17/news039.html",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "NTTの島田明社長は11月16日、都内で講演し、宇宙で光通信網を構築する構想を明らかにした",
-        "人工衛星同士や地上の通信施設を光信号でつなぎ、高速通信を実現する",
-        "宇宙データセンターや月の発電インフラの整備にも乗り出す"
-      ],
-      "published_at": "2026-11-17T06:00:00+09:00",
-      "published_display": "2026/11/17 06:00"
-    },
-    {
-      "id": "7d1b396a4f80",
-      "title": "NVIDIAが小型AIスパコンDGX Sparkを4台つなげてメモリ容量512GBを実現する「DGX Spark Developer Kit」を発表、最大700Bのモデルを実行可能",
-      "title_ja": "NVIDIAが小型AIスパコンDGX Sparkを4台つなげてメモリ容量512GBを実現する「DGX Spark Developer Kit」を発表、最大700Bのモデルを実行可能",
-      "url": "https://gigazine.net/news/20261117-dgx-spark-developer-kit/",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "NVIDIAが小型AIスーパーコンピューター「DGX Spark」を4台連係させてAIクラスターを形成できる「DGX Spark Developer Kit」を発表しました",
-        "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab | NVIDIA Blog https://blogs",
-        "com/blog/dgx-spark-hpc-developer-kit-sc26/"
-      ],
-      "published_at": "2026-11-17T03:46:54+00:00",
-      "published_display": "2026/11/17 12:46"
-    },
-    {
-      "id": "bbae4c24899f",
-      "title": "Gartner Magic Quadrant のデータ レイクハウス プラットフォーム部門で、Google が「ビジョンの完全性」において最高評価を獲得 - Google Cloud",
-      "title_ja": "Gartner Magic Quadrant のデータ レイクハウス プラットフォーム部門で、Google が「ビジョンの完全性」において最高評価を獲得 - Google Cloud",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSm53M0Y3d203eGlwclNvSXdXTnRadF82OFFUZ2VzTGQzTHoxQWlmMDRpRW5RbzkzdlVUZHBCbmVKWlM1dnV3akEwdWtKeUVWWHZCbzJhQmNLQ2FhQzEyakV0UEpQcHFHeGJmU0lsdnFuaDQxZURNSm85Y2E0R1FFanVtNG1CWHRMYU5SWGhUX3lmN0haQnowRTQ5N2NNRktQeFNkd09uZmRNQjh6aElKQzR5S2FHX0xYUDhSWmMwNEVzU2J0U1M5d2hqSHNiZmM?oc=5",
-      "source": "Google Cloud & Vertex AI ニュース",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [
-        "Google Cloud"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "Gartner Magic Quadrant のデータ レイクハウス プラットフォーム部門で、Google が「ビジョンの完全性」において最高評価を獲得 Google Cloud"
-      ],
-      "published_at": "2026-11-17T03:42:23+00:00",
-      "published_display": "2026/11/17 12:42"
-    },
-    {
-      "id": "0dcdc6a2cdd2",
-      "title": "続くAI関連株の調整：エヌビディアCEO辞任が高める新興企業の資金繰りとAI投資減速のリスク（NRI研究員の時事解説） - Yahoo!ニュース",
-      "title_ja": "続くAI関連株の調整：エヌビディアCEO辞任が高める新興企業の資金繰りとAI投資減速のリスク（NRI研究員の時事解説） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUFpkSV8xRk16LXdORXpHemVybkI3ZktYYTE0Sm95TVo3dkxUNzhGMm1KRTV1QXJFdHZrX1ZuRHBrb2tDQndvaE5yWG1HNU9SbmlwTVZ0dnRKYVp3ZU0taHBheVRudDNaU092bVJGR1ZqbmZ1QXVLT1VaZE5mMnFkR0paVXFfNmhUZ1JadGdB?oc=5",
-      "source": "パートナー動向 (Accenture / Deloitte / NRI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [
-        "NRI"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "続くAI関連株の調整：エヌビディアCEO辞任が高める新興企業の資金繰りとAI投資減速のリスク（NRI研究員の時事解説） Yahoo"
-      ],
-      "published_at": "2026-11-17T03:23:33+00:00",
-      "published_display": "2026/11/17 12:23"
-    },
-    {
-      "id": "e4c7b01eee75",
-      "title": "たった0.5pxにこだわる理由。 AI時代のアイコンデザインの裏側",
-      "title_ja": "たった0.5pxにこだわる理由。 AI時代のアイコンデザインの裏側",
-      "url": "https://blog.asial.co.jp/7133/",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "最近は生成AIの進化によって、専門的な知識がなくても、簡単にそれらしいデザインを作れるようになりました",
-        "アイコンひとつをとっても、Webフォントや無料のアイコン素材が豊富にあり、わざわざオリジナルで制作する機会は以前より少なくなっているように感じます"
-      ],
-      "published_at": "2026-11-17T02:11:59+00:00",
-      "published_display": "2026/11/17 11:11"
-    },
-    {
-      "id": "03be5e173a5d",
-      "title": "【速報】三菱食品、Google Cloud 主催の「AI エージェント事例アワード」で卸初のファイナリストに - 日本食糧新聞・電子版",
-      "title_ja": "【速報】三菱食品、Google Cloud 主催の「AI エージェント事例アワード」で卸初のファイナリストに - 日本食糧新聞・電子版",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB5R0NzSTB4TFhHamxad3I3NmZEMDN5VmdwQkN3ZFZrZWo2Q3NESjBOZjQ1a0lOalBCazc0U1cxankwdFhBcVpheGdYcnFpcU9LalZV?oc=5",
-      "source": "Google Cloud & Vertex AI ニュース",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [
-        "Google Cloud"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "【速報】三菱食品、Google Cloud 主催の「AI エージェント事例アワード」で卸初のファイナリストに 日本食糧新聞・電子版"
-      ],
-      "published_at": "2026-11-17T02:07:37+00:00",
-      "published_display": "2026/11/17 11:07"
-    },
-    {
-      "id": "648919e972ae",
-      "title": "NRIセキュア、フロンティアAIによる攻撃の巧妙化に備え、工場・プラントの制御システムの攻撃耐性を評価するサービスを提供開始 - ZDNET Japan",
-      "title_ja": "NRIセキュア、フロンティアAIによる攻撃の巧妙化に備え、工場・プラントの制御システムの攻撃耐性を評価するサービスを提供開始 - ZDNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsOTlmMFZzRkhwZ3E2bTlNaDJDUnlDbm5jaGFibTJlckxoRkVOYmFoTXpnQTh0QXNZU2luSEFGelZodjJDRHNwZUExb3dYejZ6by1v?oc=5",
-      "source": "パートナー動向 (Accenture / Deloitte / NRI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [
-        "NRI"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "NRIセキュア、フロンティアAIによる攻撃の巧妙化に備え、工場・プラントの制御システムの攻撃耐性を評価するサービスを提供開始 ZDNET Japan"
-      ],
-      "published_at": "2026-11-17T02:00:00+00:00",
-      "published_display": "2026/11/17 11:00"
-    },
-    {
-      "id": "181c06fb2877",
-      "title": "AIを活用したPerlのGo移植（テスト編） - Mirrativ Tech Blog",
-      "title_ja": "AIを活用したPerlのGo移植（テスト編） - Mirrativ Tech Blog",
-      "url": "https://tech.mirrativ.stream/entry/2026/11/17/100000",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "こんにちは、バックエンド基盤チームの藤井脩紀です",
-        "バックエンド基盤チームは、バックエンドエンジニアの生産性向上やコスト削減を目的に、エンジニア主導で課題を発見・解決している部署です",
-        "ミラティブのバックエンドはPerlからGoへの移植を進めています"
-      ],
-      "published_at": "2026-11-17T01:52:41+00:00",
-      "published_display": "2026/11/17 10:52"
-    },
-    {
-      "id": "44a742b214dc",
-      "title": "AIが時代遅れのWebサイトを書くのを防ぐスキル「Modern Web Guidance」が安定版に／「Edge」「Firefox」も参加、Webサイトのモダナイズにも",
-      "title_ja": "AIが時代遅れのWebサイトを書くのを防ぐスキル「Modern Web Guidance」が安定版に／「Edge」「Firefox」も参加、Webサイトのモダナイズにも",
-      "url": "https://forest.watch.impress.co.jp/docs/news/2156904.html",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "AIが時代遅れのWebサイトを書くのを防ぐスキル「Modern Web Guidance」が安定版に／「Edge」「Firefox」も参加、Webサイトのモダナイズにも"
-      ],
-      "published_at": "2026-11-17T01:04:18+00:00",
-      "published_display": "2026/11/17 10:04"
-    },
-    {
-      "id": "379cdfb4f832",
-      "title": "メルカリ×VercelのVPが実例をもとに、AI投資を語る。「AI Engineering Summit Tokyo 2026」追加登壇者を発表！ | ニュース | ファインディ株式会社(Findy Inc)",
-      "title_ja": "メルカリ×VercelのVPが実例をもとに、AI投資を語る。「AI Engineering Summit Tokyo 2026」追加登壇者を発表！ | ニュース | ファインディ株式会社(Findy Inc)",
-      "url": "https://findy.co.jp/4671/",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "問い：AIに関する取り組みで、あなたが担っている役割を教えてください",
-        "（複数回答） AIを自ら開発・活用するだけでなく、チームや組織への導入・活用推進を担う参加者が多いことが分かりました",
-        "こうした参加者のニーズを踏まえ、本カンファレンスでは「チーム・組織へのAI導入、活用推進」をテーマにしたセッションも"
-      ],
-      "published_at": "2026-11-17T01:02:50+00:00",
-      "published_display": "2026/11/17 10:02"
-    },
-    {
-      "id": "472e797fd1f6",
-      "title": "Google日本語入力が不満な人へ、Windows/Mac対応国産ソフト「もずきー」登場。遅延付きライブ変換とAI文脈補正を搭載、使うほど学習し自分好みに（生成AIクローズアップ） | テクノエッジ TechnoEdge",
-      "title_ja": "Google日本語入力が不満な人へ、Windows/Mac対応国産ソフト「もずきー」登場。遅延付きライブ変換とAI文脈補正を搭載、使うほど学習し自分好みに（生成AIクローズアップ） | テクノエッジ TechnoEdge",
-      "url": "https://www.techno-edge.net/article/2026/11/17/5737.html",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "1週間の気になる生成AI技術・研究をいくつかピックアップして解説する連載「生成AIウィークリー」から、特に興味深いAI技術や研究にスポットライトを当てる生成AIクローズアップ",
-        "今回は、Google日本語入力のオープンソース版「Mozc」をベースにした非公式フォークで、koyasi777氏が開発・公開しているオープンソース日"
-      ],
-      "published_at": "2026-11-17T00:51:29+00:00",
-      "published_display": "2026/11/17 09:51"
-    },
-    {
-      "id": "169a248c795d",
-      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-      "title_ja": "サイバーセキュリティAIスタートアップのCorma、約3か月で評価額が10億ドルに到達",
-      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "AIサイバーセキュリティスタートアップのCorbaは、製品を発表してから3か月後に、NEAが主導する10億ドルの評価額で1億2,500万ドルのシリーズA資金を調達しました。"
-      ],
-      "published_at": "2026-11-16T23:32:32+00:00",
-      "published_display": "2026/11/17 08:32"
-    },
-    {
-      "id": "85f1a0385815",
-      "title": "Google、AIが脆弱性の発見から攻撃実行まで自律化した事例を初確認 パッチ差分を解析し悪用コードを生成 - 合同会社ロケットボーイズ",
-      "title_ja": "Google、AIが脆弱性の発見から攻撃実行まで自律化した事例を初確認 パッチ差分を解析し悪用コードを生成 - 合同会社ロケットボーイズ",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZlBvazltZWRfb1NIT014bmhyT0U5R1NwNGtxN2R6Mk4tUVU0R082Q2M2Yml4SjJrTTVUQXh6YUtsYzA3bnZONzAtZVU0cVBpSmZVT3NGSFR5S0Q0WWtCNHJHQ1V0NEhpSF90NjNWTDJ3STAxWGExZ2FVRHlDb3g2dWdfUm8wOS1rRDlqUmE5VDlBRlBWMDBZWGFiamdvQTc2UE5EQk5PQ0tfSlRxR0I2Q0lNdUI?oc=5",
-      "source": "Google Cloud & Vertex AI ニュース",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "✨ Gemini・Google AI",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Google、AIが脆弱性の発見から攻撃実行まで自律化した事例を初確認 パッチ差分を解析し悪用コードを生成 合同会社ロケットボーイズ"
-      ],
-      "published_at": "2026-11-16T23:30:21+00:00",
-      "published_display": "2026/11/17 08:30"
-    },
-    {
-      "id": "831ec1d93b26",
-      "title": "OpenAIをカリフォルニア州が提訴　「AIエージェントの制御を80回以上失った」",
-      "title_ja": "OpenAIをカリフォルニア州が提訴　「AIエージェントの制御を80回以上失った」",
-      "url": "https://www.itmedia.co.jp/news/article/2611/17/2000003246/",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "OpenAIは安全対策フレームワーク「Preparedness Framework」で、能力が「High」と評価されたモデルに対し、多層防御や常時監視、ネットワーク分離を義務付けている",
-        "州は、OpenAIが実際にはこれらを守らず、テスト環境の安全性について公衆を誤解させたと主張している",
-        "ボンタ氏は、Hugging Faceへの攻撃について「成長"
-      ],
-      "published_at": "2026-11-16T23:11:28+00:00",
-      "published_display": "2026/11/17 08:11"
-    },
-    {
-      "id": "204283294c76",
-      "title": "無料で高校1年生(数学IA履修程度)を対象に大規模言語モデル(LLM)・GPTの仕組みを数学とプログラミングの初歩から順番に作って学ぶ教材「microgpt-lesson」、Google Colabで動作",
-      "title_ja": "無料で高校1年生(数学IA履修程度)を対象に大規模言語モデル(LLM)・GPTの仕組みを数学とプログラミングの初歩から順番に作って学ぶ教材「microgpt-lesson」、Google Colabで動作",
-      "url": "https://gigazine.net/news/20261116-microgpt-lesson/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "ChatGPTなどのAIは文章を作成したり質問に回答したりできますが、その内部でどのような計算が行われているのかを理解するには数学やプログラミングの知識が必要です",
-        "そんな大規模言語モデル(LLM)の仕組みを高校1年生向けの数学から順番に学び、Google Colab上で実際に小さなGPTを作ることができる無料教材「microgpt-lesson」です"
-      ],
-      "published_at": "2026-11-16T23:00:00+09:00",
-      "published_display": "2026/11/16 23:00"
-    },
-    {
-      "id": "3fd1324c1b59",
-      "title": "AIが全自動サイバー攻撃、Googleが観測　無料ツールを悪用 - 日本経済新聞",
-      "title_ja": "AIが全自動サイバー攻撃、Googleが観測　無料ツールを悪用 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOGN167260W6A111C2000000/",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "【シリコンバレー=伴正春】米グーグルは15日、人工知能（AI）がシステムの弱点にあたる「脆弱性」の特定から準備、実行までサイバー攻撃を完結させた事例を初めて確認したと発表した",
-        "自動化ツールの悪用が広がり、脅威が高まっている",
-        "グーグルの専門チームがまとめた報告書で明らかにした"
-      ],
-      "published_at": "2026-11-16T22:55:55+00:00",
-      "published_display": "2026/11/17 07:55"
-    },
-    {
-      "id": "cf14849a67ac",
-      "title": "Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base",
-      "title_ja": "Amazon BedrockマネージドナレッジベースのAgentic Retrieveを使用して、メモリ認識AIエージェントを構築する",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/",
-      "source": "AWS Machine Learning Blog",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Amazon BedrockのマネージドナレッジベースとAmazon Bedrock AgentCoreメモリは、会話を保存し、事実を抽出し、長期記憶を単一のAgenticRetrieveStream呼び出しに統合できるようになりました。",
-        "この記事では、各ユーザーが閲覧可能なドキュメントのみを表示し、各ユーザーのメモリが非公開のままとなる、メモリ対応のマルチユーザーアシスタントの構築方法について説明します。"
-      ],
-      "published_at": "2026-11-16T22:43:30+00:00",
-      "published_display": "2026/11/17 07:43"
-    },
-    {
-      "id": "ee66624d9949",
-      "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
-      "title_ja": "DucoがAmazon Bedrock AgentCoreで財務データ自動化を変革する方法",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/",
-      "source": "AWS Machine Learning Blog",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "大手銀行向けデータ自動化プラットフォームのDucoは、Amazon BedrockとAmazon Bedrock AgentCoreでエージェント型AIスタックを再構築しました。",
-        "厳格なテナントごとの分離、マルチモデル戦略、コンテキストのオーバーヘッドを90%削減するMCPスキルアーキテクチャにより、Ducoは照合の導入時間を10分の1に、オンボーディングコストを70%削減しました。"
-      ],
-      "published_at": "2026-11-16T22:06:08+00:00",
-      "published_display": "2026/11/17 07:06"
-    },
-    {
-      "id": "8fe03b39f5ea",
-      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
-      "title_ja": "Nvidiaが火曜日に答えるべきすべての質問 — しかしおそらく答えはないでしょう",
-      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Nvidia（エヌビディア）の暫定CEO兼長年のCFOであるコレット・クレス氏にとって、火曜日はキャリア最大の日の1つとなるだろう。同社が第3四半期の決算を発表するからだ。",
-        "Nvidiaが置かれている混乱を考えると、Nvidiaが答えるべき質問がいくつかあります。"
-      ],
-      "published_at": "2026-11-16T22:03:02+00:00",
-      "published_display": "2026/11/17 07:03"
-    },
-    {
-      "id": "d78589199d04",
-      "title": "Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing",
-      "title_ja": "マルチエージェント設計パターンの分類、アンチパターン、および製造業からの教訓",
-      "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/",
-      "source": "AWS Machine Learning Blog",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "マルチエージェントの調整は、モデルの問題ではなく、分散システムの問題です。",
-        "この記事では、現場で実証されたマルチエージェント設計パターンとアンチパターンの分類、複数のエージェントが必要な場合を判断するためのフレームワーク、AWSでコスト効率が高く信頼性の高いシステムを構築する方法について説明します。"
-      ],
-      "published_at": "2026-11-16T21:53:46+00:00",
-      "published_display": "2026/11/17 06:53"
-    },
-    {
-      "id": "ae06627a3fb7",
-      "title": "ClaudeとCodexで32年落ちのジープをリバースエンジニアリングして修理",
-      "title_ja": "ClaudeとCodexで32年落ちのジープをリバースエンジニアリングして修理",
-      "url": "https://gigazine.net/news/20261116-claude-codex-controll-jeep/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "排ガス規制に適合させるため、Claude CodeとOpenAI Codexで車を修理したという人が詳細を報告しました"
-      ],
-      "published_at": "2026-11-16T21:00:00+09:00",
-      "published_display": "2026/11/16 21:00"
-    },
-    {
-      "id": "e5c0ecd0c7d4",
-      "title": "California state AG sues OpenAI over rogue agent incidents",
-      "title_ja": "カリフォルニア州司法長官が、不正なエージェントのインシデントを理由にOpenAIを提訴",
-      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "カリフォルニア州の訴訟は、AIラボに悪質なエージェントのインシデントに対する法的責任を負わせようとする最初の試みの1つです。"
-      ],
-      "published_at": "2026-11-16T20:07:13+00:00",
-      "published_display": "2026/11/17 05:07"
-    },
-    {
-      "id": "f4ac56a86e05",
-      "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
-      "title_ja": "トランプ大統領、Nvidia元CEOのジェンセン・ファン氏の中国のスパイとされる人物との関係は国家安全保障を脅かさなかったと発言",
-      "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "トランプ大統領は、アリス・ファン氏が中国のスパイであると結論付けたと報じられている自らの政権の情報機関関係者の見解に反論した。"
-      ],
-      "published_at": "2026-11-16T19:12:02+00:00",
-      "published_display": "2026/11/17 04:12"
-    },
-    {
-      "id": "da7df8c628d6",
-      "title": "AIが文学界を揺るがしている",
-      "title_ja": "AIが文学界を揺るがしている",
-      "url": "https://gigazine.net/news/20261116-ai-literary-world/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "生成AIの発達により自然な言葉づかいで物語性のある文章もAIが生成できるようになったことで、AIで年間200冊のロマンス小説を執筆する作家の例や、執筆に生成AIを使った疑いで出版を停止した騒動、「AIで書いたのではないか」と疑惑を受けた短編小説が国際文学賞の最優秀賞を受賞した一件など、さまざまな議論が文学界で発生しています",
-        "そういった状況を受け、イギリス大手誌のThe Guardianが「まるで西部開拓時代みたいだ：AIが文学界をいかに揺るがしたか」というコラムを掲載しています"
-      ],
-      "published_at": "2026-11-16T19:00:00+09:00",
-      "published_display": "2026/11/16 19:00"
-    },
-    {
-      "id": "91f9b74229a9",
-      "title": "The open-source movement wants Jensen Huang back",
-      "title_ja": "オープンソース運動はJensen Huang氏の復帰を望んでいる",
-      "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-      "source": "MIT Technology Review (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "こちらは当初、AIに関する週刊ニュースレター「ザ・アルゴリズム」に掲載された記事です。",
-        "このようなニュースをいち早くメールで受け取るには、こちらからご<g id=\"1\">&#xA0;</g>登録ください。",
-        "金曜日、ジェンセン・ファン氏をNvidiaのCEOに復帰させるという請願がソーシャルメディア上で出回り始め、月曜日までにイーロン・マスク氏やNvidiaの複数の影響力のある人物を含む著名な署名者が名を連ねました。"
-      ],
-      "published_at": "2026-11-16T18:38:47+00:00",
-      "published_display": "2026/11/17 03:38"
-    },
-    {
-      "id": "1e54bd5358b2",
-      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-      "title_ja": "テクノロジー業界のリーダーたちは、ジェンセン・ファン氏の退任が彼に対する陰謀であったと確信している。",
-      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "id": "0e76142b2bca",
+      "title": "The DOJ says it’s investigating Megaspeed",
+      "title_ja": "The DOJ says it’s investigating Megaspeed",
+      "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
       "source": "The Verge (AI)",
       "source_lang": "en",
       "is_foreign": true,
@@ -724,471 +1189,11 @@
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "ジェンセン・ファン氏が33年以上勤務したNvidiaを突然辞任したことで、テクノロジー業界全体に衝撃が走りました。",
-        "現在、著名人たちが黄氏の復職を求めており、多くの人がシリコンバレー全体に広まっているある説に賛同しています。それは、このスキャンダルが元CEOに対する陰謀の結果であるというものです。"
+        "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year",
+        "\"While we don't typically comment on ongoing investigations, it is in the public interest to provide the facts and address […]"
       ],
-      "published_at": "2026-11-16T18:17:34-05:00",
-      "published_display": "2026/11/17 08:17"
-    },
-    {
-      "id": "4dbfab408189",
-      "title": "How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore",
-      "title_ja": "MoEngageがAmazon Bedrock AgentCoreでエージェント型の顧客エンゲージメントを構築した方法",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock-agentcore/",
-      "source": "AWS Machine Learning Blog",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "MoEngage built Merlin AI, a set of AI agents on Amazon Bedrock and Amazon Bedrock AgentCore that let marketing and product teams draft, analyze, and adjust campaigns from a single conversation",
-        "Learn how MoEngage turned its existing APIs into MCP tools and kept each tenant's data isolated while giving agents secure access to live platform data"
-      ],
-      "published_at": "2026-11-16T18:16:07+00:00",
-      "published_display": "2026/11/17 03:16"
-    },
-    {
-      "id": "7e6af104fafa",
-      "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
-      "title_ja": "サム・アルトマン氏がジェンセン・ファン氏不在のNvidiaについて語る：業界は「大丈夫」",
-      "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "OpenAIのサム・アルトマンCEOは、Nvidiaのジェンセン・ファンCEOがAIブームにおいて果たしてきた特別な役割を認めていますが、最終的にはファン氏が舵を取らなくても業界は「大丈夫」だと考えています。"
-      ],
-      "published_at": "2026-11-16T18:11:10+00:00",
-      "published_display": "2026/11/17 03:11"
-    },
-    {
-      "id": "2e3eb1382aba",
-      "title": "ChatGPTのチャット内でクレカ決済できる「ChatGPT Wallet」が登場",
-      "title_ja": "ChatGPTのチャット内でクレカ決済できる「ChatGPT Wallet」が登場",
-      "url": "https://gigazine.net/news/20261116-chatgpt-wallet/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "ChatGPTに決済機能「ChatGPT Wallet」が追加されました",
-        "チャット内で商品選びから決済までを実行可能で、セキュリティも確保されています"
-      ],
-      "published_at": "2026-11-16T17:49:00+09:00",
-      "published_display": "2026/11/16 17:49"
-    },
-    {
-      "id": "e876400648ab",
-      "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
-      "title_ja": "FBIによると、オープンソースのハッキングツール「Artex AI」が「3時間未満」でネットワークに侵入したとのことです。",
-      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "FBIは、オープンソースのハッキングツールが、",
-        "IT大手企業と韓国の金融業界"
-      ],
-      "published_at": "2026-11-16T17:36:43+00:00",
-      "published_display": "2026/11/17 02:36"
-    },
-    {
-      "id": "bcfe52a4456c",
-      "title": "Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform",
-      "title_ja": "Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform",
-      "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and-aws-transform/",
-      "source": "AWS Machine Learning Blog",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Legacy mainframe Assembler applications are costly to maintain and hard to staff",
-        "This post presents a multi-stage, AI-powered methodology using Amazon Bedrock, Kiro IDE, and AWS Transform to extract business rules, convert Assembler through an intermediate COBOL stage, and deploy modernized Java Spring Boot applications on AWS"
-      ],
-      "published_at": "2026-11-16T17:29:29+00:00",
-      "published_display": "2026/11/17 02:29"
-    },
-    {
-      "id": "db5dd187275d",
-      "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
-      "title_ja": "ジョーダン・ベルフォート氏の新しいAI音声スタートアップ「Tone」は、「ウォール街の狼」のように売りたいと考えています。",
-      "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "ベルフォート氏は、彼のAIセールスボイスはすでに最高の人間セールスパーソンとほぼ同等に取引を成立させることができ、1年後には追いつくだろうと考えています。"
-      ],
-      "published_at": "2026-11-16T17:10:00+00:00",
-      "published_display": "2026/11/17 02:10"
-    },
-    {
-      "id": "01a41a5a4f2f",
-      "title": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore",
-      "title_ja": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/novo-nordisk-modernizes-manufacturing-process-documents-with-amazon-bedrock-agentcore/",
-      "source": "AWS Machine Learning Blog",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Novo Nordisk's Manufacturing Technology team within the Tablet area team built a process-intelligence assistant on Amazon Bedrock AgentCore, using a GraphRAG architecture that pairs a knowledge graph in Amazon Neptune with hybrid search in Amazon OpenSearch Serverless to turn millions of controlled manufacturing documents into grounded, cited answers"
-      ],
-      "published_at": "2026-11-16T17:04:11+00:00",
-      "published_display": "2026/11/17 02:04"
-    },
-    {
-      "id": "9da65ac79daa",
-      "title": "OpenAI will embed safety researchers to investigate AI subversion",
-      "title_ja": "OpenAIは、AIの破壊行為を調査するためにセキュリティ研究者を配置する",
-      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "OpenAIは、AIモデルが破壊的な行動に関与しているかどうかを調査するために、Apollo Researchの評価者を6名配置する予定ですが、アクセスと情報開示に関する制限により、その独立性に疑問が生じています。"
-      ],
-      "published_at": "2026-11-16T17:02:43+00:00",
-      "published_display": "2026/11/17 02:02"
-    },
-    {
-      "id": "258242fb33b8",
-      "title": "Beyond the compute bottleneck: Maximizing the ROI of AI accelerators with purpose-built storage",
-      "title_ja": "コンピューティングのボトルネックを超えて：専用ストレージでAIアクセラレーターのROIを最大化",
-      "url": "https://cloud.google.com/blog/products/storage-data-transfer/maximizing-ai-accelerator-roi-with-purpose-built-storage/",
-      "source": "Google Cloud Blog (公式)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "✨ Gemini・Google AI",
-      "partner_tags": [
-        "Google Cloud"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "AIインフラストラクチャには、アクセラレーターを購入するだけの以上のものがたくさんあります。",
-        "実際、エンタープライズAIのインフラストラクチャに関する課題は、アクセラレーターの導入から、その完全な活用へと移行しています。",
-        "これらの高価なアクセラレーターに比べ、ストレージが占める割合はAI関連支出全体のほんの一部にすぎません。"
-      ],
-      "published_at": "2026-11-16T17:00:00+00:00",
-      "published_display": "2026/11/17 02:00"
-    },
-    {
-      "id": "1addd41dd2e0",
-      "title": "Broadening access to AI for scientists",
-      "title_ja": "科学者によるAIへのアクセスの拡大",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "source": "OpenAI Blog",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "当社は、学術研究者向けChatGPTプログラムを拡大し、世界中の20万人の研究者に当社の最先端モデルへの無料アクセスを提供します。"
-      ],
-      "published_at": "2026-11-16T17:00:00+00:00",
-      "published_display": "2026/11/17 02:00"
-    },
-    {
-      "id": "2a0a3b27d5a1",
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "title_ja": "新たなツールと支援により、オンライン上の児童に対する性的虐待への取り組みを強化",
-      "url": "https://openai.com/index/strengthening-online-child-safety",
-      "source": "OpenAI Blog",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "新しいツール、実践的なガイダンス、パートナーシップにより、オンライン上での児童の性的搾取および虐待の防止、発見、対応が可能になります。"
-      ],
-      "published_at": "2026-11-16T17:00:00+00:00",
-      "published_display": "2026/11/17 02:00"
-    },
-    {
-      "id": "c33f40fc2193",
-      "title": "Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base",
-      "title_ja": "Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base",
-      "url": "https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/",
-      "source": "AWS Machine Learning Blog",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Amazon Bedrock Managed Knowledge Base now supports tabular search, so agentic retrieval can answer questions over CSV, XLSX, and XLS files",
-        "It looks up values and runs calculations across every relevant row, then combines the results with facts from related documents to answer multi-step analytical questions"
-      ],
-      "published_at": "2026-11-16T16:12:16+00:00",
-      "published_display": "2026/11/17 01:12"
-    },
-    {
-      "id": "3bb05039e96a",
-      "title": "Building trustworthy AI by fencing it in, not predicting it",
-      "title_ja": "予測するのではなく、囲い込むことで信頼できるAIを構築する",
-      "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-      "source": "MIT Technology Review (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "今年10月、OpenAIは、自社のAIエージェント2体が、それらを監視するために構築されたシステムを停止したことを明らかにしました。",
-        "一方の企業は、メッセージを送信しないという指示を誤って読み取ったため、自社のセキュリティアラートをミュートしました。もう一方の企業は、移行中にモニタリング統合を削除したにもかかわらず、削除していないと述べました。",
-        "エージェントに次のようなことをするように指示する規則はありませんでした…"
-      ],
-      "published_at": "2026-11-16T16:04:28+00:00",
-      "published_display": "2026/11/17 01:04"
-    },
-    {
-      "id": "05383cc37e1a",
-      "title": "Best practices for writing Denied Topics in Amazon Bedrock Guardrails",
-      "title_ja": "Best practices for writing Denied Topics in Amazon Bedrock Guardrails",
-      "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails/",
-      "source": "AWS Machine Learning Blog",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "With Denied Topics in Amazon Bedrock Guardrails, you block a content category by describing it in plain language, and the guardrail matches by meaning rather than keyword, which can block more than you intend",
-        "This post presents eight best practices for writing a topic precisely enough that the guardrail blocks what you mean and passes what you don't"
-      ],
-      "published_at": "2026-11-16T15:48:01+00:00",
-      "published_display": "2026/11/17 00:48"
-    },
-    {
-      "id": "080f859f306f",
-      "title": "California sues OpenAI over rogue AI hacking incidents",
-      "title_ja": "カリフォルニア州が、悪質なAIハッキング事件をめぐってOpenAIを訴える",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-      "source": "The Verge (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "カリフォルニア州がOpenAIを提訴。AIエージェントがテスト環境から抜け出し、Hugging Faceを含む他社をハッキング",
-        "ロイター通信が先ごろ報じたところによると、月曜日に提起された訴訟において、ロブ・ボンタ司法長官は、OpenAIが「適切な監督なしに危険な製品」を故意に開発したことで、消費者安全法に違反したと非難しています。",
-        "訴訟では、 […]"
-      ],
-      "published_at": "2026-11-16T15:46:01-05:00",
-      "published_display": "2026/11/17 05:46"
-    },
-    {
-      "id": "89bd0734d283",
-      "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
-      "title_ja": "サム・アルトマン氏、誰もが「十分なRAMを搭載できる」ことを望むと発言",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
-      "source": "The Verge (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "OpenAIのサム・アルトマンCEOが、PC用RAMの購入に関する物議を醸した発言について改めて言及",
-        "「はっきりさせておきたいのですが、私は人々が多くのRAMを持てることを望んでいます。誰もが自分のコンピュータのために多くのRAMを購入できるようにすべきだと思います」とアルトマン氏は本日述べました。",
-        "「自宅でのDIYは素晴らしいと思います。"
-      ],
-      "published_at": "2026-11-16T15:41:28-05:00",
-      "published_display": "2026/11/17 05:41"
-    },
-    {
-      "id": "33dea8021523",
-      "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
-      "title_ja": "大手原子力企業は、民主党がデータセンターを停止させることを懸念していない",
-      "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
-      "source": "The Verge (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "米国の最大手原子力発電所運営会社であるコンステレーション・エナジーは、民主党がデータセンターの開発を遅らせるというウォール街の懸念を共有していません。",
-        "先週の同社の第3四半期決算説明会で、CEOのジョー・ドミンゲス氏は、より適切な表現が見つからないためこう表現しますが、民主党の躍進について語る際、動じる様子がありませんでした。",
-        "「私たちは […]"
-      ],
-      "published_at": "2026-11-16T15:29:37-05:00",
-      "published_display": "2026/11/17 05:29"
-    },
-    {
-      "id": "72bb1891f93d",
-      "title": "US data centers now burn more electricity than a midsized country",
-      "title_ja": "現在、米国のデータセンターは中規模の国よりも多くの電力を消費しています。",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
-      "source": "The Verge (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "学術誌『Nature Sustainability』に掲載された新しい論文によると、化石燃料は依然として米国のハイパースケールデータセンターにおける最大の電力源となっています。",
-        "これらのデータセンターは、多くの国々よりも全体としてより多くの電力を消費しており、その結果、大量の温室効果ガスを排出しています。",
-        "この調査は、ハイパースケール施設に焦点を当てています。 […]"
-      ],
-      "published_at": "2026-11-16T15:27:58-05:00",
-      "published_display": "2026/11/17 05:27"
-    },
-    {
-      "id": "543e920625de",
-      "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
-      "title_ja": "Appleが、より複雑なSiri AIとのやり取りに対する1日の使用制限をテスト中",
-      "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
-      "source": "The Verge (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "AppleがiOS 27のベータ版をリリース",
-        "3, iPadOS 27",
-        "3、およびmacOS 27"
-      ],
-      "published_at": "2026-11-16T14:24:40-05:00",
-      "published_display": "2026/11/17 04:24"
-    },
-    {
-      "id": "5d6425f1188d",
-      "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
-      "title_ja": "OpenAIは、ディープフェイクが児童虐待通報ホットラインを圧倒することを阻止したいと考えています",
-      "url": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
-      "source": "The Verge (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🎨 画像・動画・マルチモーダル",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "OpenAIは、児童に対する性的虐待の捜査官がノイズを排除して、迅速に対処できる有害なコンテンツを見つけられるようにするツールを発表しています。",
-        "OpenAIは10月23日（月）にワシントンDCで開催された記者会見で、児童に対する虐待的な画像をより適切に検出できると主張する分類ツールを発表しました。これには、AIが生成したものであるかどうかの検出も含まれます。",
-        "また、[…]も提供しています。"
-      ],
-      "published_at": "2026-11-16T14:23:45-05:00",
-      "published_display": "2026/11/17 04:23"
-    },
-    {
-      "id": "dfec16c03edb",
-      "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
-      "title_ja": "GTIG AI脅威トラッカー：エージェント型脅威のアクティビティが重要な閾値を超える",
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/",
-      "source": "Google Cloud Blog (公式)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "✨ Gemini・Google AI",
-      "partner_tags": [
-        "Google Cloud"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "執筆：Aurora Blum、Kelli Vanderlee、Jess Xia、David Mainor エグゼクティブサマリー 攻撃者は、基本的なプロンプトを超えて、自律型マルチエージェントフレームワーク、自動化された脆弱性エクスプロイトパイプライン、LLMJackingなどの代替収益化スキームの展開にますます移行しており、敵対的AIの状況は重要な転換点に達しています。",
-        "この最新情報では、Google Threat Intelligence Group（GTIG）とMandiantが、サイバー犯罪、スパイ活動、情報操作の分野にわたる攻撃者が、生成AIをどのように運用して攻撃のタイムラインを短縮し、攻撃を大規模化し、機械速度で多段階の侵入を実行しているかを検証しています。",
-        "過去四半期の主な傾向は次のとおりです。自律型ワークフローとマルチエージェントフレームワークへの移行：攻撃者の手口は、手動プロンプトから、自律型マルチエージェント攻撃フレームワーク（ARTEX 、CAIRN、CyberStrikeAI、PentAGIなど）の展開へと移行し続けており、より高い運用速度で多段階の侵入を実行しています。"
-      ],
-      "published_at": "2026-11-16T14:00:00+00:00",
-      "published_display": "2026/11/16 23:00"
-    },
-    {
-      "id": "89ad8b28846d",
-      "title": "New Ask Maps features to help with holiday travel and prep",
-      "title_ja": "ホリデーシーズンの旅行や準備に役立つ、Ask Mapsの新しい機能",
-      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-      "source": "Google AI Blog",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "✨ Gemini・Google AI",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "tbd"
-      ],
-      "published_at": "2026-11-16T14:00:00+00:00",
-      "published_display": "2026/11/16 23:00"
-    },
-    {
-      "id": "ae7b83adc82e",
-      "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
-      "title_ja": "Nvidiaの取締役会は、ジェンセン・ファン氏を再び雇用することを「検討していない」と伝えられています。",
-      "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
-      "source": "The Verge (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "CNBCの報道によると、Nvidiaの取締役会は、ジェンセン・ファン氏がCEOに復帰することを「検討していない」とのことです。",
-        "ある情報筋が同メディアに語ったところによると、取締役会は「ファン氏に関する調査に注力しており、彼を復職させることについては話し合っていない」とのことです。",
-        "「先週のファン氏の辞任以来、テクノロジー業界のエグゼクティブたちが、Nvidiaの現従業員および元従業員とともに、 […]"
-      ],
-      "published_at": "2026-11-16T13:43:35-05:00",
-      "published_display": "2026/11/17 03:43"
-    },
-    {
-      "id": "cbe60333dcda",
-      "title": "アクセンチュアが説く「業務そのものの創り直し」とは？　AI活用が事業成果に結びつかない企業に向けた2つのポイント",
-      "title_ja": "アクセンチュアが説く「業務そのものの創り直し」とは？　AI活用が事業成果に結びつかない企業に向けた2つのポイント",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/16/news056.html",
-      "source": "ITmedia エンタープライズ",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [
-        "Accenture"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "AIのPoC（実証実験）を重ねても本番導入や事業成果に結び付かないとき、企業はAIの活用方法と業務の設計のどちらから見直すべきなのか",
-        "アクセンチュアが説く「既存業務のAI化ではなく、業務そのものを創り直す」とはどういうことか、考察する"
-      ],
-      "published_at": "2026-11-16T13:00:00+09:00",
-      "published_display": "2026/11/16 13:00"
-    },
-    {
-      "id": "21f1d47f22b3",
-      "title": "AIによる誤った判断、責任を負うのは誰？　「9割」をAIに委ねる時代に向け、IDCが提言",
-      "title_ja": "AIによる誤った判断、責任を負うのは誰？　「9割」をAIに委ねる時代に向け、IDCが提言",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/13/news042.html",
-      "source": "ITmedia エンタープライズ",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "取り消しが可能な意思決定の90％を、高度なAIモデルに委ねる――",
-        "IDCは、そうした企業を築くリーダーへの交代が進むと予測する",
-        "AIの判断が誤ったとき、責任を負うのは誰か"
-      ],
-      "published_at": "2026-11-16T13:00:00+09:00",
-      "published_display": "2026/11/16 13:00"
+      "published_at": "2026-11-17T11:19:03-05:00",
+      "published_display": "2026/11/18 01:19"
     }
   ]
 }
