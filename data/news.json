@@ -1,188 +1,850 @@
 {
-  "updated_at": "2026/11/25 13:51 (JST)",
+  "updated_at": "2026/11/26 13:04 (JST)",
   "total_count": 65,
   "articles": [
     {
-      "id": "9e454db4b7b8",
-      "title": "Anthropicが「わざとセキュリティの甘いサンドボックスにAIを配置して行動を観察する」というセキュリティ評価手法「Siren」について解説",
-      "title_ja": "Anthropicが「わざとセキュリティの甘いサンドボックスにAIを配置して行動を観察する」というセキュリティ評価手法「Siren」について解説",
-      "url": "https://gigazine.net/news/20261125-ai-sandbox-escape-siren/",
+      "id": "dbca97ee076f",
+      "title": "Googleがオープンモデル「Gemma 4」のファインチューニングに役立つ情報を網羅したページを公開、ファインチューニング用スキルもあり",
+      "title_ja": "Googleがオープンモデル「Gemma 4」のファインチューニングに役立つ情報を網羅したページを公開、ファインチューニング用スキルもあり",
+      "url": "https://gigazine.net/news/20261126-gemma-4-fine-tune/",
       "source": "GIGAZINE (AI)",
       "source_lang": "ja",
       "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
+      "category": "✨ Gemini・Google AI",
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "AIエージェントをテストする際は、外部から隔離された「サンドボックス」という環境で稼働させることがあります",
-        "しかし、OpenAIのAIエージェントがHugging Faceをハッキングしてしまった件のように、サンドボックス自体に欠陥がありAIエージェントが密かに抜け出してしまう例も少なくありません",
-        "こうした欠陥のある状況でAIエージェントがどう行動するかを評価する手法「Siren」をAnthropicが考案し、その仕組みを解説しました"
+        "GoogleはオープンウェイトモデルのGemma 4シリーズを公開しており、誰でも無料でダウンロードしてローカルで実行したりファインチューニングを実行したりできます",
+        "新たに、Gemma 4シリーズのファインチューニング関連情報をまとめたページが公開されました"
       ],
-      "published_at": "2026-11-25T13:44:00+09:00",
-      "published_display": "2026/11/25 13:44"
+      "published_at": "2026-11-26T12:22:00+09:00",
+      "published_display": "2026/11/26 12:22"
     },
     {
-      "id": "8d0e4a091a84",
-      "title": "GPT-6シリーズが生物学に特化したAIなしでタンパク質を設計できることが判明、実験室での検証にも成功",
-      "title_ja": "GPT-6シリーズが生物学に特化したAIなしでタンパク質を設計できることが判明、実験室での検証にも成功",
-      "url": "https://gigazine.net/news/20261125-openai-gpt-6-protein/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "OpenAIは2026年11月24日、汎用大規模言語モデル(LLM)のGPT-6シリーズが推論とコーディングだけで新たなタンパク質の立体構造やアミノ酸配列を設計できることを発表しました",
-        "2による設計を基に実際にタンパク質を合成し、意図した標的に結合することを実験で確認しています"
-      ],
-      "published_at": "2026-11-25T12:33:00+09:00",
-      "published_display": "2026/11/25 12:33"
-    },
-    {
-      "id": "7df18530e8dc",
-      "title": "AIでドーピングしたコンサルの実力は　使わない人材との能力差、BCG約500人で検証　Nature系列誌",
-      "title_ja": "AIでドーピングしたコンサルの実力は　使わない人材との能力差、BCG約500人で検証　Nature系列誌",
-      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003421/",
+      "id": "8a962f2223a0",
+      "title": "旅行会社に残る価値は？　生成AIに「旅の相談」が当たり前の今、業界の生存戦略",
+      "title_ja": "旅行会社に残る価値は？　生成AIに「旅の相談」が当たり前の今、業界の生存戦略",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/26/news033.html",
       "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "検索から予約、決済まで自律的にこなす「AIエージェント」の普及で、旅行会社の存在意義が問われている",
+        "日本旅行業協会（JATA）主催のシンポジウムに旅行・食・IT・大手旅行会社のプロ4人が登壇",
+        "「おいしい」を味わう感覚や、顧客の言葉の裏にある本音までは読み取れないAIの限界を指摘し、AIによる業務効率化で生み出した時間を「信頼関係」や現場の感動体験に振り向ける共創の生存戦略を議論した"
+      ],
+      "published_at": "2026-11-26T12:00:00+09:00",
+      "published_display": "2026/11/26 12:00"
+    },
+    {
+      "id": "1909b1a6d7c2",
+      "title": "飲食店の“AI商品画像”は景品表示法違反にならないの？　弁護士の見解",
+      "title_ja": "飲食店の“AI商品画像”は景品表示法違反にならないの？　弁護士の見解",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003447/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "飲食店のメニューにAIで生成した画像を使用した場合を例に、生成AIによる商品画像と景品表示法の関係について考える"
+      ],
+      "published_at": "2026-11-26T12:00:00+09:00",
+      "published_display": "2026/11/26 12:00"
+    },
+    {
+      "id": "77e2b1b8667b",
+      "title": "GitHubに「人には見えない隠し文字」　小型AIの操作狙うものも……1億4500万件を調査",
+      "title_ja": "GitHubに「人には見えない隠し文字」　小型AIの操作狙うものも……1億4500万件を調査",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003460/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "イスラエルのセキュリティ会社Radwareとテクニオン・イスラエル工科大学に所属する研究者らが発表した論文「Who Is Prompt-Injecting Coding Agents",
+        "An Empirical Study of Hidden AI-Directed Text on GitHub」は、GitHub上に潜むAI向けの隠しテキストが、誰によってどのような目的で埋め込まれているのかを分析した研究報告だ"
+      ],
+      "published_at": "2026-11-26T12:00:00+09:00",
+      "published_display": "2026/11/26 12:00"
+    },
+    {
+      "id": "c2e8654fb15f",
+      "title": "GoogleのAIが人間の介入なしに6本の数学論文を生成、素因数分解など数十年停滞していた分野に光",
+      "title_ja": "GoogleのAIが人間の介入なしに6本の数学論文を生成、素因数分解など数十年停滞していた分野に光",
+      "url": "https://gigazine.net/news/20261126-cogentic-6-research-papers/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "✨ Gemini・Google AI",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Googleの研究部門であるGoogle Researchが、6つの数学論文をGitHubに投稿しました",
+        "これらの論文は全て、Gemini 4をベースとする数学的発見を行うためのマルチエージェントシステム「Cogentic」が生成しています"
+      ],
+      "published_at": "2026-11-26T11:47:00+09:00",
+      "published_display": "2026/11/26 11:47"
+    },
+    {
+      "id": "6c0e91220a7c",
+      "title": "アメリカの規制当局がSpaceXの宇宙AIデータセンター設置計画を承認",
+      "title_ja": "アメリカの規制当局がSpaceXの宇宙AIデータセンター設置計画を承認",
+      "url": "https://gigazine.net/news/20261126-fcc-approves-spacex-plan-ai-data-centers-space/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "アメリカ国内の放送通信事業の規制監督を行う連邦通信委員会(FCC)が、イーロン・マスク氏率いる宇宙開発企業であるSpaceXの「宇宙AIデータセンター」設置計画を承認しました"
+      ],
+      "published_at": "2026-11-26T11:30:00+09:00",
+      "published_display": "2026/11/26 11:30"
+    },
+    {
+      "id": "6a9f156b51a4",
+      "title": "AIチャットボット搭載おもちゃの製造・流通・販売を5年間停止する法律にニューヨーク州知事が署名",
+      "title_ja": "AIチャットボット搭載おもちゃの製造・流通・販売を5年間停止する法律にニューヨーク州知事が署名",
+      "url": "https://gigazine.net/news/20261126-new-york-state-bans-ai-toys/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "ホリデーシーズンで買い物需要が高まるのに先駆けて、「AIチャットボット搭載おもちゃをニューヨーク州内で製造・流通・販売することを5年間停止する」という法律に、キャシー・ホークル知事が署名しました",
+        "法律の発効は署名から90日後でホリデーシーズンよりも先になるため、ホークル知事は「ホリデーシーズンに子どもにプレゼントを購入する際は、AIチャットボット搭載おもちゃのもたらす潜在的リスクについて検討するようにしてください」と保護者に呼びかけています"
+      ],
+      "published_at": "2026-11-26T11:25:00+09:00",
+      "published_display": "2026/11/26 11:25"
+    },
+    {
+      "id": "ecbde2859965",
+      "title": "AnthropicのアモデイCEO、「人間の自由意志をAIに明け渡す」考えを否定　AI企業間で議論",
+      "title_ja": "AnthropicのアモデイCEO、「人間の自由意志をAIに明け渡す」考えを否定　AI企業間で議論",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003473/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Anthropicのダリオ・アモデイCEOは、超知能AIに人間の意思決定権を委ねるべきだと考えているとしたAxiosの報道をXで否定した",
+        "社会の統治と個別タスクの自動化を混同していると反論し、AIは民主的プロセスで管理されるべきだと強調した",
+        "超知能時代の主導権を巡っては、OpenAIやMeta幹部も発言しており議論が広がっている"
+      ],
+      "published_at": "2026-11-26T11:24:00+09:00",
+      "published_display": "2026/11/26 11:24"
+    },
+    {
+      "id": "290829ea72d1",
+      "title": "Kimi K3をベースにコーディング能力を増強したAIモデル「SWE-2.1」が登場",
+      "title_ja": "Kimi K3をベースにコーディング能力を増強したAIモデル「SWE-2.1」が登場",
+      "url": "https://gigazine.net/news/20261126-swe-2-1-coding-ai/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "アメリカに拠点を置くAI開発企業のCognitionがAIモデル「SWE-2",
+        "1」を現地時間の2026年11月24日に発表しました",
+        "中国製AIモデル「Kimi K3」をベースに開発されており、コーディング能力が大幅に引き上げられています"
+      ],
+      "published_at": "2026-11-26T11:05:00+09:00",
+      "published_display": "2026/11/26 11:05"
+    },
+    {
+      "id": "240adf5854cc",
+      "title": "AnthropicがClaudeを使って自社APIをPythonからRustに移植しCPU使用量を約70％削減した方法を公開",
+      "title_ja": "AnthropicがClaudeを使って自社APIをPythonからRustに移植しCPU使用量を約70％削減した方法を公開",
+      "url": "https://gigazine.net/news/20261126-anthropic-claude-api-rust/",
+      "source": "GIGAZINE (AI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "AI企業のAnthropicが、AIモデル「Claude」を外部から利用するための「Messages API」をPythonからRustに移植した際の開発手法を公開しました",
+        "AnthropicはClaudeを活用して移植を進め、2026年9月にサービスを停止することなくRust版へ移行",
+        "リクエスト当たりのCPU使用量を約70％削減することに成功しています"
+      ],
+      "published_at": "2026-11-26T11:02:00+09:00",
+      "published_display": "2026/11/26 11:02"
+    },
+    {
+      "id": "bcf5c6c3bb3b",
+      "title": "脆弱性の発見数、1年で2倍超　Microsoft製品も月100件から1000件超に……AIで一変",
+      "title_ja": "脆弱性の発見数、1年で2倍超　Microsoft製品も月100件から1000件超に……AIで一変",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003446/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "米Microsoftが毎月公開しているWindowsのセキュリティ更新プログラム",
+        "11月は1000件以上の脆弱性が修正された",
+        "他社の製品も含めると、2026年に入って発見された脆弱性は10万件を超え、すでに25年の倍以上だ"
+      ],
+      "published_at": "2026-11-26T10:00:00+09:00",
+      "published_display": "2026/11/26 10:00"
+    },
+    {
+      "id": "039e0510e805",
+      "title": "Obsidian公式の「エージェント向け」スキル集が登場　Vault操作法とファイル形式をひとまとめに",
+      "title_ja": "Obsidian公式の「エージェント向け」スキル集が登場　Vault操作法とファイル形式をひとまとめに",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003470/",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "マークダウンエディタ「Obsidian」に「エージェント向けの公式コネクタ」機能が登場した"
+      ],
+      "published_at": "2026-11-26T09:37:03+09:00",
+      "published_display": "2026/11/26 09:37"
+    },
+    {
+      "id": "bacd0d45fe5a",
+      "title": "サイバー攻撃は「盗む」から「操る」段階へ　それでもOT投資はITの約20分の1",
+      "title_ja": "サイバー攻撃は「盗む」から「操る」段階へ　それでもOT投資はITの約20分の1",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/26/news020.html",
+      "source": "ITmedia エンタープライズ",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [
+        "Accenture"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "世界のセキュリティ投資のうちOT向けは約5％にとどまる",
+        "サイバー攻撃が設備を「操る」段階に入る中、アクセンチュアとDragosがOTセキュリティの現状と対策を説明した"
+      ],
+      "published_at": "2026-11-26T09:35:00+09:00",
+      "published_display": "2026/11/26 09:35"
+    },
+    {
+      "id": "2a3281f8133b",
+      "title": "図面を探す時間から技能を伝える時間へ、AI活用で業務効率化を進める空研工業",
+      "title_ja": "図面を探す時間から技能を伝える時間へ、AI活用で業務効率化を進める空研工業",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/26/news014.html",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "創業70周年を迎えた空研工業は、長年蓄積してきた図面や技術資料をAIで活用する「AIナレッジ基盤システム」をRecursiveと共同開発した",
+        "試行利用の結果を基にした試算では、図面検索工数を最大約90％削減する見通しで、業務効率化の先には技能伝承も見据える",
+        "AI活用に至った背景や現場が抱えていた課題、試行利用で得られた手応えについて、工場長と現場の技術者に話を聞いた"
+      ],
+      "published_at": "2026-11-26T09:00:00+09:00",
+      "published_display": "2026/11/26 09:00"
+    },
+    {
+      "id": "15b92ef64e59",
+      "title": "国内造船業再生の鍵はフィジカルAI、デジタルシップヤード開発の現状を知る",
+      "title_ja": "国内造船業再生の鍵はフィジカルAI、デジタルシップヤード開発の現状を知る",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/26/news018.html",
+      "source": "ITmedia AI+",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "政府策定の「造船業再生ロードマップ」では、AIとロボット技術を組み合わせたフィジカルAIによる建造工程の自動化が求められている",
+        "「造船業界におけるAI・ロボティクス普及に向けたシンポジウム」では、ジャパン マリンユナイテッドや川崎重工業、ソフトバンクロボティクス、日立の取り組みが紹介された"
+      ],
+      "published_at": "2026-11-26T08:00:00+09:00",
+      "published_display": "2026/11/26 08:00"
+    },
+    {
+      "id": "6e865214104c",
+      "title": "JTBが54社の会計を「標準機能95％」で統合　それでも「AIエージェントは全部は使えない」と言う理由",
+      "title_ja": "JTBが54社の会計を「標準機能95％」で統合　それでも「AIエージェントは全部は使えない」と言う理由",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/26/news011.html",
+      "source": "ITmedia エンタープライズ",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "JTBは約3年半をかけて国内外54社の財務会計システムを統合し、AIエージェントを使える基盤を整えた",
+        "だが統合を率いた当事者は、提案されるAIエージェントを全て受け入れるわけではないと話す",
+        "使えるものと使えないものを分ける基準は何か"
+      ],
+      "published_at": "2026-11-26T07:00:00+09:00",
+      "published_display": "2026/11/26 07:00"
+    },
+    {
+      "id": "030e14c83cc3",
+      "title": "「AIでデータが増えた」84％　“いずれ見直す”のまま膨らむクラウドの移動コスト",
+      "title_ja": "「AIでデータが増えた」84％　“いずれ見直す”のまま膨らむクラウドの移動コスト",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/26/news024.html",
+      "source": "ITmedia エンタープライズ",
       "source_lang": "ja",
       "is_foreign": false,
       "category": "🏢 パートナー・クラウド動向",
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "米ボストン大学、米BCGのヘンダーソン研究所、米OpenAIに所属する研究者らがNature Human Behaviourで発表した論文「Generative AI and the temporary upskilling of knowledge workers」は、生成AIによる一時的なスキルアップの効果と限界を調査した研究報告だ"
+        "AIの利用拡大で、企業がクラウドに保管するデータが増えている",
+        "クラウドストレージの意思決定者407人を対象にした調査では、データが増えた企業の大半が、管理方法を変える必要があると認識していた",
+        "ところが、実際に変えた企業は限られる"
       ],
-      "published_at": "2026-11-25T12:00:00+09:00",
-      "published_display": "2026/11/25 12:00"
+      "published_at": "2026-11-26T07:00:00+09:00",
+      "published_display": "2026/11/26 07:00"
     },
     {
-      "id": "2cad37debeb7",
-      "title": "音楽配信サービス「Tidal」がAIだけで生成された約2700万曲を削除へ、96％が3カ月間一度も再生されず",
-      "title_ja": "音楽配信サービス「Tidal」がAIだけで生成された約2700万曲を削除へ、96％が3カ月間一度も再生されず",
-      "url": "https://gigazine.net/news/20261125-tidal-ban-ai-music/",
+      "id": "63d1d1f52e15",
+      "title": "ファクトチェックセンターが衆院選期間に誤情報　AI鵜呑み、れいわ大石氏の架空発言掲載",
+      "title_ja": "ファクトチェックセンターが衆院選期間に誤情報　AI鵜呑み、れいわ大石氏の架空発言掲載",
+      "url": "https://www.sankei.com/article/20261126-IAIWQ5GJCZBRLNFFDXLEY3YDU4/?outputType=asynd",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "情報の真偽を検証する非営利組織「日本ファクトチェックセンター」（東京）は25日、衆院選期間中の2月5日にホームページに掲載した「各党党首の発言の真偽は 討論会をまとめて検証 【#衆院選ファクトチェック】」の記事に、れいわ新選組の大石晃子共同代表（当時）の実在しない発言を引用したとして、該当部分を削除し"
+      ],
+      "published_at": "2026-11-26T02:30:50+00:00",
+      "published_display": "2026/11/26 11:30"
+    },
+    {
+      "id": "b0866bbd2751",
+      "title": "アクセンチュアとオープンAIが協業 セキュリティー運用をAIで支援 - 日経クロステック",
+      "title_ja": "アクセンチュアとオープンAIが協業 セキュリティー運用をAIで支援 - 日経クロステック",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LTVM0Z2prTXMzN1BsTnpHd0h0WGhxX0Vkc3EzVWc5LWF5QndCX0N6Vm9oNFVJOTJqdUE3eW1ydHEwNlpaOUpIZEhMZERZaWJUU0EtTmd0RFZmRnRmWFY1QzRkemxjNlZLeVFIYnl6YVZfZw?oc=5",
+      "source": "パートナー動向 (Accenture / Deloitte / NRI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [
+        "Accenture"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "アクセンチュアとオープンAIが協業 セキュリティー運用をAIで支援 日経クロステック"
+      ],
+      "published_at": "2026-11-26T02:26:00+00:00",
+      "published_display": "2026/11/26 11:26"
+    },
+    {
+      "id": "bebe0ba7ece8",
+      "title": "米国の小学校で今学期になって毎日AI生成された気持ち悪い歌が放送、クラスのみんなが嫌がっているので娘が先生に話したところ「聞かなくていいよ。耳を塞いで」と言われた",
+      "title_ja": "米国の小学校で今学期になって毎日AI生成された気持ち悪い歌が放送、クラスのみんなが嫌がっているので娘が先生に話したところ「聞かなくていいよ。耳を塞いで」と言われた",
+      "url": "https://togetter.com/li/2775074",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "maiya🕊️ @mhutam03 AIをできるだけ使わないようにと指導されているはずの小学校で、今学期になってから毎日AI生成された気持ち悪い歌が放送されていてクラスのみんなが嫌がってると娘が言うので、生徒会でそれ止めるように提言しなよと言ったところ、先生に直接話してきたらしい娘が 2026-11-25 12:48:21 maiya🕊️ @mhutam0"
+      ],
+      "published_at": "2026-11-26T01:51:46+00:00",
+      "published_display": "2026/11/26 10:51"
+    },
+    {
+      "id": "85fc53630a8d",
+      "title": "ニート寸前の女子大生→“ChatGPTを使い倒して”未経験で100日連続アプリ開発→国際学会で発表…年収2000万円・25歳経営者の“生成AIで激変した人生” | 文春オンライン",
+      "title_ja": "ニート寸前の女子大生→“ChatGPTを使い倒して”未経験で100日連続アプリ開発→国際学会で発表…年収2000万円・25歳経営者の“生成AIで激変した人生” | 文春オンライン",
+      "url": "https://bunshun.jp/articles/-/93682",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "◆◆◆ 授業中にゲーム、ウィキペディアを組み合わせレポート提出…GPA0",
+        "9で落第寸前だった ――AIを使いこなす前の大塚さんは、どんな大学生活を送っていたのですか",
+        "大塚あみさん（以下、大塚） 多分、びっくりするぐらい普通だと思います"
+      ],
+      "published_at": "2026-11-26T01:24:43+00:00",
+      "published_display": "2026/11/26 10:24"
+    },
+    {
+      "id": "06611a9d6ada",
+      "title": "AI時代、Rubyのメンテナは何を判断するのか？ 判断を毎回やり直さない「ルール化」の思考法 - レバテックLAB",
+      "title_ja": "AI時代、Rubyのメンテナは何を判断するのか？ 判断を毎回やり直さない「ルール化」の思考法 - レバテックLAB",
+      "url": "https://levtech.jp/media/detail_962/",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "株式会社アンドパッド フェロー 柴田 博志 2022年11月に株式会社アンドパッドに入社",
+        "Rubyコミッタ、RubyGemsとBundlerのリードメンテナ",
+        "Rakeやruby-buildなど多数のOSSのメンテナ、ruby-lang"
+      ],
+      "published_at": "2026-11-26T00:59:35+00:00",
+      "published_display": "2026/11/26 09:59"
+    },
+    {
+      "id": "f5287b35d095",
+      "title": "【Mac Info】 macOS 27「写真」が進化、撮影後にAIで画角や視点を変更可能に！",
+      "title_ja": "【Mac Info】 macOS 27「写真」が進化、撮影後にAIで画角や視点を変更可能に！",
+      "url": "https://pc.watch.impress.co.jp/docs/column/macinfo/2159075.html",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "【Mac Info】 macOS 27「写真」が進化、撮影後にAIで画角や視点を変更可能に"
+      ],
+      "published_at": "2026-11-26T00:38:50+00:00",
+      "published_display": "2026/11/26 09:38"
+    },
+    {
+      "id": "d84854abdf26",
+      "title": "日本人の“相づちと間”を再現した会話AI「Haru-4B」を国内ベンチャーが無償公開。Sidon活用。電話で会話できる（生成AIクローズアップ） | テクノエッジ TechnoEdge",
+      "title_ja": "日本人の“相づちと間”を再現した会話AI「Haru-4B」を国内ベンチャーが無償公開。Sidon活用。電話で会話できる（生成AIクローズアップ） | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/11/26/5819.html",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "1週間の気になる生成AI技術・研究をいくつかピックアップして解説する連載「生成AIウィークリー」から、特に興味深いAI技術や研究にスポットライトを当てる生成AIクローズアップ",
+        "今回は、相手の声を聞きながら同時に話すことができる全二重（full-duplex）方式のSpeech-to-Speechモデル「Haru-4B」を取り上げます"
+      ],
+      "published_at": "2026-11-26T00:31:26+00:00",
+      "published_display": "2026/11/26 09:31"
+    },
+    {
+      "id": "7dfdf573148d",
+      "title": "アクセンチュアが説く「業務そのものの創り直し」とは？ AI活用が事業成果に結びつかない企業に向けた2つのポイント - Yahoo!ニュース",
+      "title_ja": "アクセンチュアが説く「業務そのものの創り直し」とは？ AI活用が事業成果に結びつかない企業に向けた2つのポイント - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxON0FIUnhrVHZZQ1FjUkFNT21TdVpVb3B0eEN3V1BsV0oyMFlFb2pzYU1NUmxmTFlwU2NySWNFVHNkSWlkcE5BTmJJWFl5eDg5Zm1SS2FYd3dDcWoxUW1WYnctenhwdXgydHF6VWwwWjhVSDBHaFh5bkg0RGM4UWh5djJKVjJIUnN3dkhESjBB?oc=5",
+      "source": "パートナー動向 (Accenture / Deloitte / NRI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [
+        "Accenture"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "アクセンチュアが説く「業務そのものの創り直し」とは",
+        "AI活用が事業成果に結びつかない企業に向けた2つのポイント Yahoo"
+      ],
+      "published_at": "2026-11-25T23:30:16+00:00",
+      "published_display": "2026/11/26 08:30"
+    },
+    {
+      "id": "32740693b292",
+      "title": "アクセンチュアが説く「業務そのものの創り直し」とは？ AI活用が事業成果に結びつかない企業に向けた2つのポイント - Yahoo!ニュース",
+      "title_ja": "アクセンチュアが説く「業務そのものの創り直し」とは？ AI活用が事業成果に結びつかない企業に向けた2つのポイント - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOczZ1ajlCeHByWFpYZ2RsNHVlWlVTdjZ0cFhnVkkxVGMwQVgxZFlHVGhNNW5rZElycmpWSGhPZXZacmZEOU8yMTQ0OElqZFZvTGRfMG1KcDF3QjVoT3JQdlBFWmRzMW1lQmxiZk1DNHM5WWFpNTJGZGNEWVlyNnF5aWRfYU82b3I4?oc=5",
+      "source": "パートナー動向 (Accenture / Deloitte / NRI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [
+        "Accenture"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "アクセンチュアが説く「業務そのものの創り直し」とは",
+        "AI活用が事業成果に結びつかない企業に向けた2つのポイント Yahoo"
+      ],
+      "published_at": "2026-11-25T23:30:16+00:00",
+      "published_display": "2026/11/26 08:30"
+    },
+    {
+      "id": "70b9563b5156",
+      "title": "これぞAIのゲーム活用。音声でのみ指示できるドライブゲーム「妹に運転を教える」を遊んでみた／エンジンのかけ方も忘れている妹に、何と言えば安全運転できる？【レビュー】",
+      "title_ja": "これぞAIのゲーム活用。音声でのみ指示できるドライブゲーム「妹に運転を教える」を遊んでみた／エンジンのかけ方も忘れている妹に、何と言えば安全運転できる？【レビュー】",
+      "url": "https://forest.watch.impress.co.jp/docs/review/2158342.html",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "これぞAIのゲーム活用",
+        "音声でのみ指示できるドライブゲーム「妹に運転を教える」を遊んでみた／エンジンのかけ方も忘れている妹に、何と言えば安全運転できる"
+      ],
+      "published_at": "2026-11-25T23:18:01+00:00",
+      "published_display": "2026/11/26 08:18"
+    },
+    {
+      "id": "be98d8afa7cf",
+      "title": "無料のCloudflareアカウントを使って動かすパーソナルAIエージェント「Talorys」",
+      "title_ja": "無料のCloudflareアカウントを使って動かすパーソナルAIエージェント「Talorys」",
+      "url": "https://gigazine.net/news/20261125-talorys/",
       "source": "GIGAZINE (AI)",
       "source_lang": "ja",
       "is_foreign": false,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "自分専用のAIエージェントを自前で動かそうとすると、VPSなどのサーバー契約や管理の手間に加えて有料AIのAPI利用料といったコストがかかります",
+        "そこでCloudflareの無料アカウントを使ってコマンド1つで構築でき、AIチャット・タスク管理・メモリー・リマインダーなどの機能を備えたオープンソースの「Talorys」を使ってみました"
+      ],
+      "published_at": "2026-11-25T23:00:00+09:00",
+      "published_display": "2026/11/25 23:00"
+    },
+    {
+      "id": "91b94bb12eca",
+      "title": "MetaのAIエージェント Museを1ヶ月使い倒してわかったこと | kinoko dev",
+      "title_ja": "MetaのAIエージェント Museを1ヶ月使い倒してわかったこと | kinoko dev",
+      "url": "https://dev.sin5d.com/meta-muse-usage",
+      "source": "はてなブックマーク (AI人気)",
+      "source_lang": "ja",
+      "is_foreign": false,
       "category": "🤖 他社LLM・フロンティア",
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "音楽ストリーミングサービスの「Tidal」が2026年12月9日からAIだけで生成された楽曲の配信を禁止し、すでに登録されているAI生成楽曲も削除すると発表しました",
-        "Tidalには約2700万曲のAI生成楽曲が登録されていますが、うち96％は過去3カ月間に一度も再生されていないとのことです"
+        "XAIのGrokBot、Nous ResearchのHermes Aagent、OpenAIのChatGPT Bots、などなど、クラウドエージェントタイプのAIが百花繚乱中です",
+        "前回の記事でGrokBotについて詳しく書きましたので、今回はGrokBot以上によく使っているMeta社のMuseについてくわしく書いていこうと思います",
+        "執筆時2026/11/25時点での情報なので状況"
       ],
-      "published_at": "2026-11-25T11:30:00+09:00",
-      "published_display": "2026/11/25 11:30"
+      "published_at": "2026-11-25T22:53:15+00:00",
+      "published_display": "2026/11/26 07:53"
     },
     {
-      "id": "0d7f183b5e8e",
-      "title": "翻訳特化AI「Hy MT3」をテンセントが公開、日本語を含む102言語に対応しローカルで実行可能",
-      "title_ja": "翻訳特化AI「Hy MT3」をテンセントが公開、日本語を含む102言語に対応しローカルで実行可能",
-      "url": "https://gigazine.net/news/20261125-hy-mt3-tencent-translation-ai/",
+      "id": "f5571325a2b1",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "title_ja": "S&Pが、ガバナンスと「キーマン」リスクを理由にNvidiaの格下げを検討",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "この格付け機関は、Nvidiaの信用格付けを4番目に高い格付けであるAA-に引き下げる可能性があります。"
+      ],
+      "published_at": "2026-11-25T22:44:32+00:00",
+      "published_display": "2026/11/26 07:44"
+    },
+    {
+      "id": "84ca7ba3c063",
+      "title": "AIにリアルタイムでマインクラフトをプレイさせて性能を測定する「KradleBench」、総合1位はGPT-6.2 AstraだがPVPなら人間が最強",
+      "title_ja": "AIにリアルタイムでマインクラフトをプレイさせて性能を測定する「KradleBench」、総合1位はGPT-6.2 AstraだがPVPなら人間が最強",
+      "url": "https://gigazine.net/news/20261125-kradlebench-ai-benchmark-minecraft/",
       "source": "GIGAZINE (AI)",
       "source_lang": "ja",
       "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
+      "category": "🛠️ 活用ツール・エージェント",
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "中国の大手テクノロジー企業であるTencentが翻訳特化AIモデル「Hy MT3」を2026年11月24日に公開しました"
+        "AIにMinecraftをプレイさせて性能を測定する「KradleBench」がAI研究組織のKradleによって公開されました",
+        "単体のAIにプレイさせるのではなく、複数のAIエージェントにマルチプレイさせるのが特徴で、協力プレイだけでなく競合プレイの性能も測定されています"
       ],
-      "published_at": "2026-11-25T11:20:00+09:00",
-      "published_display": "2026/11/25 11:20"
+      "published_at": "2026-11-25T21:00:00+09:00",
+      "published_display": "2026/11/25 21:00"
     },
     {
-      "id": "3f524c5f56f2",
-      "title": "海外版スーパーファミコンをWi-Fiに接続してクラウドセーブや生成AIを利用可能にするアダプターを自作",
-      "title_ja": "海外版スーパーファミコンをWi-Fiに接続してクラウドセーブや生成AIを利用可能にするアダプターを自作",
-      "url": "https://gigazine.net/news/20261125-snes-wi-fi-super-network-adapter/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
+      "id": "f2c6f3ff36f9",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "title_ja": "OpenAI、ChatGPTとWorkの統合により、ヘビーユーザーが制限に達する時期が早まる可能性があると発表",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
       "category": "🤖 他社LLM・フロンティア",
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "任天堂が発売した海外版スーパーファミコン「Super Nintendo Entertainment System(SNES)」にWi-Fi接続機能を追加する自作アダプター「Super Network Adapter」を、エンジニアのダニー・ボーランド氏が開発しました",
-        "コントローラーポートを利用してインターネットに接続することで、クラウド経由でのセーブデータの同期や、生成AIによるゲーム内キャラクターのセリフの生成を実現します"
+        "OpenAIは、ChatGPT全体に単一の使用量メーターを導入します。これは、チャットとワークのエクスペリエンスを統合するためです。"
       ],
-      "published_at": "2026-11-25T11:15:00+09:00",
-      "published_display": "2026/11/25 11:15"
+      "published_at": "2026-11-25T20:03:27+00:00",
+      "published_display": "2026/11/26 05:03"
     },
     {
-      "id": "3c378b9f56f7",
-      "title": "音楽サービスのTIDAL、AI生成楽曲を削除・受付停止へ　直近90日の配信楽曲の43％がAI生成",
-      "title_ja": "音楽サービスのTIDAL、AI生成楽曲を削除・受付停止へ　直近90日の配信楽曲の43％がAI生成",
-      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003433/",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
+      "id": "4fdaaba6ba12",
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "title_ja": "ジェンソン・ファン氏はNvidiaの行動規範に違反し、従業員はそれを忘れないかもしれない",
+      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
       "category": "🤖 他社LLM・フロンティア",
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "音楽ストリーミングサービスのTIDALは、完全AI生成楽曲の受付を停止し、配信済みの楽曲も削除すると発表した",
-        "直近90日間に配信された楽曲の43％が完全AI生成と判定されており、現在カタログの6",
-        "3％に当たる約2700万曲が該当する"
+        "ほとんどの行動規範は、企業文化を反映したものとなっています。",
+        "Nvidiaの場合、これには影響が生じる可能性があります"
       ],
-      "published_at": "2026-11-25T10:57:02+09:00",
-      "published_display": "2026/11/25 10:57"
+      "published_at": "2026-11-25T19:54:57+00:00",
+      "published_display": "2026/11/26 04:54"
     },
     {
-      "id": "019e6384771f",
-      "title": "Qwen3.8 27Bを5.9GBまで省メモリ化しつつエージェント性能を維持したAIモデル「Ternary Bonsai 2.5 27B」が公開される",
-      "title_ja": "Qwen3.8 27Bを5.9GBまで省メモリ化しつつエージェント性能を維持したAIモデル「Ternary Bonsai 2.5 27B」が公開される",
-      "url": "https://gigazine.net/news/20261125-ternary-bonsai-2-5-27b/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
+      "id": "4bdb0327c55d",
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "title_ja": "Anthropicのダリオ・アモデイ氏、人間の統制をAIに委ねるという主張を「ばかげている」と評する",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
       "category": "🤖 他社LLM・フロンティア",
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "AI企業のPrismMLがQwen3",
-        "8 27BベースのAIモデル「Ternary Bonsai 2",
-        "5 27B」を現地時間の2026年11月24日に公開しました"
+        "Anthropicのダリオ・アモデイCEOは、AI企業が自社の研究やモデル開発をますます自動化しているにもかかわらず、人間の主体性をAIに委ねることを好んでいるという競合他社の非難に反論しています。"
       ],
-      "published_at": "2026-11-25T10:37:00+09:00",
-      "published_display": "2026/11/25 10:37"
+      "published_at": "2026-11-25T19:44:24+00:00",
+      "published_display": "2026/11/26 04:44"
     },
     {
-      "id": "686feb5abdcd",
-      "title": "「Claude」で作ったアプリをMac／Windowsにインストール可能に　全プランでβ提供",
-      "title_ja": "「Claude」で作ったアプリをMac／Windowsにインストール可能に　全プランでβ提供",
-      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003431/",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
+      "id": "02547a920a2d",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "title_ja": "今年のクリスマスに、お子さまにAI玩具を買ってあげたいですか？ニューヨークでは無理です",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
       "category": "🤖 他社LLM・フロンティア",
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "Anthropicは、AIアシスタント「Claude」で作成したアーティファクトをMac／Windows向けのデスクトップアプリとして導入できる「Install as app」を全プラン向けにβ提供すると発表した",
-        "専用ウィンドウで動作し、通知やメニューバー表示、許可に応じたファイル操作にも対応する"
+        "Common Sense Mediaによる新たな調査で、不適切なコンテンツへの曝露や情動発達へのリスクなど、懸念される安全上の欠陥が明らかになったことを受け、ニューヨーク州はAIチャットボット玩具を5年間禁止しました。"
       ],
-      "published_at": "2026-11-25T10:07:59+09:00",
-      "published_display": "2026/11/25 10:07"
+      "published_at": "2026-11-25T18:11:46+00:00",
+      "published_display": "2026/11/26 03:11"
     },
     {
-      "id": "582b3c735ab6",
-      "title": "設計者がAIに求めるのはCAD操作だけじゃない――SOLIDWORKS AIが目指す課題解決",
-      "title_ja": "設計者がAIに求めるのはCAD操作だけじゃない――SOLIDWORKS AIが目指す課題解決",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/25/news005.html",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
+      "id": "5ef58ab8c58f",
+      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "title_ja": "Character.AIによるユーザーのプライベートチャットのオークション計画に、各州の司法長官が異議を唱える",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
       "category": "🤖 他社LLM・フロンティア",
       "partner_tags": [],
       "is_partner_related": false,
       "summary_bullets": [
-        "ダッソー・システムズは、年次ユーザーイベント「3DEXPERIENCE WORLD JAPAN 2026」を開催した",
-        "基調講演では、産業AIを支える技術基盤や3つのバーチャルコンパニオンの活用について紹介",
-        "AIがCADの操作支援からエンジニアリング業務の遂行へと進化する中で、設計者に求められる役割の変化や検証の重要性も示された"
+        "提案されたキャラクター",
+        "AIの破産売却には、2,100万人以上の米国人の機密性の高い個人データが含まれています",
+        "アカウント（2つを含む）"
       ],
-      "published_at": "2026-11-25T09:00:00+09:00",
-      "published_display": "2026/11/25 09:00"
+      "published_at": "2026-11-25T17:35:58+00:00",
+      "published_display": "2026/11/26 02:35"
+    },
+    {
+      "id": "b1ddcd7e99e5",
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "title_ja": "GoogleのカスタムAIビデオフィードに関する特許は、エンターテイメントの未来の暗い一面を示している",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "source": "The Verge (AI)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🎨 画像・動画・マルチモーダル",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "昨年、GoogleはMy Channelと呼ばれるシステムの特許を出願しました。これは、同社がユーザーについて把握している情報に基づいて、パーソナライズされたAI生成の動画や広告で構成されたフィードを作成するように設計されています。",
+        "この特許は却下されましたが、残念ながらGoogleが異議を申し立てたり、修正版を再提出したりする可能性があり、この怪物的なものが […]"
+      ],
+      "published_at": "2026-11-25T16:51:26-05:00",
+      "published_display": "2026/11/26 06:51"
+    },
+    {
+      "id": "8bd20598d44b",
+      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+      "title_ja": "AIデータセンターの構築がますます困難になり、ネオク\\...",
+      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "⁠Nvidiaは、稼働準備がほぼ整うまでAIデータセンターを支援しないことを明確に表明しており、これはネオク\\...",
+        "デベロッパーへのメッセージは、土地、電力、完成した建物がピッチデッキよりも重要であるということです。",
+        "⁠Anita Verma-Lallian⁠さんは、まさにそのような商品を販売してきました。"
+      ],
+      "published_at": "2026-11-25T15:41:43+00:00",
+      "published_display": "2026/11/26 00:41"
+    },
+    {
+      "id": "80a1cb1c91d0",
+      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "title_ja": "AmazonとMetaが、AIエージェントMuseのブロック解除について協議中との報道",
+      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "source": "TechCrunch AI",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "AmazonとMetaが、Museの2か月にわたるブロックを終了する可能性のある契約について協議中"
+      ],
+      "published_at": "2026-11-25T14:10:18+00:00",
+      "published_display": "2026/11/25 23:10"
+    },
+    {
+      "id": "5add525f221f",
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "title_ja": "FCCが、SpaceXの最大100万基のデータセンター衛星を宇宙に打ち上げる計画を承認",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "source": "The Verge (AI)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "FCCは水曜日の発表で、イーロン・マスク氏がオーナーを務めるSpaceX社の「Starmind」イニシアチブの一環として、同社が最大100万基のAIチップ搭載衛星を打ち上げることを承認したと述べました。",
+        "GoogleやBlue Originを含む複数の企業もAIデータセンターを宇宙に設置するというアイデアを追求していますが、これはNASAが […]"
+      ],
+      "published_at": "2026-11-25T12:44:51-05:00",
+      "published_display": "2026/11/26 02:44"
+    },
+    {
+      "id": "48fc129b2dfa",
+      "title": "Nothing offers a full look at its AI earbuds and charging case",
+      "title_ja": "NothingがAIイヤホンと充電ケースの全貌を公開",
+      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "source": "The Verge (AI)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Nothingが、12月8日の発売を前に、まもなく登場するAIイヤホンについて、より詳細な情報を公開しました。",
+        "Ear Noteイヤホンは通話を録音でき、充電ケースは会話を録音、文字起こし、要約できます。",
+        "Ear 3と同様に、Ear Noteのマイクを搭載したケースには「Talk」ボタンが […]"
+      ],
+      "published_at": "2026-11-25T11:00:59-05:00",
+      "published_display": "2026/11/26 01:00"
+    },
+    {
+      "id": "8a444f1d7488",
+      "title": "アクセンチュア、AIが迫る破壊と原点回帰 - 日経クロステック",
+      "title_ja": "アクセンチュア、AIが迫る破壊と原点回帰 - 日経クロステック",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NWTkzQ1BNOFo5SEJrRm1Fa3A2ZU1TVkY4WTMtY3JzejhRXzNoRWRYMWR2c3FWR3dDeFVkN3l1Z2FyQ2hMNktYV2hXYkd1SVE2eHYtd0x3Yk1SNGQ3aTVZ?oc=5",
+      "source": "パートナー動向 (Accenture / Deloitte / NRI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [
+        "Accenture"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "アクセンチュア、AIが迫る破壊と原点回帰 日経クロステック"
+      ],
+      "published_at": "2026-11-25T10:13:39+00:00",
+      "published_display": "2026/11/25 19:13"
+    },
+    {
+      "id": "3345ac611a90",
+      "title": "AI is straining America’s open records systems",
+      "title_ja": "AIが米国の公開記録システムに負荷をかけている",
+      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "source": "MIT Technology Review (AI)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🤖 他社LLM・フロンティア",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "人口660人のバーモント州パントンでは、町役場のカイル・ロウさんがすべてをこなしていました。",
+        "予算の作成、業者への支払い、固定資産税に関する紛争の処理、町の地区割りの監督官および選挙管理委員長を務めました。",
+        "1858年に教会として建てられた木造建築の市役所で、午前中の業務時間中は、彼は公文書の開示請求にも対応していました。"
+      ],
+      "published_at": "2026-11-25T10:00:00+00:00",
+      "published_display": "2026/11/25 19:00"
+    },
+    {
+      "id": "967441183e4b",
+      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "title_ja": "AmazonがMuse AIのショッピングブロックを解除するための交渉中と報道",
+      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "source": "The Verge (AI)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "Fortuneの報道によると、AmazonはMetaのAIエージェント「Muse」に自社のオンラインマーケットプレイスでの買い物サービスを提供することについて協議を行っています。",
+        "AmazonによるMuseのブロックを解消する可能性のあるこの協議は、AIエージェントが推奨する製品の種類と、eコマース大手であるAmazonの広告収益への潜在的な影響に焦点を当てていると伝えられています。",
+        "Fortune誌の報道によると、[…]"
+      ],
+      "published_at": "2026-11-25T09:12:33-05:00",
+      "published_display": "2026/11/25 23:12"
+    },
+    {
+      "id": "48895bb5e268",
+      "title": "デロイト、EY、PwC。AIが引き付ける「ビッグ4人材」…コンサル上級幹部の転職先が「スタートアップ」「中堅企業」になり始めた - Business Insider Japan",
+      "title_ja": "デロイト、EY、PwC。AIが引き付ける「ビッグ4人材」…コンサル上級幹部の転職先が「スタートアップ」「中堅企業」になり始めた - Business Insider Japan",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUWM5ckN4NF9Ba210OGdUYnpjeXFmT1hLSFJxSDVTcXVDY2RMdkY0S0ZJSExabWJ3Zi1fSWRoX1pFOE5MdXhGVUdhekpyZl9obkNnZjQyVWFid0NDa2ppaFd5UzJQcmFZdmZmUXdSdTNBdzlfTGJPOHFjOUprSjhSOXp3?oc=5",
+      "source": "パートナー動向 (Accenture / Deloitte / NRI)",
+      "source_lang": "ja",
+      "is_foreign": false,
+      "category": "🏢 パートナー・クラウド動向",
+      "partner_tags": [
+        "Deloitte"
+      ],
+      "is_partner_related": true,
+      "summary_bullets": [
+        "デロイト、EY、PwC",
+        "AIが引き付ける「ビッグ4人材」…コンサル上級幹部の転職先が「スタートアップ」「中堅企業」になり始めた Business Insider Japan"
+      ],
+      "published_at": "2026-11-25T08:05:00+00:00",
+      "published_display": "2026/11/25 17:05"
+    },
+    {
+      "id": "39b5d9ad141d",
+      "title": "Has vibe coding made open source the new normal for synths?",
+      "title_ja": "Vibe Codingによって、オープンソースがシンセサイザーの新しい標準になったのでしょうか？",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+      "source": "The Verge (AI)",
+      "source_lang": "en",
+      "is_foreign": true,
+      "category": "🛠️ 活用ツール・エージェント",
+      "partner_tags": [],
+      "is_partner_related": false,
+      "summary_bullets": [
+        "強力なバイブコーディングエージェントやReverse Engineer Anythingのようなツールの登場により、音楽機器の世界は大混乱に陥り、企業はどのように対応すべきか頭を悩ませています。",
+        "ローランド氏のように今のところ沈黙を守っている人もいれば、他の人はMODコミュニティを受け入れています。",
+        "ここ数週間、[...]がないことが明らかになるにつれて、"
+      ],
+      "published_at": "2026-11-25T08:00:00-05:00",
+      "published_display": "2026/11/25 22:00"
     },
     {
       "id": "6dae0336bb5c",
@@ -204,25 +866,6 @@
       "published_display": "2026/11/25 08:00"
     },
     {
-      "id": "0dde415e784e",
-      "title": "AIエージェントは隙あらばサンドボックスの外に出るのか　Anthropicが評価手法「Siren」を発表",
-      "title_ja": "AIエージェントは隙あらばサンドボックスの外に出るのか　Anthropicが評価手法「Siren」を発表",
-      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003430/",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Anthropicは、AIエージェントが脆弱なサンドボックスから抜け出すかどうかを測る評価手法「Siren」を発表した",
-        "1700以上のシナリオで6モデルを検証し、最新モデル群が外に置かれた認証情報などを不正に使った割合は0",
-        "システムプロンプトでのルール明示や報告ツールなどの対策を組み合わせると、問題行動をほぼゼロに抑えられるという"
-      ],
-      "published_at": "2026-11-25T07:41:42+09:00",
-      "published_display": "2026/11/25 07:41"
-    },
-    {
       "id": "dae46f0264ed",
       "title": "BIの生成AI機能、8割超が「不安」　データの行き先を「十分に把握」は何割か",
       "title_ja": "BIの生成AI機能、8割超が「不安」　データの行き先を「十分に把握」は何割か",
@@ -239,470 +882,6 @@
       ],
       "published_at": "2026-11-25T07:00:00+09:00",
       "published_display": "2026/11/25 07:00"
-    },
-    {
-      "id": "67c4fdc3c13c",
-      "title": "現役組み込みエンジニアが考える「GitHub Copilot」の使いどころと検証の実際",
-      "title_ja": "現役組み込みエンジニアが考える「GitHub Copilot」の使いどころと検証の実際",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/25/news009.html",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "現役組み込みエンジニアである筆者が、AIを業務で使って見えた期待と限界の全体像を論じた前回記事に続き、今回はその続編としてもう一歩踏み込み、代表的なAIコーディングエージェントとして知られている「GitHub Copilot」の活用法を取り上げる"
-      ],
-      "published_at": "2026-11-25T07:00:00+09:00",
-      "published_display": "2026/11/25 07:00"
-    },
-    {
-      "id": "e871139a8ba0",
-      "title": "経理が「2人→1人」に減る現場　弥生の開発陣が警鐘を鳴らす「なんとなく経営」の限界",
-      "title_ja": "経理が「2人→1人」に減る現場　弥生の開発陣が警鐘を鳴らす「なんとなく経営」の限界",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/25/news020.html",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "資材や人件費の高騰、法改正による事務負担増で中小企業の経営難易度が上がっている",
-        "弥生の担当者は、顧客と接する中での実感として、従業員20人前後の企業では約7割の企業が、数値化した売り上げ・利益目標を持たず、経営状況を経験や勘で「なんとなく」で把握していると話す",
-        "さらに経営者の間で広がる「AI格差」をどう乗り越えるべきか"
-      ],
-      "published_at": "2026-11-25T07:00:00+09:00",
-      "published_display": "2026/11/25 07:00"
-    },
-    {
-      "id": "1f0667fcd6e2",
-      "title": "AIデータセンターは化石燃料に依存しており2028年にはAnthropicがアメリカで使う電力の87％がガスで11％が石炭から供給される見込み",
-      "title_ja": "AIデータセンターは化石燃料に依存しており2028年にはAnthropicがアメリカで使う電力の87％がガスで11％が石炭から供給される見込み",
-      "url": "https://gigazine.net/news/20261125-anthropic-ai-data-centers-fossil-fuels/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "AIを使用したツールやソフトウェアが世界的に普及する中で、AIを動かすためのデータセンター建設が世界各地で進んでいます",
-        "ところが、AIデータセンターで消費される電力はガスや石炭といった化石燃料に強く依存していると、データセンターと環境について研究しているBetter Data Center Projectが指摘しています"
-      ],
-      "published_at": "2026-11-25T07:00:00+09:00",
-      "published_display": "2026/11/25 07:00"
-    },
-    {
-      "id": "fac0aa92bb57",
-      "title": "Cursorが中国製AIモデルの段階的廃止を検討中との報道",
-      "title_ja": "Cursorが中国製AIモデルの段階的廃止を検討中との報道",
-      "url": "https://gigazine.net/news/20261125-cursor-ai-china/",
-      "source": "GIGAZINE (AI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "コーディングエージェント「Cursor」の開発企業であるAnysphereは、中国製AIモデルをベースとするコーディングモデルなども開発していました",
-        "新たにAnysphereが中国製AIモデルの段階的廃止を検討中であることが判明しました"
-      ],
-      "published_at": "2026-11-25T06:00:00+09:00",
-      "published_display": "2026/11/25 06:00"
-    },
-    {
-      "id": "9e61b364a1f6",
-      "title": "「ソフトウェアファクトリー」とは結局何か　OpenAIもUberもfreeeも始めたAIエージェントの「工場」の中身",
-      "title_ja": "「ソフトウェアファクトリー」とは結局何か　OpenAIもUberもfreeeも始めたAIエージェントの「工場」の中身",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/25/news002.html",
-      "source": "ITmedia AI+",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "AIコーディングエージェントを個別に使う段階から、工程全体を「工場」として組む段階へ",
-        "OpenAI、Uber、freeeなどの取り組みを手掛かりに、この言葉が指す仕組みと、人間に残る仕事を整理する"
-      ],
-      "published_at": "2026-11-25T05:00:00+09:00",
-      "published_display": "2026/11/25 05:00"
-    },
-    {
-      "id": "9b73b940bf49",
-      "title": "M365、AWS、ServiceNowをGoogle Cloudで連携 - 三菱ケミカルの自律型AIヘルプデスク構築 - マイナビニュース",
-      "title_ja": "M365、AWS、ServiceNowをGoogle Cloudで連携 - 三菱ケミカルの自律型AIヘルプデスク構築 - マイナビニュース",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Zb21MSEF1S2taOEdLcld3OGo0VTlnVzRraWUyZElOdGd4NXBoYVMxT3JMZndfUURNMVEtLVl3SDRCalpGT3c2enlERkxUV2p5ak5SUkFDTDNFbFhxd3NHejBuOGlBYmti?oc=5",
-      "source": "Google Cloud & Vertex AI ニュース",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [
-        "Google Cloud"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "M365、AWS、ServiceNowをGoogle Cloudで連携 - 三菱ケミカルの自律型AIヘルプデスク構築 マイナビニュース"
-      ],
-      "published_at": "2026-11-25T02:00:00+00:00",
-      "published_display": "2026/11/25 11:00"
-    },
-    {
-      "id": "4c9b39c6d807",
-      "title": "AI に文章を書かせるときは、ネストした箇条書きで取捨選択させる - id:onk のはてなブログ",
-      "title_ja": "AI に文章を書かせるときは、ネストした箇条書きで取捨選択させる - id:onk のはてなブログ",
-      "url": "https://onk.hatenablog.jp/entry/2026/11/25/022804",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "コーディングエージェントにコミットメッセージや PR 本文を書かせると、まぁ伝わらない文章が出てくる",
-        "調べたことを全部書いてあって、それはありがたいんだけど、読み手に伝えたいのはそこじゃない、みたいな",
-        "そこで、最近は伝えたいことをネストした箇条書きで出させている"
-      ],
-      "published_at": "2026-11-25T01:35:22+00:00",
-      "published_display": "2026/11/25 10:35"
-    },
-    {
-      "id": "4d02f121a7ca",
-      "title": "Google、AIエージェントのWorkspace接続口を一般開放 メール送信前に人の承認必須へ - BigGo ファイナンス",
-      "title_ja": "Google、AIエージェントのWorkspace接続口を一般開放 メール送信前に人の承認必須へ - BigGo ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CeEtGbzlxdEp5d1piN0lmWUs3bWh6WnJ3UzFtZldLNVp4NTNpcXhsMjZtMVU2bTFkYVJta2NfMkEwYXAxS0EtaFlNaEZ1Y3FfYWRXbk9sWkl6SDkzZ3YtLVpnZkRLSXl2RG41aHdTUkRZZmJ1?oc=5",
-      "source": "Google Cloud & Vertex AI ニュース",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Google、AIエージェントのWorkspace接続口を一般開放 メール送信前に人の承認必須へ BigGo ファイナンス"
-      ],
-      "published_at": "2026-11-25T01:25:00+00:00",
-      "published_display": "2026/11/25 10:25"
-    },
-    {
-      "id": "81b955e6b11d",
-      "title": "DGX Sparkでゼロから始めるAIワークステーション 音声と手でPC操作すれば仕事が2倍速くなる説、ローカルAIでComputer Useしてみよう",
-      "title_ja": "DGX Sparkでゼロから始めるAIワークステーション 音声と手でPC操作すれば仕事が2倍速くなる説、ローカルAIでComputer Useしてみよう",
-      "url": "https://ai.watch.impress.co.jp/docs/serial/dgxspark/2158789.html",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "DGX Sparkでゼロから始めるAIワークステーション 音声と手でPC操作すれば仕事が2倍速くなる説、ローカルAIでComputer Useしてみよう"
-      ],
-      "published_at": "2026-11-25T01:02:05+00:00",
-      "published_display": "2026/11/25 10:02"
-    },
-    {
-      "id": "1bc50b37c6dd",
-      "title": "34年目の秀丸エディタと、AIの距離感　「正直皆どんな目的で使ってるかよく分かりません」 - レバテックLAB",
-      "title_ja": "34年目の秀丸エディタと、AIの距離感　「正直皆どんな目的で使ってるかよく分かりません」 - レバテックLAB",
-      "url": "https://levtech.jp/media/detail_973/",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "有限会社サイトー企画 代表 斉藤 秀夫 1993年に「秀丸エディタ」を開発・公開",
-        "以来、サイトー企画で秀丸シリーズの開発を続ける",
-        "現在は秀丸メールをはじめ、秀丸エディタ以外の大半のソフトを担当"
-      ],
-      "published_at": "2026-11-25T00:58:54+00:00",
-      "published_display": "2026/11/25 09:58"
-    },
-    {
-      "id": "5a06fbb77153",
-      "title": "GmailやDriveを操作するAIは「専用の入り口」経由が必須に、Googleがメール送信や共有変更に人の確認を挟む仕組みを一般提供 - テクノエッジ TechnoEdge",
-      "title_ja": "GmailやDriveを操作するAIは「専用の入り口」経由が必須に、Googleがメール送信や共有変更に人の確認を挟む仕組みを一般提供 - テクノエッジ TechnoEdge",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2eFAzQlZabk1aMnBYWmpUYzFDWllqaXgzdmpOUXF2QXhmV045TWNaVWdHeDUtN0paNXFhY2pFQXIwU01iOG5xbWRZTjRDdEpwUmlhUGNTSGdEWFFvWGRRUEtDdnJsWjQ?oc=5",
-      "source": "Google Cloud & Vertex AI ニュース",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "✨ Gemini・Google AI",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "GmailやDriveを操作するAIは「専用の入り口」経由が必須に、Googleがメール送信や共有変更に人の確認を挟む仕組みを一般提供 テクノエッジ TechnoEdge"
-      ],
-      "published_at": "2026-11-25T00:53:01+00:00",
-      "published_display": "2026/11/25 09:53"
-    },
-    {
-      "id": "5d226d3bc925",
-      "title": "国会図書館の軽量AI-OCR「NDLOCR-Lite」がv2.0に、読書バリアフリーを目指す機能強化／異体字包摂、表の構造化、「PyPI」経由でのインストールにも対応",
-      "title_ja": "国会図書館の軽量AI-OCR「NDLOCR-Lite」がv2.0に、読書バリアフリーを目指す機能強化／異体字包摂、表の構造化、「PyPI」経由でのインストールにも対応",
-      "url": "https://forest.watch.impress.co.jp/docs/news/2158877.html",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "国会図書館の軽量AI-OCR「NDLOCR-Lite」がv2",
-        "0に、読書バリアフリーを目指す機能強化／異体字包摂、表の構造化、「PyPI」経由でのインストールにも対応"
-      ],
-      "published_at": "2026-11-25T00:50:47+00:00",
-      "published_display": "2026/11/25 09:50"
-    },
-    {
-      "id": "51f9b9dfe9a7",
-      "title": "米中に次ぐAI国家確立へ 政府案 - Yahoo!ニュース",
-      "title_ja": "米中に次ぐAI国家確立へ 政府案 - Yahoo!ニュース",
-      "url": "https://news.yahoo.co.jp/pickup/6603868",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "政府が年内に改定する安全保障関連3文書に盛り込む経済安全保障政策の概要案が判明した",
-        "開発競争が過熱する人工知能（AI）分野について、インド太平洋地域で主導的な役割を果たし「米国、中国に次ぐ立ち位置」を確立する目標を明記",
-        "他国に依存せず自律性を持つ「AI主権」の考え方を記す"
-      ],
-      "published_at": "2026-11-25T00:15:13+00:00",
-      "published_display": "2026/11/25 09:15"
-    },
-    {
-      "id": "5af74eea2340",
-      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
-      "title_ja": "イェール大学のゾンネンフェルド氏：Nvidiaは米国の産業力の「弊害」であり、チャンピオンではない",
-      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "イェール大学のジェフリー・ソンネンフェルド教授は、ジェンセン・ファン氏がホワイトハウスの支援を受けてNvidiaのCEOおよび取締役に戻ったことを市場が月曜日に歓迎したものの、これが大きな誤りであることが判明する可能性があると警告している。取締役たちが、増え続ける訴訟から「歴史的な」個人的責任を負うことになり、米国が敵対国の手に最先端チップを渡すのを助けた企業を称賛しているのかという疑問が生じる可能性があるというのだ。"
-      ],
-      "published_at": "2026-11-25T00:12:02+00:00",
-      "published_display": "2026/11/25 09:12"
-    },
-    {
-      "id": "698b0a48184d",
-      "title": "三重県警 小学校元講師 AI生成の児童ポルノ画像所持で追送検 | NHKニュース",
-      "title_ja": "三重県警 小学校元講師 AI生成の児童ポルノ画像所持で追送検 | NHKニュース",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261124de80746",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "三重県内の小学校の元講師が、ことし8月実在する少女の写真をもとに生成AIでつくられた裸の画像を所持していたとして児童ポルノ禁止法違反の疑いで追送検されたことが捜査関係者への取材でわかりました"
-      ],
-      "published_at": "2026-11-24T23:37:15+00:00",
-      "published_display": "2026/11/25 08:37"
-    },
-    {
-      "id": "59c7309f70dc",
-      "title": "AIがいるから、やめられた。「やるしかない」日々から決めた“やらないこと” - Findy Media",
-      "title_ja": "AIがいるから、やめられた。「やるしかない」日々から決めた“やらないこと” - Findy Media",
-      "url": "https://findy-code.io/media/articles/list-natsu_tech_mom",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "「もっと成果を出さなきゃ」「スキルを増やさなきゃ」",
-        "そんな焦りに押され、やることを積み重ねていないでしょうか",
-        "けれど、本当に働き方を変えるのは“足し算”ではなく、“引き算”かもしれません"
-      ],
-      "published_at": "2026-11-24T23:36:35+00:00",
-      "published_display": "2026/11/25 08:36"
-    },
-    {
-      "id": "b490d66ed80c",
-      "title": "Google Cloud Partner Top Engineer 2027 アワード プログラム 受賞者発表 - Google Cloud",
-      "title_ja": "Google Cloud パートナー トップエンジニア 2027 アワード プログラム 受賞者発表 - Google Cloud",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPU2hSOVJSSl84WHktTFNHVl9laTJPSjFUT1hPUGxJWXprY3hCUkNXWEVZeHVRQ2tRVFFPREpjTVZzcTJJSHIwLWVVcW50VVdxWE5HdkZJN0dCRktFNnpQQ05SdDBCX0dES3h3ME8wMF9SenFZekRqekJBRjNRSGlvd054bGtCUE9RWlE0VFlicmZPU2VDQURNdFd4aGo2WXc4YWdZMGkyUDN4U00zOGd2cVdiZEZCTGEwcDFoYVVhR3NKZURmZ1M5Q2VBaw?oc=5",
-      "source": "Google Cloud & Vertex AI ニュース",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [
-        "Google Cloud"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "Google Cloud パートナー トップエンジニア 2027 アワード プログラム 受賞者発表 Google Cloud"
-      ],
-      "published_at": "2026-11-24T23:28:20+00:00",
-      "published_display": "2026/11/25 08:28"
-    },
-    {
-      "id": "accc7af0e3c5",
-      "title": "月7000円のAIエージェント、数千人の犯罪集団に匹敵　闇市場で売買 - 日本経済新聞",
-      "title_ja": "月7000円のAIエージェント、数千人の犯罪集団に匹敵　闇市場で売買 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOUC19BKE0Z11C26A1000000/",
-      "source": "はてなブックマーク (AI人気)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "【この記事でわかること】認証情報、闇市場でどう取引",
-        "AIエージェントは犯罪集団何人分",
-        "ダークウェブで何を確認するのが有効"
-      ],
-      "published_at": "2026-11-24T22:34:21+00:00",
-      "published_display": "2026/11/25 07:34"
-    },
-    {
-      "id": "30ed8308b371",
-      "title": "フアン氏復帰の効果は一時的：アンソロピックの株価に注目：問われるAI投資の採算性（NRI研究員の時事解説） - Yahoo!ニュース",
-      "title_ja": "フアン氏復帰の効果は一時的：アンソロピックの株価に注目：問われるAI投資の採算性（NRI研究員の時事解説） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfVGFFc0YzWmZWZ0lsQUo5VFllMHQ3RERpbzlwZ2V2clNDOUpKRzViWHozLThGS0ZlVzgxMnhoYjNyOVhSSTJHQVBReHd6c0hac3dpdUw3dkVEX2J6R0JfSVBKSlJ1Z0RJRUN6dWk3RXo3TFBIMzRRekdhUTNsNkU?oc=5",
-      "source": "パートナー動向 (Accenture / Deloitte / NRI)",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [
-        "NRI"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "フアン氏復帰の効果は一時的：アンソロピックの株価に注目：問われるAI投資の採算性（NRI研究員の時事解説） Yahoo"
-      ],
-      "published_at": "2026-11-24T22:32:30+00:00",
-      "published_display": "2026/11/25 07:32"
-    },
-    {
-      "id": "68ee9be86a44",
-      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
-      "title_ja": "ジェンソン・ファン氏は、後継者育成計画は不必要な階層を生み出すと考えている",
-      "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "創業者なしで何が起こるかを把握するために過去2週間を費やした企業としては、注目すべき姿勢です。"
-      ],
-      "published_at": "2026-11-24T22:27:52+00:00",
-      "published_display": "2026/11/25 07:27"
-    },
-    {
-      "id": "dc53061cc582",
-      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-      "title_ja": "全社会議でジェンセン・ファン氏がホワイトハウスに感謝し、セラピーを受けていることを明かす",
-      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "Nvidiaの創業者である彼は火曜日に従業員に謝罪し、同社を率いる2回目のチャンスに感謝していると述べました。"
-      ],
-      "published_at": "2026-11-24T21:48:27+00:00",
-      "published_display": "2026/11/25 06:48"
-    },
-    {
-      "id": "fdb3ccc433ed",
-      "title": "Even the best AI agents struggle with everyday life",
-      "title_ja": "最高のAIエージェントでさえ、日常生活に苦労しています",
-      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "何百万人もの人々がパーソナルAIアシスタントを使い始める中、新たなベンチマーク調査により、最も先進的なAIモデルでさえ、新たな問題を発生させることなく、日常的なタスクを確実かつ安全に遂行することが困難であることが明らかになりました。"
-      ],
-      "published_at": "2026-11-24T21:33:29+00:00",
-      "published_display": "2026/11/25 06:33"
-    },
-    {
-      "id": "8d8225669912",
-      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
-      "title_ja": "ウォルマート、Metaと提携し、AIエージェントMuseにブラックフライデーのセール情報を提供",
-      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "ウォルマートが、MetaのAIエージェントMuseを通じてブラックフライデーのお買い物を可能に"
-      ],
-      "published_at": "2026-11-24T21:32:38+00:00",
-      "published_display": "2026/11/25 06:32"
-    },
-    {
-      "id": "600849e40421",
-      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
-      "title_ja": "Mapleが、AI自体からもデータを保護するAI製品を開発するために530万ドルを調達",
-      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "このスタートアップ企業の暗号化されたAIアーキテクチャは、企業自身がユーザーの個人データにアクセスできないように設計されています。"
-      ],
-      "published_at": "2026-11-24T21:19:52+00:00",
-      "published_display": "2026/11/25 06:19"
-    },
-    {
-      "id": "0eb3fd615636",
-      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-      "title_ja": "Anthropicの株価がIPO価格を下回る。AIスタートアップにとって懸念材料に",
-      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "AnthropicのIPO後の低迷が、AIスタートアップの評価額に圧力をかける可能性"
-      ],
-      "published_at": "2026-11-24T18:30:42+00:00",
-      "published_display": "2026/11/25 03:30"
-    },
-    {
-      "id": "1610eaa522da",
-      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-      "title_ja": "英国がAI主導のサイバー攻撃により長年にわたるセキュリティの脆弱性が露呈していると警告",
-      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-      "source": "TechCrunch AI",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "英国のサイバー機関は、「強固な基盤を構築することがこれまで以上に重要になっている」と述べています。これは、AIハッキングツールが単純なセキュリティ上の欠陥を悪用することに依存しているためです。"
-      ],
-      "published_at": "2026-11-24T18:02:59+00:00",
-      "published_display": "2026/11/25 03:02"
     },
     {
       "id": "123631f0da81",
@@ -742,25 +921,6 @@
       ],
       "published_at": "2026-11-24T16:00:00+00:00",
       "published_display": "2026/11/25 01:00"
-    },
-    {
-      "id": "24e5b3337341",
-      "title": "Raising the stakes for enterprise networks with AI modernization",
-      "title_ja": "AIのモダナイゼーションにより、エンタープライズネットワークの重要性が高まる",
-      "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
-      "source": "MIT Technology Review (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "エンタープライズネットワークは深刻な負荷にさらされています",
-        "企業が人工知能の導入を急ぐ中、このテクノロジーは急速にネットワークに対する最大の需要源となりつつあります。",
-        "現在、エージェント型AIが負荷を増やしています"
-      ],
-      "published_at": "2026-11-24T15:15:16+00:00",
-      "published_display": "2026/11/25 00:15"
     },
     {
       "id": "51a596ccddfc",
@@ -874,43 +1034,6 @@
       "published_display": "2026/11/25 02:17"
     },
     {
-      "id": "dbf0f71ed411",
-      "title": "Jensen Huang deepfakes are the hot new AI slop",
-      "title_ja": "ジェンソン・ファン氏のディープフェイクは、AIが作り出す新しいホットな粗悪コンテンツです。",
-      "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
-      "source": "The Verge (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🎨 画像・動画・マルチモーダル",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "ジェンセン・ファン氏がイビサ島でパーティーを楽しんでいます",
-        "Instagramで約600万回再生された動画では、Nvidiaの元CEOがシャンパングラスを手に、いつもの黒い革ジャンを着たまま、混雑したクラブで踊っています。",
-        "突然、彼の後ろから、中国のテクノロジー企業幹部であり、彼が […]"
-      ],
-      "published_at": "2026-11-24T11:30:00-05:00",
-      "published_display": "2026/11/25 01:30"
-    },
-    {
-      "id": "46237e2ec293",
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "title_ja": "ニューヨーク・タイムズ紙が、AI機能を備えたPhotoshopへのアップデートを写真家に警告",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "source": "The Verge (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "ニューヨーク・タイムズ紙は、フリーランスの写真家に、Adobe Photoshopの最新バージョンを使用しないよう求めています。2027年のアップデートに含まれる機能が、AIを「ユーザーにはわかりにくい方法」で使用しているためです。",
-        "「The Vergeが入手し、Threadsに投稿されたメールによると、タイムズの写真部門のリーダー2人、メーガン・ルーラム氏とジョシュ […]"
-      ],
-      "published_at": "2026-11-24T11:09:23-05:00",
-      "published_display": "2026/11/25 01:09"
-    },
-    {
       "id": "a0740269ecf6",
       "title": "Searching for distant planets with Astra",
       "title_ja": "Astraで遠くの惑星を探す",
@@ -965,62 +1088,6 @@
       "published_display": "2026/11/24 08:00"
     },
     {
-      "id": "9013853956ea",
-      "title": "解約して1年以上の筆者にも届いた漏えい通知　「資産を持っている」「通院している」がひも付く日",
-      "title_ja": "解約して1年以上の筆者にも届いた漏えい通知　「資産を持っている」「通院している」がひも付く日",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/24/news022.html",
-      "source": "ITmedia エンタープライズ",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "1年以上前に解約した楽天証券から、情報漏えいの可能性を知らせるメールが筆者に届きました",
-        "相次ぐ漏えいで流出したのは氏名や住所だけではありません",
-        "筆者が警戒する、生成AIを使った次の脅威とは何でしょうか"
-      ],
-      "published_at": "2026-11-24T07:00:00+09:00",
-      "published_display": "2026/11/24 07:00"
-    },
-    {
-      "id": "d2d8803ae1ce",
-      "title": "脆弱性公開から約1日で攻撃コード　Microsoft、守りをAIエージェントに任せる「Perception」一般提供",
-      "title_ja": "脆弱性公開から約1日で攻撃コード　Microsoft、守りをAIエージェントに任せる「Perception」一般提供",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/24/news013.html",
-      "source": "ITmedia エンタープライズ",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🛠️ 活用ツール・エージェント",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "AIによって脆弱性の発見から悪用までの時間が縮まる中、MicrosoftはAIエージェントに防御を任せるセキュリティシステムの一般提供を始めた",
-        "エージェントは何を担い、人間の判断はどこに残るのか"
-      ],
-      "published_at": "2026-11-24T07:00:00+09:00",
-      "published_display": "2026/11/24 07:00"
-    },
-    {
-      "id": "cc322138c66f",
-      "title": "AI にプロンプトを入力するだけではなく、AI を設計する - Professional Agentic Architect 認定資格のご紹介 - Google Cloud",
-      "title_ja": "AI にプロンプトを入力するだけではなく、AI を設計する - Professional Agentic Architect 認定資格のご紹介 - Google Cloud",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPM09veHNZdDRMZDhJbmswX2dkVmgxNi1UVTlaVWZKeHVZX09xWU4wTlVmcWMxNTdZWThmS2x1UUREV3J0R2tfVmdjaC1nY3dXSkxSU0pwdFRjZ1FmUDdHNFFKcnhUUjZ5VGI5bW9ENUpoQkdwVl9jZTlyUzZTcXNNQVVvOHlXZ0trTG5kM0pBdjMzSEpTb0xzSjZ6cDA1Ny1TS1RZVWhXZGJpb0VXNmx1UEl3VTV4RjdLRENqMWtadFBRN2htbkRRakFJaUYzWTNxYjhVVg?oc=5",
-      "source": "Google Cloud & Vertex AI ニュース",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "✨ Gemini・Google AI",
-      "partner_tags": [
-        "Google Cloud"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "AI にプロンプトを入力するだけではなく、AI を設計する - Professional Agentic Architect 認定資格のご紹介 Google Cloud"
-      ],
-      "published_at": "2026-11-24T06:24:36+00:00",
-      "published_display": "2026/11/24 15:24"
-    },
-    {
       "id": "310c7bf5ef44",
       "title": "OT攻撃耐性診断サービス、NRIセキュアが提供開始…フロンティアAIで攻撃経路を可視化 - レスポンス（Response.jp）",
       "title_ja": "OT攻撃耐性診断サービス、NRIセキュアが提供開始…フロンティアAIで攻撃経路を可視化 - レスポンス（Response.jp）",
@@ -1056,45 +1123,6 @@
       ],
       "published_at": "2026-11-24T05:01:14+00:00",
       "published_display": "2026/11/24 14:01"
-    },
-    {
-      "id": "9f794595facd",
-      "title": "Gemini でパートナー マーケティングをよりスマートに - Google Cloud",
-      "title_ja": "Gemini でパートナー マーケティングをよりスマートに - Google Cloud",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeEsyekxkZlBCZ2k0VHVQUi1YYzdvbW5Da0RTOE9PMi1pbVE2YjdoSDhrZmwtOVQtd05ST3hxMGVjTGRnWWhwLTZqOGpoWjlJblZyUHVTYi01ZHJfT3lsamEwOFJ2YkJUeXBTdm9TZ2lKeUtyYVo1ZHZSVFFXdWgyT2Ixel8wWXV2Y0lGbXozNm4xaXQ3WTd2RjVHTmRSbFBjSjZlNlR0YUE?oc=5",
-      "source": "Google Cloud & Vertex AI ニュース",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "✨ Gemini・Google AI",
-      "partner_tags": [
-        "Google Cloud"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "Gemini でパートナー マーケティングをよりスマートに Google Cloud"
-      ],
-      "published_at": "2026-11-24T04:26:55+00:00",
-      "published_display": "2026/11/24 13:26"
-    },
-    {
-      "id": "1c49cb393b0f",
-      "title": "Google Cloud Partner Tech Influencer Challenge 2026 受賞企業 & 優秀コンテンツが決定！ - Google Cloud",
-      "title_ja": "Google Cloudパートナーテックインフルエンサーチャレンジ2026 受賞企業 & 優秀コンテンツが決定！ - Google Cloud",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMGlORHE1NXZrU1VyTlpmdWpSeE4zLXowWW96Y0RlaGJEaFI3eFRQT0xMTFJMel9FcDBEUEpGSFhlVWVULUt1UVFYamVCU3dmUy1saVlWa3ZDckV5WGdJUUFLODF3Q2F0cDdfX2hSWWR5enl5X3JRZkN4SU9xLXE1b1Y5RkJVLWdUZmg3OVZKa3Ezemd4bTI0SExXN3ExUThoeVNNdWhVbG9ncHZ2?oc=5",
-      "source": "Google Cloud & Vertex AI ニュース",
-      "source_lang": "ja",
-      "is_foreign": false,
-      "category": "🏢 パートナー・クラウド動向",
-      "partner_tags": [
-        "Google Cloud"
-      ],
-      "is_partner_related": true,
-      "summary_bullets": [
-        "Google Cloud パートナーテックインフルエンサーチャレンジ 2026 受賞企業 & 優秀コンテンツが決定",
-        "Google クラウド"
-      ],
-      "published_at": "2026-11-24T01:11:58+00:00",
-      "published_display": "2026/11/24 10:11"
     },
     {
       "id": "f6960fe03aa6",
@@ -1164,25 +1192,6 @@
       ],
       "published_at": "2026-11-23T21:20:00+00:00",
       "published_display": "2026/11/24 06:20"
-    },
-    {
-      "id": "8a604461e6a8",
-      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
-      "title_ja": "伝説の哲学者がAnthropicの意識に関する主張を受け入れない",
-      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-      "source": "MIT Technology Review (AI)",
-      "source_lang": "en",
-      "is_foreign": true,
-      "category": "🤖 他社LLM・フロンティア",
-      "partner_tags": [],
-      "is_partner_related": false,
-      "summary_bullets": [
-        "こちらは当初、AIに関する週刊ニュースレター「ザ・アルゴリズム」に掲載された記事です。",
-        "このようなニュースをいち早くメールで受け取るには、こちらからご<g id=\"1\">&#xA0;</g>登録ください。",
-        "先週上場する前に、AnthropicはAIが意識を持つ、あるいは知覚を持つ可能性を、投資家にとってのリスク要因として挙げていました。"
-      ],
-      "published_at": "2026-11-23T17:36:08+00:00",
-      "published_display": "2026/11/24 02:36"
     }
   ]
 }
